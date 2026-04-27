@@ -1,0 +1,68 @@
+# Téléchargement des programmes. Français
+Telecharge>PBImageName
+Telecharge>XBMCRename
+Telecharge>CorrectNFODurations
+
+PBImageName.Fichier>PBImageName-0.4.0.exe
+PBImageName.Langues>fr
+PBImageName.Systeme>W
+PBImageName.Image>PBImageName.bmp
+PBIMageName.Titre>PBImageName: Renomme des fichiers images en fonction des données EXIF
+PBImageName.Description>Récupère les (des) informations présentes dans la partie EXIF des images
+PBImageName.Description>(tif et jpeg) et s'en sert pour renommer les fichiers.
+PBImageName.Description>
+PBImageName.Description>Les données EXIF sont des informations inscrites dans le fichier par
+PBImageName.Description>les appareils photographiques numériques ainsi que certains logiciels
+PBImageName.Description>de retouche d'image.
+PBImageName.Description>
+PBImageName.Description>Ces données peuvent alors servir à renommer un ou plusieurs fichiers
+PBImageName.Description>de PICT1234.JPG (par exemple) en ReveillonLucien-24-12-2004.20-30.jpg
+PBImageName.Description>(si la date de prise de vue est, par exemple, 2004-12-24 20:30:15)
+PBImageName.Description>
+PBImageName.Description><I>Note: Il reste encore quelques parties à developper, homogénéïsation
+PBImageName.Description>des langues et traduction en anglais (et/ou autres langues)</I>
+PBImageName.Version>0.4.0
+PBImageName.Compter>1
+
+XBMCRename.Fichier>XBMCRename.py
+XBMCRename.Langues>us
+XBMCRename.Systeme>L
+XBMCRename.Systeme>M
+XBMCRename.Systeme>W
+XBMCRename.Image>XBMCRename.bmp
+XBMCRename.Titre>XBMCRename: Renomme les fichiers video/sous-titres/fanart/nfo... utilisés par XBMC
+XBMCRename.Description>Retrouve tous les fichiers liés à un fichier .nfo et les renomme en utilisant
+XBMCRename.Description>les informations trouvées dans ce fichier .nfo (le fichier de metadonnées)
+XBMCRename.Description>
+XBMCRename.Description>C'est un programme en ligne de commande qui tourne sous Linux mais devrait tourner
+XBMCRename.Description>sous Windows et MacOS X toutefois je n'ai pas pu le tester.
+XBMCRename.Description>
+XBMCRename.Description>Taper python XBMCRename.py --help pour plus d'informations
+XBMCRename.Description>
+XBMCRename.Description>C'est mon premier script Python et il n'est probablement pas aussi propre qu'il le devrait.
+XBMCRename.Description>Toutes les possibilités offertes par <a href="http://www.xbmc.fr/" title="XBMC media center">XBMC</a> ne sont pas prises en compte (très difficile
+XBMCRename.Description>sans un accès à la configuration de <a href="http://www.xbmc.fr/" title="XBMC media center">XBMC</a>)
+XBMCRename.Description>
+XBMCRename.Description>0.4.0: Mise à jour pour les conventions de nommage des exportations XBMC Frodo (12)
+XBMCRename.Description>
+XBMCRename.Description>0.5.0: Episodes multiples dans un seul fichier pris en compte
+XBMCRename.Version>0.5.0
+XBMCRename.Compter>1
+
+CorrectNFODurations.Fichier>CorrectNFODurations.py
+CorrectNFODurations.Langues>gb
+CorrectNFODurations.Systeme>L
+CorrectNFODurations.Systeme>M
+CorrectNFODurations.Systeme>W
+CorrectNFODurations.Image>CorrectNFODurations.bmp
+CorrectNFODurations.Titre>CorrectNFODurations: Corrige les durées de films incorrectes dans les fichier NFO
+CorrectNFODurations.Description>Corrige les durées incorrectes créées par XBMC dans les fichiers NFO de manière
+CorrectNFODurations.Description>à pouvoir trier sur la durée et avoir des affichages corrects
+CorrectNFODurations.Description>
+CorrectNFODurations.Description>C'est un programme en ligne de commande qui tourne sous Linux mais devrait tourner
+CorrectNFODurations.Description>sous Windows et MacOS X toutefois je n'ai pas pu le tester.
+CorrectNFODurations.Description>
+CorrectNFODurations.Description>Taper python CorrectNFODurations.py --help pour plus d'informations
+CorrectNFODurations.Description>
+CorrectNFODurations.Version>1.0.0
+CorrectNFODurations.Compter>1

@@ -1,0 +1,2735 @@
+# Description des recettes. Français
+
+
+
+# E N T R E E S
+Recette                 >CAKEOLIVES
+CakeOlives.Categorie    >Entrées
+Recette                 >FGRAS
+FGras.Categorie         >Entrées
+Recette                 >ELFETARTINES
+ElfeTartines.Categorie  >Entrées
+Recette                 >ELFECEPES
+ElfeCepes.Categorie     >Entrées
+
+# S O U P E S
+Recette                 >ELFESOUPE
+ElfeSoupe.Categorie     >Soupes
+
+# V I A N D E S
+Recette                 >ELFEAGNEAU
+ElfeAgneau.Categorie    >Viandes
+Recette                 >CANARDPECHE
+CanardPeche.Categorie   >Viandes
+
+# L E G U M E    &    A C C O M P A G N E M E N T
+Recette                 >ELFEPATATES
+ElfePatates.Categorie   >Légumes & accompagnements
+Recette                 >GRATIND
+GratinD.Categorie       >Légumes & accompagnements
+
+# T A R T E S    S A L E E S
+Recette                 >QLORRAINE
+QLorraine.Categorie     >Tartes salées
+Recette                 >TSPTTSSFO
+TSPTTSSFO.Categorie     >Tartes salées
+
+# G Â T E A U X
+Recette                 >MARYSE
+Maryse.Categorie        >Gâteaux
+Recette                 >GALETTE
+Galette.Categorie       >Gâteaux
+Recette                 >FONDANT
+Fondant.Categorie       >Gâteaux
+Recette                 >CITRON
+Citron.Categorie        >Gâteaux
+Recette                 >ELFEGATEAU
+ElfeGateau.Categorie    >Gâteaux
+Recette                 >SACHER
+Sacher.Categorie        >Gâteaux
+Recette                 >ANDREE
+Andree.Categorie        >Gâteaux
+Recette                 >GPOMMES
+GPommes.Categorie       >Gâteaux
+Recette                 >CLAFOUTI
+Clafouti.Categorie      >Gâteaux
+Recette                 >CANNELES
+Canneles.Categorie      >Gâteaux
+Recette                 >GATEAUPOTIRON
+GateauPotiron.Categorie >Gâteaux
+Recette                 >GATEAU2C
+GATEAU2C.Categorie      >Gâteaux
+Recette                 >BUCHE
+BUCHE.Categorie      >Gâteaux
+
+# B I S C U I T S
+Recette                 >BROWNIES
+Brownies.Categorie      >Biscuits
+Recette                 >SHORTBREADS
+Shortbreads.Categorie   >Biscuits
+Recette                 >COOKIES
+Cookies.Categorie       >Biscuits
+Recette                 >ROCHERS
+Rochers.Categorie       >Biscuits
+Recette                 >VISITANDINES
+Visitandines.Categorie  >Biscuits
+Recette                 >PALETSM
+PaletsM.Categorie       >Biscuits
+Recette                 >BISCEPICES
+BISCEPICES.Categorie    >Biscuits
+
+# E N T R E M E T S
+Recette                 >CANGLAISE
+CAnglaise.Categorie     >Entremets
+Recette                 >CANGLAISER
+CAnglaiseR.Categorie    >Entremets
+Recette                 >CACOLLEE
+CACollee.Categorie      >Entremets
+Recette                 >CAGLACES
+CAGlaces.Categorie      >Entremets
+
+# D E S S E R T S
+Recette                 >MOUSCHOC
+MousChoc.Categorie      >Desserts
+
+# G L A C E S
+Recette                 >GLVANILLE
+GLVanille.Categorie     >Glaces & Sorbets
+Recette                 >GLCAFE
+GLCafe.Categorie        >Glaces & Sorbets
+Recette                 >GLCHOCOLAT
+GLChocolat.Categorie    >Glaces & Sorbets
+Recette                 >GLFRAISE
+GLFraise.Categorie      >Glaces & Sorbets
+Recette                 >GLCERISE
+GLCerise.Categorie      >Glaces & Sorbets
+Recette                 >GLPISTACHE
+GLPistache.Categorie    >Glaces & Sorbets
+Recette                 >GLAGRUMES
+GLAgrumes.Categorie     >Glaces & Sorbets
+Recette                 >GLPECHE
+GLPeche.Categorie       >Glaces & Sorbets
+Recette                 >GLCOCO
+GLCoco.Categorie        >Glaces & Sorbets
+Recette                 >GLMIEL
+GLMiel.Categorie        >Glaces & Sorbets
+Recette                 >GLCOOKIES
+GLCookies.Categorie     >Glaces & Sorbets
+Recette                 >GLLYCHEES
+GLLychees.Categorie     >Glaces & Sorbets
+Recette                 >GLREGLISSE
+GLReglisse.Categorie     >Glaces & Sorbets
+
+
+G A R N I T U R E S    G Â T E A U X
+Recette                 >FRANG
+Frang.Categorie         >Garnitures gâteaux
+
+
+# C O N F I T U R E S
+Recette                 >LEMONCURD
+LemonCurd.Categorie     >Confitures
+Recette                 >BANANE
+Banane.Categorie        >Confitures
+
+
+# P A T E S
+Recette                 >PPIZZA
+Ppizza.Categorie        >Pâtes
+Recette                 >PBRISEE
+PBrisee.Categorie       >Pâtes
+Recette                 >PCREPES
+PCrepes.Categorie       >Pâtes
+
+
+# P A I N S
+Recette                 >PPITA
+PPita.Categorie         >Pain
+Recette                 >PCHAT
+PCHAT.Categorie         >Pain
+Recette                 >BLINIS
+Blinis.Categorie        >Pain
+
+# A L C O O L S
+Recette                 >LIQCAFE
+LIQCAFE.Categorie       >Alcools
+Recette                 >EAUNOIX
+EAUNOIX.Categorie       >Alcools
+Recette                 >RQQPECHE
+RQQPECHE.Categorie      >Alcools
+Recette                 >VINORANGE
+VINORANGE.Categorie     >Alcools
+
+# B O I S S O N S    S A N S    A L C O O L
+Recette                 >BGINGEMBRE
+BGINGEMBRE.Categorie    >Boissons sans alcool
+
+
+
+#############################################################################################
+#############################################################################################
+
+
+
+
+Maryse.Titre     >Maryse à l'orange
+Maryse.Quantite  >Pour 8 personnes
+Maryse.MotsClefs >Maryse, Orange, Gâteau, Recette
+Maryse.Photo     >
+Maryse.Ingredient>2 oranges pour la pâte
+Maryse.Ingredient>2 oranges pour le sirop
+Maryse.Ingredient>180g de beurre en pommade
+Maryse.Ingredient>180g de sucre pour la pâte
+Maryse.Ingredient>180g de sucre pour le sirop
+Maryse.Ingredient>180g de farine
+Maryse.Ingredient>6 oeufs petits ou 4 gros
+Maryse.Ingredient>1/2 sachet de levure chimique
+Maryse.Ingredient>1 sachet de sucre vanillé
+Maryse.Ingredient>1 pincée de sel
+Maryse.Recette>Mélanger le beurre et le sucre. Remuer jusqu'à ce que
+Maryse.Recette>le mélange blanchisse. Ajouter la farine, les oeufs,
+Maryse.Recette>le sel, le sucre, le jus et le zeste rapé de 2 oranges.
+Maryse.Recette>
+Maryse.Recette>Laisser reposer quelques minutes.
+Maryse.Recette>
+Maryse.Recette>Verser le tout dans un moule asez large (30cm) préalablement
+Maryse.Recette>beurré et fariné.
+Maryse.Recette>
+Maryse.Recette>Mettre à four doux 20minutes. La maryse est cuite lorsque la
+Maryse.Recette>point d'un couteau plantée au centre ressort sèche.
+Maryse.Recette>
+Maryse.Recette>Pendant ce temps, faire bouillir le jus de 2 oranges avec la même
+Maryse.Recette>quantité de sucre durant 5 minutes. Lorsque le gâteau est cuit
+Maryse.Recette>et démoulé, l'arroser de ce sirop.
+Maryse.Commentaires><em>Attention</em>: Le temps entre le moment où le gâteau
+Maryse.Commentaires>est cuit et le moment ou il l'est trop est court.
+Maryse.Commentaires>
+Maryse.Commentaires>Couvrir d'un papier aluminium permet la conservation de tout le moelleux de la maryse
+Maryse.Commentaires>en évitant son déssèchement.
+Maryse.Commentaires>
+Maryse.Commentaires>Servie accompagnée de crème anglaise, la maryse n'en est que
+Maryse.Commentaires>meilleure
+
+
+
+CakeOlives.Titre    >Cake aux olives
+CakeOlives.Source   >Marceline
+CakeOlives.Quantite >1 cake
+CakeOlives.MotsClefs    >Cake, Olives, Recette, Fromage, Jambon
+CakeOlives.Photo    >
+CakeOlives.Ingredient>200g d'Emmental rapé
+CakeOlives.Ingredient>200g de jambon
+CakeOlives.Ingredient>200g d'olives dénoyautées
+CakeOlives.Ingredient>250g de farine
+CakeOlives.Ingredient>1/2 verre d'huile
+CakeOlives.Ingredient>1 verre de vin blanc sec (~25cl)
+CakeOlives.Ingredient>4 oeufs
+CakeOlives.Ingredient>1 sachet de levure chimique
+CakeOlives.Recette>Mélanger la farine, la levure et les oeufs. Ajouter l'huile puis
+CakeOlives.Recette>le vin blanc et les olives.
+CakeOlives.Recette>
+CakeOlives.Recette>Beurrer un moule à cake et préchauffer le four (160°C).
+CakeOlives.Recette>
+CakeOlives.Recette>Ajouter le jambon coupé en petits morceaux à la pâte.
+CakeOlives.Recette>
+CakeOlives.Recette>Ajouter l'Emmental.
+CakeOlives.Recette>
+CakeOlives.Recette>Verser dans le moule et enfourner. Laisser cuire 50 à 60 minutes.
+CakeOlives.Recette>
+CakeOlives.Recette>Démouler dès la sortie du four.
+CakeOlives.Recette>
+CakeOlives.Recette>Servir tiède ou froid.
+CakeOlives.Commentaires>Dès la sortie du moule, emballer le cake dans un
+CakeOlives.Commentaires>papier d'aluminium évite son dessèchement et lui garde tout
+CakeOlives.Commentaires>son moelleux.
+
+
+
+FGras.Titre >Terrine de foie gras
+FGras.Quantite  >
+FGras.MotsClefs >Foie gras, Recette
+FGras.Photo >
+FGras.Ingredient>1 Foie gras
+FGras.Ingredient>12g de sel/kg de foie
+FGras.Ingredient>1 cuiller à café de poivre moulu
+FGras.Ingredient>3 pincées de 4 épices
+FGras.Ingredient>1/2 cuiller à café de paprika
+FGras.Ingredient>1,25 verre de Sauternes (vin blanc liquoreux)
+FGras.Ingredient>Assez de farine pour le joint
+FGras.Recette>Dans une assiette, mélanger le sel, le poivre, les 4 épices et le paprika.
+FGras.Recette>
+FGras.Recette>Asperger le foie avec ce mélange et mettre quelques pincées dans la terrine.
+FGras.Recette>
+FGras.Recette>Séparer le foie en deux (grand lobe et petit lobe).
+FGras.Recette>
+FGras.Recette>Mettre un lobe dans la terrine, la face bombée vers le bas. Bien tasser.
+FGras.Recette>Verser dessus 1/4 de verre de vin.
+FGras.Recette>
+FGras.Recette>Mettre le second lobe en plaçant le côté bombé vers le haut. Bien tasser.
+FGras.Recette>
+FGras.Recette>Verser le reste de vn en faisant pénétrer le liquide dans tous les interstices
+FGras.Recette>(pas de poche d'air si possible).
+FGras.Recette>
+FGras.Recette>Laisser macérer 1/2 heure.
+FGras.Recette>
+FGras.Recette>Mettre le couvercle de la terrine en place et bien le souder avec un mélange de
+FGras.Recette>farine et d'eau (ne pas boucher le trou).
+FGras.Recette>
+FGras.Recette>Faire cuire au four au bain marie 90min. L'eau ne doit pas bouillir.
+FGras.Recette>
+FGras.Recette>Sortie la terrine et l'envelopper dans une (ou plusieurs) couvertures ou couettes
+FGras.Recette>et laisser refroidir pendant au moins 12 heures.
+FGras.Recette>
+FGras.Recette>Servir très frais.
+FGras.Commentaires>Vous pouvez ajouter des raisins secs dans la terrine, ils se
+FGras.Commentaires>gorgeront de jus et ajouteront une saveur supplémentaire.
+FGras.Commentaires>
+FGras.Commentaires>Le petit et le grand lobe ont généralement des groûts différents.
+FGras.Commentaires>Il vaut mieux, soit faire 2 foies en mettant les 2 gros lobes dans
+FGras.Commentaires>une grande terrine et les deux petit dans une plus petite, ou, si
+FGras.Commentaires>vous ne faites qu'un seul foie, les lobes dans des terrines séparées.
+FGras.Commentaires>
+FGras.Commentaires>Le choix du foie est important, il ne faut pas le prendre trop gros
+FGras.Commentaires>(il réduit beaucoup et n'est pas meilleur), bien ferme et si possible
+FGras.Commentaires>bien nettoyé (plus de veines, plus de trace de bile).
+FGras.Commentaires>
+FGras.Commentaires>Servir avec le reste du vin qui a servi à le cuire.
+FGras.Commentaires>
+FGras.Commentaires>Laisser le moins d'air possible dans la terrine. Choisissez en donc
+FGras.Commentaires>une adaptée à la taille de son contenu.
+FGras.Commentaires>
+FGras.Commentaires>Pour démouler, le faire avec précaution puis enlever les blocs de
+FGras.Commentaires>graisse rendue par le foie. Pêcher les raisins que vous avez
+FGras.Commentaires>éventuellement rajoutés afin de les servir.
+
+
+
+Frang.Titre >Frangipane
+Frang.Source    >"<B>Les carnets de cuisinne, N°10 petite et grande pâtisserie</B>" (Hachette pratique, 1979)
+Frang.Quantite  >Cette crème d'amandes sert principalement de garniture à divers gâteaux.
+Frang.MotsClefs >Frangipane, Amandes, Recette
+Frang.Photo >
+Frang.Ingredient>150g d'amandes en poudre
+Frang.Ingredient>150g de sucre glace
+Frang.Ingredient>150g de beurre
+Frang.Ingredient>2 petits oeufs
+Frang.Ingredient>2 Cuillers à soupe de kirsh
+Frang.Recette>Couper le beurre en petits morceaux et le mettre dans une casserole sur feux
+Frang.Recette>très doux (ou au bain marie) puis le travailler à la fourchette
+Frang.Recette>jusqu'à ce qu'il soit réduit en pommade sans être fondu.
+Frang.Recette>
+Frang.Recette>Mélanger le sucre avec le beurre en pommade. Cassez-y les oeufs
+Frang.Recette>un à un en mélangeant. Ajouter les amandes puis le kirsh.
+Frang.Commentaires>Utiliser du vrai kirsh (pas du kirsh dit 'fantaisie'
+Frang.Commentaires>qui est parfumé artificiellement) ou de l'amaretto.
+Frang.Commentaires>
+Frang.Commentaires>Vous pouvez utiliser facilement jusqu'à 250g d'amandes
+Frang.Commentaires>pour la même quantité des autres ingrédients (en plus,
+Frang.Commentaires>si vous achetez les amandes, c'est en général par
+Frang.Commentaires>paquet de 125g).
+Frang.Commentaires>
+Frang.Commentaires>Vous pouvez utiliser cette crème pour garnir le #GALETTE#, par exemple.
+
+
+
+Galette.Titre       >Pithiviers/Galette des rois
+Galette.Source      >"<B>Les carnets de cuisinne, N°10 petite et grande pâtisserie</B>" (Hachette pratique, 1979)
+Galette.Quantite    >
+Galette.MotsClefs   >Frangipane, Galette, Rois, Amandes, Recette
+Galette.Photo       >Galette.jpg
+Galette.Ingredient  >600g de pâte feuilletée
+Galette.Ingredient  >1 oeuf
+Galette.Ingredient  >2 cuillers à soupe de sucre glace
+Galette.Ingredient  >Frangipane
+Galette.Recette>Péparer la frangipane en utilisant les mêmes proportions
+Galette.Recette>que dans la #FRANG|recette de ce site#.
+Galette.Recette>
+Galette.Recette>Allumer le four thermostat 7. Séparer la pâte en deux parties,
+Galette.Recette>l'une légèrement plus grosse que l'autre.
+Galette.Recette>
+Galette.Recette>Applatir la plus grosse, si possible en un cercle de 30cm de
+Galette.Recette>diamètre sur 3mm d'épaisseur. Mouiller la plaque du four,
+Galette.Recette>cela aura pour but la pâte de se rétracter à la cuisson.
+Galette.Recette>
+Galette.Recette>Etaler la frangipane (crème d'amandes) sur la première abaisse
+Galette.Recette>de pâte jusqu'à 1,5cm du bord. Mouiller le bord de la pâte avec
+Galette.Recette>de l'eau.
+Galette.Recette>
+Galette.Recette>Etaler le reste de pâte en un disque de même dimension mais
+Galette.Recette>plus fin et le poser sur la crème d'amandes, le côté lisse
+Galette.Recette>(celui qui était en contact avec le plan de travail) vers le
+Galette.Recette>haut. Egaliser le tour avec un couteau sans écraser la pâte.
+Galette.Recette>
+Galette.Recette>Chiqueter le bord (i.e. l'inciser de petits coups de couteau
+Galette.Recette>espacés de 1cm).
+Galette.Recette>
+Galette.Recette>Batte l'oeuf en omelette et en badigeonner la surface du gâteau
+Galette.Recette>en prenant soin de ne pas le faire couler sur les bords car cela
+Galette.Recette>empêcherait la pâte feuilletée de se développer pendant la
+Galette.Recette>cuisson. Avec la pointe d'un couteau, et en n'incisant la
+Galette.Recette>pâte que superficiellement, dessiner des arcs de cercle
+Galette.Recette>rayonnant vers le centre.
+Galette.Recette>
+Galette.Recette>Mettre le gâteau ou four pendant 30min. Au bout de ce temps,
+Galette.Recette>il doit être doré et bien gonflé. De plus, en le soulevant
+Galette.Recette>avec une spatule, il doit être rigide. Le retirer du four
+Galette.Recette>puis le poudrer de sucre glace et le remettre au four pour
+Galette.Recette>5 minutes.
+Galette.Recette>
+Galette.Recette>Servir tiède de préférence.
+Galette.Commentaires>Pour le pithiviers, le Kirsh de la crème d'amandes peut
+Galette.Commentaires>être remplacé par du Rhum.
+
+
+
+Fondant.Titre     >Fondant aux noisettes
+Fondant.Source    >"<B>Les carnets de cuisinne, N°10 petite et grande pâtisserie</B>" (Hachette pratique, 1979)
+Fondant.Quantite  >Pour 6 personnes
+Fondant.MotsClefs >Fondant, Noisettes, Miel, Chocolat, Gâteau, Recette
+Fondant.Photo     >
+Fondant.Ingredient>3 oeufs
+Fondant.Ingredient>1dl de miel d'acacia
+Fondant.Ingredient>125g de chocolat "fondant" ou "amer"
+Fondant.Ingredient>125g de noisettes décortiquées
+Fondant.Ingredient>100g de crème fraiche
+Fondant.Ingredient>50g de farine
+Fondant.Ingredient>1 pincée de sel
+Fondant.Ingredient>1 noix de beurre
+Fondant.Recette>Faire fondre le chocolat au bain marie avec la crème fraiche.
+Fondant.Recette>
+Fondant.Recette>Réduire les noisettes en poudre en les passant à la
+Fondant.Recette>moulinette électrique ou en les râpant dans une râpe
+Fondant.Recette>cylindrique
+Fondant.Recette>
+Fondant.Recette>Casser les oeufs en séparant les blancs des jaunes. Mettre les
+Fondant.Recette>blancs dans un bol et les poudrer de sel. Mettre les jaunes
+Fondant.Recette>dans une terrine et les fouetter avec le miel, puis y ajouter
+Fondant.Recette>le chocolat fondu avec la crème et les noisettes.
+Fondant.Recette>
+Fondant.Recette>Battre les blancs en neige très ferme. Les ajouter à la
+Fondant.Recette>préparation par cuillerées en incorporant la farine en même
+Fondant.Recette>temps (après chaque cuillerée de blancs, ajouter une cuillerée
+Fondant.Recette>de farine et malnger au fouet délicatement)
+Fondant.Recette>
+Fondant.Recette>Prendre un moule à manqué à revêtement anti-adhésif de 20cm de
+Fondant.Recette>diamètre, le beurrer et y verser la pâte à gâteau.
+Fondant.Recette>
+Fondant.Recette>Laisser cuire 30min à 150°
+Fondant.Recette>
+Fondant.Recette>Démouler tiède sur une grille: procéder avec délicatesse car
+Fondant.Recette>ce gâteau, très moelleux, fondant, suave, est très fragile.
+Fondant.Commentaires>Pour conserver tout son moelleux au gâteau et éviter
+Fondant.Commentaires>qu'il ne se déssèche, le couvrir dès son
+Fondant.Commentaires>démoulage d'une feuille d'aluminium.
+
+
+Brownies.Titre     >Brownies
+Brownies.Source    >"<B>Les carnets de cuisinne, N°10 petite et grande pâtisserie</B>" (Hachette pratique, 1979)
+Brownies.Quantite  >Pour 8 personnes
+Brownies.MotsClefs >Brownies, Amandes, Noix, Chocolat, Gâteau, Recette
+Brownies.Photo    >
+Brownies.Ingredient>175g de beurre mou
+Brownies.Ingredient>150g de sucre
+Brownies.Ingredient>200g de chocolat "fondant" ou "amer"
+Brownies.Ingredient>3 oeufs
+Brownies.Ingredient>50g de farine
+Brownies.Ingredient>125g de noix
+Brownies.Ingredient>1 pincée de sel
+Brownies.Recette>Allumer le four à feu doux (Thermostat 4, 140°C)
+Brownies.Recette>
+Brownies.Recette>Faire fondre le chocolat au bain marie.
+Brownies.Recette>
+Brownies.Recette>Réserver 25g de beurre (pour le moule). Dans une terrine, travailler, à l'aide
+Brownies.Recette>d'une spatule, le beurre restant avec le sucre et le sel jusqu'à ce que le mélange
+Brownies.Recette>blanchisse.
+Brownies.Recette>
+Brownies.Recette>Y casser les oeufs un à un, en ne cessant de travailler et en attendant que
+Brownies.Recette>chaque oeuf soit parfaitement incorporé avant d'y ajouter le suivant. Ajouter
+Brownies.Recette>la farine en trois fois, après chacun des oeufs.
+Brownies.Recette>
+Brownies.Recette>Lorsque le chocolat est fondu, le verser dans la terrine en travaillant
+Brownies.Recette>vigoureusement pour l'incorporer rapidement à la préparation. Ajouter enfin
+Brownies.Recette>les noix et mélanger.
+Brownies.Recette>
+Brownies.Recette>Beurrer un moule rectangulaire de 20cm x 28cm, y verser la préparation -
+Brownies.Recette>qui n'a pas plus de 1,5cm de haut - égaliser avec la spatule et mettre au four
+Brownies.Recette>pour 15 à 25 min.
+Brownies.Recette>
+Brownies.Recette>Lorsque la pâte est cuite (elle reste tout de même moelleuse), la laisser
+Brownies.Recette>tiédir avant de la démouler sur une planche, puis la découper en carrés de
+Brownies.Recette>4cm de côté.
+Brownies.Commentaires>Pour conserver tout son moelleux au gâteau et éviter
+Brownies.Commentaires>qu'il ne se déssèche, le couvrir dès son
+Brownies.Commentaires>démoulage d'une feuille d'aluminium.
+Brownies.Commentaires>
+Brownies.Commentaires>On peut remplacer les noix par des amandes effilées que l'on aura
+Brownies.Commentaires>pris soin de placer dans une poêle non graissée sur feu moyen et laissé
+Brownies.Commentaires>dorer en remuant en permanence. Puis les emietter avant de les
+Brownies.Commentaires>incorporer.
+
+
+
+
+Citron.Titre     >Tarte au citron
+Citron.Source    >"<B>Les carnets de cuisinne, N°10 petite et grande pâtisserie</B>" (Hachette pratique, 1979)
+Citron.Quantite  >Pour 6 personnes
+Citron.MotsClefs >Tarte, Citron, Amandes, Gâteau, Recette
+Citron.Photo     >
+Citron.Ingredient>300g de pâte brisée
+Citron.Ingredient>3 gros citrons juteux non traités
+Citron.Ingredient>3 oeufs
+Citron.Ingredient>100g de sucre glace
+Citron.Ingredient>125g de beurre
+Citron.Ingredient>100g d'amandes en poudre
+Citron.Recette>Allumer le four, thermostat 7 (230°C). Beurrer un moule de
+Citron.Recette>26cm de diamètre. Etaler la pâte au rouleau et en garnir le
+Citron.Recette>moule. La piquer de deux ou trois petits coups de fourchette.
+Citron.Recette>
+Citron.Recette>Laver les citrons, les essuyer et  râper le zeste de deux
+Citron.Recette>d'entre eux au dessus d'un bol, puis presser le jus des 3
+Citron.Recette>fruits et l'ajouter au bol.
+Citron.Recette>
+Citron.Recette>Couper le reste du beurre en petits morceaux, le mettre
+Citron.Recette>dans une casserole, sur feux très doux, le réduire en pommade
+Citron.Recette>en le tournant avec une spatule, puis le retirer du feu.
+Citron.Recette>
+Citron.Recette>Dans une terrine, mélanger le sucre et les amandes, y ajouter
+Citron.Recette>le beurre en pommade, bien melanger, puis y casser les oeufs un
+Citron.Recette>à un en mélangeant bien. Ajouter enfin le contenu du bol,
+Citron.Recette>mélanger encore et verser cette crème dans le moule.
+Citron.Recette>
+Citron.Recette>Mettre au four pour 30min.
+Citron.Recette>
+Citron.Recette>A sa sortie du four, laisser refroidir 4 min avant de la
+Citron.Recette>démouler sur une grille.
+Citron.Recette>
+Citron.Recette>Servir tiède ou froid.
+Citron.Commentaires>Si vous avez un moule anti-adhésif, nul besoin de le
+Citron.Commentaires>beurrer et vous pouvez le démouler immédiatement.
+Citron.Commentaires>
+Citron.Commentaires>Vous pouvez napper la tarte une fois cuite avec de la
+Citron.Commentaires>gelée de citron ou du #LEMONCURD#,
+Citron.Commentaires>une suave crème au citron d'origine anglaise.
+
+
+
+LemonCurd.Titre     >Lemon Curd
+LemonCurd.Source    >"<B>Les carnets de cuisinne, N°10 petite et grande pâtisserie</B>" (Hachette pratique, 1979)
+LemonCurd.Quantite  >1 Pot
+LemonCurd.MotsClefs >Citron, Crème, Confiture, Recette
+LemonCurd.Photo     >
+LemonCurd.Ingredient>1 citron
+LemonCurd.Ingredient>100g de sucre
+LemonCurd.Ingredient>1 oeuf
+LemonCurd.Ingredient>50g de beurre
+LemonCurd.Recette>Laver le citron, en râper le zeste, en extraire le jus.
+LemonCurd.Recette>
+LemonCurd.Recette>Battre le zeste, le jus, le sucre et l'oeuf.
+LemonCurd.Recette>
+LemonCurd.Recette>Faire prendre en crème sur feu très doux puis ajouter le
+LemonCurd.Recette>beurre hors du feu.
+LemonCurd.Commentaires>Ne jamais cesser de tourner la crème tant qu'elle est
+LemonCurd.Commentaires>sur le feu afin de ne pas créer de grumeau.
+
+
+
+Shortbreads.Titre     >Sablés écossais (Shortbreads)
+Shortbreads.Source    >"<B>Les carnets de cuisinne, N°10 petite et grande pâtisserie</B>" (Hachette pratique, 1979)
+Shortbreads.Quantite  >Pour 27 petits gâteaux environs
+Shortbreads.MotsClefs >Shortbreads, Sablés, Biscuits, Beurre
+Shortbreads.Photo     >
+Shortbreads.Ingredient>380g de farine
+Shortbreads.Ingredient>250g de beurre demi-sel
+Shortbreads.Ingredient>120g de sucre en poudre
+Shortbreads.Recette>Allumer le four, thermostat 6 (~200°C). Ramollir le beurre
+Shortbreads.Recette>en pommade dans un terrine à l'aide d'une spatule.
+Shortbreads.Recette>Y ajouter le sucre en pluie et travailler jusqu'à ce que
+Shortbreads.Recette>le mélange blanchisse.
+Shortbreads.Recette>
+Shortbreads.Recette>Ajouter la farine tamisée en continuant à tourner avec
+Shortbreads.Recette>la spatule: lorsqu'elle est incorporée, vous obtenez
+Shortbreads.Recette>une pâte sablée souple mais friable.
+Shortbreads.Recette>
+Shortbreads.Recette>Beurrer un moule rectangulaire de 21x28cm, y mettre la
+Shortbreads.Recette>pâte et étaler avec les mains sur une epaisseur d'environs
+Shortbreads.Recette>1,5cm. Piquer régulièrement avec une fourchette sans
+Shortbreads.Recette>toutefois traverser toute l'épaisseur de la pâte.
+Shortbreads.Recette>
+Shortbreads.Recette>Mettre au four pour 40min.
+Shortbreads.Recette>
+Shortbreads.Recette>Au bout de ce temps, lorsque la pâte est bien dorée,
+Shortbreads.Recette>découper la pâte (qui est encore molle mais va durcir
+Shortbreads.Recette><b>rapidement</b> en refroidissant) en petits rectangles
+Shortbreads.Recette>d'environs 7cm par 3cm (soit 3x9 biscuits).
+Shortbreads.Recette>
+Shortbreads.Recette>Retourner le tout sur un torchon puis remettre les
+Shortbreads.Recette>gâteaux à l'endroit sur une grille pour qu'ils
+Shortbreads.Recette>refroidissent en sèchant.
+Shortbreads.Commentaires>Si vous n'avez pas de beurre de missel, vous pouvez
+Shortbreads.Commentaires>incorporer 7,5g de sel (3%) dans le beurre ramolli.
+Shortbreads.Commentaires>
+Shortbreads.Commentaires>Ces sablés se conservent environs quinze jours
+Shortbreads.Commentaires>dans une boîte hermétiquement close (si vous
+Shortbreads.Commentaires>arrivez à en conserver plus d'une journée!)
+
+
+
+Cookies.Titre     >Cookies
+Cookies.Source    >Librement adapté d'une recette de chez <a href="http://www.marmiton.org">Marmiton.org</a>
+Cookies.Quantite  >Pour 25 cookies environs
+Cookies.MotsClefs >Cookies, Biscuits
+Cookies.Photo     >
+Cookies.Ingredient>280g de farine
+Cookies.Ingredient>200g de chocolat noir en pépites
+Cookies.Ingredient>125g de beurre
+Cookies.Ingredient>180g de sucre ou cassonade
+Cookies.Ingredient>2 oeufs moyens
+Cookies.Ingredient>1 petit verre de rhum
+Cookies.Ingredient>1 sachet de levure chimique
+Cookies.Ingredient>1 pincée de sel
+Cookies.Recette>Allumer le four, thermostat 5 (170°C ou 150°C si vous
+Cookies.Recette>disposez d'un four à chaleur tournante).
+Cookies.Recette>
+Cookies.Recette>Ramollir le beurre en pommade, y ajouter le sucre et
+Cookies.Recette>mélanger énergiquement jusqu'à ce que cela blanchisse.
+Cookies.Recette>Ajouter les oeufs et le rhum.
+Cookies.Recette>
+Cookies.Recette>Dans une terrine, mélanger la farine, le sel et la levure
+Cookies.Recette>puis y intégrer la préparation contenant le beurre.
+Cookies.Recette>
+Cookies.Recette>Y ajouter les pépites ou tout autre ingrédient suivant
+Cookies.Recette>le type de cookies que vous voulez réaliser.
+Cookies.Recette>
+Cookies.Recette>Huiler une plaque à pâtisserie (ou prendre un moule plat
+Cookies.Recette>téflonné) et y déposer de petits tas de pâte <b>bien espacés</b>
+Cookies.Recette>(1 cuillerée à soupe de pâte par tas).
+Cookies.Recette>
+Cookies.Recette>Cuire 10minutes. Puis sortir et déposer sur une grille
+Cookies.Recette>les cookies encore mous, ils durciront en refroidissant et
+Cookies.Recette>en sèchant.
+Cookies.Recette>
+Cookies.Recette>Il faudra probablement plusieurs fournées pour écouler toute
+Cookies.Recette>la pâte.
+Cookies.Commentaires><ul>
+Cookies.Commentaires><li>Utiliser du chocolat de 'bonne qualité' et le concasser
+Cookies.Commentaires>vous même (si vous achetez de 'pépites' toutes prêtes, vous
+Cookies.Commentaires>aurez probablement un chocolat contenant beaucoup trop
+Cookies.Commentaires>de graisse et qui fondra trop)</li>
+Cookies.Commentaires><li>Vous pouvez remplacer une partie du chocolat par autant
+Cookies.Commentaires>de poids d'amandes que vous aurez découpées en morceaux.</li>
+Cookies.Commentaires><li>Si vous réalisez des cookies avec des fruits comme parfum
+Cookies.Commentaires>(par exemple des poires à la place d'une partie du chocolat)
+Cookies.Commentaires>augmenter la quantité de farine pour compenser l'apport de
+Cookies.Commentaires>liquides dû aux fruits.</li>
+Cookies.Commentaires><li>Le temps de cuisson (et la qualité du four) est <b>très
+Cookies.Commentaires>important</b>: c'est la différence entre des cookies
+Cookies.Commentaires>quasi liquides et des cailloux (alors que visuellement
+Cookies.Commentaires>ils ont la même apparence). Personnellement j'ai un truc:
+Cookies.Commentaires>après les 10min ouvrez le four et touchez un cookie (ce
+Cookies.Commentaires>n'est pas brûlant) il ne doit pas être tout mou et pas
+Cookies.Commentaires>encore dur.</li>
+Cookies.Commentaires><li>Déposer la pâte en petits tas à peu près circulaires
+Cookies.Commentaires>peut importe la forme, ils se mettront en forme lors
+Cookies.Commentaires>de la cuisson (hauteur <b>ET</b> largeur). Une cuiller à
+Cookies.Commentaires>soupe (rase) de pâte peut donner des cookies de 8 à 10
+Cookies.Commentaires>cm de diamètre sur environs 1cm de haut.</li>
+Cookies.Commentaires></ul>
+
+
+
+ElfeSoupe.Titre     >Flastrenée de fèves fraîches des fées Folettes
+ElfeSoupe.Source    >"<B>Petit précis de cuisine elfique</B>" (Laurence et Yannig Germain, éd. Avis de Tempête)
+ElfeSoupe.Quantite  >
+ElfeSoupe.MotsClefs >Elfe, Soupe, Fèves, Feves
+ElfeSoupe.Photo     >
+ElfeSoupe.Recette>Il faut 2 kilogrammes de fèves récoltées à l'aube d'un jour
+ElfeSoupe.Recette>de Mai, du persil cueilli à midi et de la menthe coupée au
+ElfeSoupe.Recette>soir de ce même jour. On aura aussi besoin d'une pinte de
+ElfeSoupe.Recette>bouillon de volaille et le soin de se munir d'une belle
+ElfeSoupe.Recette>tranche de lard salé de bonne lignée.
+ElfeSoupe.Recette>
+ElfeSoupe.Recette>Ecosser les fèves en bonne compagnie, puis les monder (pour
+ElfeSoupe.Recette>cela on les plonge dans une gamelle d'eau bouillante
+ElfeSoupe.Recette>quelques instants, on égoutte, on passe à l'eau fraîche, on
+ElfeSoupe.Recette>incise la peau et la fève vient toute seule).
+ElfeSoupe.Recette>
+ElfeSoupe.Recette>Garnir une casserolée avec le bouillon, les fèves, et le lard
+ElfeSoupe.Recette>découpé en très petits morceaux. Dès que les premières bulles
+ElfeSoupe.Recette>arrivent, il faut compter quelques minutes, à peu près 10,
+ElfeSoupe.Recette>avant que de persiller et menther en suffisance (on aura bien
+ElfeSoupe.Recette>évidemment haché menu ces verdures avec un couteau manché de
+ElfeSoupe.Recette>corne de bouquetin). Attendre le retour des bulles et les
+ElfeSoupe.Recette>laisser s'amuser le temps de chanter une chanson. Saler et...
+ElfeSoupe.Recette>c'est tout.
+ElfeSoupe.Commentaires><TABLE ALIGN=CENTER><TR><TD>
+ElfeSoupe.Commentaires>Recette utilisée à l'occasion de la soirée du trente-et-un
+ElfeSoupe.Commentaires>décembre de l'an de grâce deux-mil-trois sur le thème
+ElfeSoupe.Commentaires>'Elfes et Hobbits' et extraite en l'état de l'ouvrage cité.
+ElfeSoupe.Commentaires></TD></TR></TABLE>
+
+
+
+ElfeTartines.Titre    >Mes très réputées tartines
+ElfeTartines.Source   >"<B>Petit précis de cuisine elfique</B>" (Laurence et Yannig Germain, éd. Avis de Tempête)
+ElfeTartines.Quantite >
+ElfeTartines.MotsClefs>Elfe, Jambon, Tartines
+ElfeTartines.Photo    >
+ElfeTartines.Recette>
+ElfeTartines.Recette>Pour une tartine: une grosse tranche de pain bis, une
+ElfeTartines.Recette>belle  tranche de jambon sec salé de montagne, une bonne
+ElfeTartines.Recette>part de fromage (de montagne aussi moi je mets de la
+ElfeTartines.Recette>tomme au lait  cru), une gousse d'ail, un petit coup de
+ElfeTartines.Recette>vin blanc moelleux, du  poivre et des herbes si on veut.
+ElfeTartines.Recette>
+ElfeTartines.Recette>Ces tartines-là, fort simples mais divines, se font
+ElfeTartines.Recette>d'abord griller puis frotter d'ail (ne pas mollir sur
+ElfeTartines.Recette>l'ail). Elles se  disposent dans un plat de terre, jambon
+ElfeTartines.Recette>par dessus, fromage par dessus, petit coup de vin blanc
+ElfeTartines.Recette>pour arroser sans détremper toute la tartine, poivre et
+ElfeTartines.Recette>herbes, petit tour au four, terminé.
+ElfeTartines.Commentaires>
+ElfeTartines.Commentaires><TABLE ALIGN=CENTER><TR><TD>
+ElfeTartines.Commentaires>Recette utilisée à l'occasion de la soirée du trente-et-un
+ElfeTartines.Commentaires>décembre de l'an de grâce deux-mil-trois sur le thème
+ElfeTartines.Commentaires>'Elfes et Hobbits' et extraite en l'état de l'ouvrage cité.
+ElfeTartines.Commentaires></TD></TR></TABLE>
+
+
+
+ElfeCepes.Titre    >Fines tartelettes aux cèpes
+ElfeCepes.Source    >"<B>Petit précis de cuisine elfique</B>" (Laurence et Yannig Germain, éd. Avis de Tempête)
+ElfeCepes.Quantite >
+ElfeCepes.MotsClefs>Elfe, Tartelette, Cèpes, Cepes
+ElfeCepes.Photo    >
+ElfeCepes.Recette>De la pâte feuilletée que l'on étale fin fin fin (trois
+ElfeCepes.Recette>milimètres) et que l'on découpe en ronds (dix centimètres).
+ElfeCepes.Recette>Des cèpes dont on fait des lamelles très fines aussi, pour
+ElfeCepes.Recette>les disposer en harmonieuses rosaces sur les cercles de
+ElfeCepes.Recette>pâte. Du beurre fondu dont on nappe le tout et du parmesan
+ElfeCepes.Recette>(ou autre) que l'on poudre au dessus. Du sel et du poivre
+ElfeCepes.Recette>aussi comme on veut. Un four que l'on chauffe bien à deux
+ElfeCepes.Recette>cents degrés pour y mettre les tartelettes vingt minutes
+ElfeCepes.Recette>environ (des fois moins, surveiller). De la fleur de thym<SUP>*</SUP>
+ElfeCepes.Recette>que l'on rajoute après cuisson, car elle est belle et bonne.
+ElfeCepes.Commentaires><SUP>*</SUP> Et pas du romarin.
+ElfeCepes.Commentaires><TABLE ALIGN=CENTER><TR><TD>
+ElfeCepes.Commentaires>Recette utilisée à l'occasion de la soirée du trente-et-un
+ElfeCepes.Commentaires>décembre de l'an de grâce deux-mil-trois sur le thème
+ElfeCepes.Commentaires>'Elfes et Hobbits' et extraite en l'état de l'ouvrage cité.
+ElfeCepes.Commentaires></TD></TR></TABLE>
+
+
+
+ElfeAgneau.Titre    >Gan Guz Agneau en broche
+ElfeAgneau.Source    >"<B>Petit précis de cuisine elfique</B>" (Laurence et Yannig Germain, éd. Avis de Tempête)
+ElfeAgneau.Quantite >
+ElfeAgneau.MotsClefs>Elfe, Agneau, Viande
+ElfeAgneau.Photo    >
+ElfeAgneau.Recette>Qui veut carnasser en conscience apaisée, doit avant tout
+ElfeAgneau.Recette>remercier l'animal qu'il s'apprête à goûter. Une oraison
+ElfeAgneau.Recette>pour son âme sera appréciée car vivant son esprit pourra
+ElfeAgneau.Recette>rester et de ses ancêtres rejoindra la grande assemblée.
+ElfeAgneau.Recette>
+ElfeAgneau.Recette>Si l'on veut bon parfum et tendretée de goût, il sera
+ElfeAgneau.Recette>bienséant de choisir l'épaule d'un agneau élevé sur pré
+ElfeAgneau.Recette>salé; une pièce de gigot conviendra pareillement.
+ElfeAgneau.Recette>
+ElfeAgneau.Recette>On jettera dans la cheminée une brassée de bois de chêne
+ElfeAgneau.Recette>bien sec et on boutera le feu.
+ElfeAgneau.Recette>
+ElfeAgneau.Recette>Tout en surveillant l'ardeur
+ElfeAgneau.Recette>de la flamme, on coupera en petits bouts un morceau de
+ElfeAgneau.Recette>poitrine de porc bien sèche et bien grasse et bien salée. On
+ElfeAgneau.Recette>piquera la viande avec les lardons, on embrochera et on
+ElfeAgneau.Recette>rôtira sur bonne braise le temps qu'il faudra (25 minutes
+ElfeAgneau.Recette>par livre, c'est idéalement bien). Avant que de manger, on
+ElfeAgneau.Recette>laissera reposer environ un quart d'heure puis on salera
+ElfeAgneau.Recette>selon son goût propre avec de la très excellente fleur de
+ElfeAgneau.Recette>sel.
+ElfeAgneau.Commentaires>Chez les Foliked de l'isle de Bréhat, qui aiment les
+ElfeAgneau.Commentaires>goûts pointus comme chacun sait, point de lard mais
+ElfeAgneau.Commentaires>des branchettes de persil feuillues, que l'on pique
+ElfeAgneau.Commentaires>dans la viande profondément (à mi cuisson). On sert
+ElfeAgneau.Commentaires>cuit à point et aspergé de bon vinaigre.
+ElfeAgneau.Commentaires>
+ElfeAgneau.Commentaires>Mange avec les doigts plus grande sera ta joie.
+ElfeAgneau.Commentaires>
+ElfeAgneau.Commentaires>Sur la braise, du laurier sauge on peut épendre pour
+ElfeAgneau.Commentaires>parfumer...
+ElfeAgneau.Commentaires>
+ElfeAgneau.Commentaires><TABLE ALIGN=CENTER><TR><TD>
+ElfeAgneau.Commentaires>Recette utilisée à l'occasion de la soirée du trente-et-un
+ElfeAgneau.Commentaires>décembre de l'an de grâce deux-mil-trois sur le thème
+ElfeAgneau.Commentaires>'Elfes et Hobbits' et extraite en l'état de l'ouvrage cité.
+ElfeAgneau.Commentaires></TD></TR></TABLE>
+
+
+
+ElfePatates.Titre    >L'estouffade de pommes de terre
+ElfePatates.Source   >"<B>Petit précis de cuisine elfique</B>" (Laurence et Yannig Germain, éd. Avis de Tempête)
+ElfePatates.Quantite >
+ElfePatates.MotsClefs>Elfe, Pommes de terre, Patates
+ElfePatates.Photo    >
+ElfePatates.Recette>Dans une cocotte d'épais métal (balaise) j'arrange un lit
+ElfePatates.Recette>de gros sel de mer, je pose par dessus de petites pommes
+ElfePatates.Recette>de terre juste lavées (avec leur peau), autant de gousses
+ElfePatates.Recette>d'ail (avec leur peau aussi) que de pommes de terre,
+ElfePatates.Recette>autant de feuilles de laurier que de gousses d'ail. Tout
+ElfePatates.Recette>cela les unes parmi les  autres. Je referme bien à l'aide
+ElfePatates.Recette>du couvercle et je mets dans la cheminée à la bonne
+ElfePatates.Recette>volonté des braises qui s'occupent de la cuisson.
+ElfePatates.Commentaires>Une petite douceur: avec un dénoyauteur faire une
+ElfePatates.Commentaires>carotte dans  la pomme de terre. La remplacer par des
+ElfePatates.Commentaires>rillettes et remettre  les 2 bouts de la carotte pour
+ElfePatates.Commentaires>fermer. Alors là...
+ElfePatates.Commentaires>
+ElfePatates.Commentaires><TABLE ALIGN=CENTER><TR><TD>
+ElfePatates.Commentaires>Recette utilisée à l'occasion de la soirée du trente-et-un
+ElfePatates.Commentaires>décembre de l'an de grâce deux-mil-trois sur le thème
+ElfePatates.Commentaires>'Elfes et Hobbits' et extraite en l'état de l'ouvrage cité.
+ElfePatates.Commentaires></TD></TR></TABLE>
+
+
+
+ElfeGateau.Titre    >Un gâteau fort conséquent mais néanmoins à défaillir car tout en subtilité
+ElfeGateau.Source    >"<B>Petit précis de cuisine elfique</B>" (Laurence et Yannig Germain, éd. Avis de Tempête)
+ElfeGateau.Quantite >
+ElfeGateau.MotsClefs>Elfe, Gateau
+ElfeGateau.Photo    >GateauConsequent.jpg
+ElfeGateau.Recette><B>Le biscuit en lui même</B>: 250 grammes de poudre de
+ElfeGateau.Recette>noisette, 150 grammes de poudre de sucre blond, 6 blancs
+ElfeGateau.Recette>d'oeufs (de cane, caille, perdrix, oie, mais de poule c'est
+ElfeGateau.Recette>mieux, rousse encore plus). Vite, vite, vite, encore plus
+ElfeGateau.Recette>vite il faut battre en neige dense les blancs d'oeufs;
+ElfeGateau.Recette>Incorporer en son secret les poudres de noisettes et de
+ElfeGateau.Recette>sucre. Ceci sera le contenu de deux contenants de même
+ElfeGateau.Recette>taille et forme<SUP>*</SUP> beurrés à satisfoison. Si l'on
+ElfeGateau.Recette>est bon pâtisseur, on saura faire cuire ces deux
+ElfeGateau.Recette>gâteaux<SUP>**</SUP> avec bonheur.
+ElfeGateau.Recette>
+ElfeGateau.Recette><B>La bonne crême qui servira de farcement</B>: 150 grammes
+ElfeGateau.Recette>de chocolat noir costaud, 2 jaunes d'oeufs, 125g de beurre
+ElfeGateau.Recette>frais et bon, entre 15 et 25g de sucre fin, 101 raisins
+ElfeGateau.Recette>secs, 15 noix, 11 dattes, 1 bolée d'alcool d'orange fort,
+ElfeGateau.Recette>sec en gosier<B>***</B>, 1 pincée de cannelle girofle en
+ElfeGateau.Recette>poudre. Tous ces éléments réunis, procéder comme pour faire
+ElfeGateau.Recette>une crème normale, à savoir: au bain marie, fouetter les
+ElfeGateau.Recette>jaunes (d'oeufs) et le sucre ensemble pour que cela soit
+ElfeGateau.Recette>mousseux à souhait. Rafraîchir. Plonger les raisins secs
+ElfeGateau.Recette>dans la bolée d'alcool. Par ailleurs, faire une
+ElfeGateau.Recette>écrabouillade des noix et débiter les dattes petitement. Il
+ElfeGateau.Recette>est temps de combiner, toujours en fouettant allègrement, le
+ElfeGateau.Recette>chocolat fondu (tout doux) avec la mousse citée plus haut et
+ElfeGateau.Recette>le beurre mou. Magnifier cette combinaison avec les noix,
+ElfeGateau.Recette>dattes, raisins (égouttés) et la poudre épicée. On peut
+ElfeGateau.Recette>s'essuyer le front... La bonne crême est achevée.
+ElfeGateau.Recette>
+ElfeGateau.Recette>Penser à démouler les fonds de biscuit, les faire reposer
+ElfeGateau.Recette>sur une grille en soufflant dessus pour les refroidir, on
+ElfeGateau.Recette>peut aussi poser au bord d'une fenêtre si l'on est en bons
+ElfeGateau.Recette>termes avec ses voisins, chats, pies, bourrasques et autres
+ElfeGateau.Recette>maraudeurs. Composer un beau gâteau en tartinant le biscuit
+ElfeGateau.Recette>premier avec la bonne crême et en coiffant du biscuit
+ElfeGateau.Recette>second.
+ElfeGateau.Recette>
+ElfeGateau.Recette>Servir irréprochablement frais.
+ElfeGateau.Commentaires><SUP>*</SUP> des moules quoi...
+ElfeGateau.Commentaires>
+ElfeGateau.Commentaires><SUP>**</SUP> Pour les amateurs non éclairés, 150°
+ElfeGateau.Commentaires>pendant une heure et four préchauffé.
+ElfeGateau.Commentaires>
+ElfeGateau.Commentaires><SUP>***</SUP> ou d'eau de fleur d'oranger
+ElfeGateau.Commentaires>
+ElfeGateau.Commentaires><TABLE ALIGN=CENTER><TR><TD>
+ElfeGateau.Commentaires>Recette utilisée à l'occasion de la soirée du trente-et-un
+ElfeGateau.Commentaires>décembre de l'an de grâce deux-mil-trois sur le thème
+ElfeGateau.Commentaires>'Elfes et Hobbits' et extraite en l'état de l'ouvrage cité.
+ElfeGateau.Commentaires></TD></TR></TABLE>
+
+
+
+Rochers.Titre    >Rochers congolais
+Rochers.Source   >"<B>Les carnets de cuisinne, N°10 petite et grande pâtisserie</B>" (Hachette pratique, 1979)
+Rochers.Quantite >~25 rochers
+Rochers.MotsClefs>Rochers
+Rochers.Photo    >
+Rochers.Ingredient>3 blancs d'oeufs
+Rochers.Ingredient>200g de noix de coco rapée
+Rochers.Ingredient>200g de sucre en poudre
+Rochers.Recette>Allumer le four, thermostat 4. Mettre les blancs d'oeufs et
+Rochers.Recette>le sucre dans un saladier à fond arrondis et placer celui-ci
+Rochers.Recette>dans un bain-marie (une casserole remplie d'eau bouillante,
+Rochers.Recette>par exemple) sur feu moyen. Avec un fouet électrique, ou à
+Rochers.Recette>la main, fouetter le mélange à petite vitesse jusqu'à ce
+Rochers.Recette>qu'il soit trop chaud pour que vous puissiez y plonger le
+Rochers.Recette>doigts.
+Rochers.Recette>
+Rochers.Recette>Retirer le saladier du bain-marie et continuer à fouetter
+Rochers.Recette>encore 5minutes jusqu'à ce que le mélange tiédisse.
+Rochers.Recette>
+Rochers.Recette>Enfin, ajouter la noix de coco et mélanger avec une spatule.
+Rochers.Recette>
+Rochers.Recette>Couvrir la plaque du four de papier sulfurisé. Avec les doigts
+Rochers.Recette>trempés dans l'eau, façonner des morceaux de pâte de la
+Rochers.Recette>grosseur d'un oeuf en boules rondes ou en dômes pointus et
+Rochers.Recette>les déposer au fur et à mesure sur le papier.
+Rochers.Recette>
+Rochers.Recette>Mettre au four pour 15 à 20minutes selon la taille des
+Rochers.Recette>gâteaux.
+Rochers.Commentaires>Ces petits rochers ne doivent pas se colorer, seulement
+Rochers.Commentaires>sécher à l'extérieur tout en restant moelleux à
+Rochers.Commentaires>l'intérieur.
+Rochers.Commentaires>
+Rochers.Commentaires>Ils se conservent huit jours dans une boite en fer.
+
+
+
+Visitandines.Titre    >Visitandines
+Visitandines.Source   >"<B>Les carnets de cuisinne, N°10 petite et grande pâtisserie</B>" (Hachette pratique, 1979)
+Visitandines.Quantite >~13 à 17 visitandines
+Visitandines.MotsClefs>Visitandines, Amandes
+Visitandines.Photo    >
+Visitandines.Ingredient>150g d'amandes en poudre
+Visitandines.Ingredient>200g de sucre en poudre
+Visitandines.Ingredient>4 blancs d'oeufs
+Visitandines.Ingredient>75g de farine fluide
+Visitandines.Ingredient>175g de beurre
+Visitandines.Ingredient>3 gouttes d'extrait d'amandes amères
+Visitandines.Recette>Allumer le four thermostat 6 (200° four classique, 160° four à chaleur
+Visitandines.Recette>tournante).
+Visitandines.Recette>
+Visitandines.Recette>Réduire le beurre en pommade.
+Visitandines.Recette>
+Visitandines.Recette>Mélanger dans une terrine les amandes et le sucre. Y ajouter les
+Visitandines.Recette>blancs d'oeufs et travailler avec une spatule pendant 5 minutes.
+Visitandines.Recette>Ajouter l'extrait d'amandes, la farine en pluie et mélanger encore.
+Visitandines.Recette>Verser enfin le beurre en pommade et mélanger à nouveau.
+Visitandines.Recette>
+Visitandines.Recette>Badigeonner de petits moules ronds ou ovales de beurre fondu et les
+Visitandines.Recette>remplir à moitié seulement de la préparation.
+Visitandines.Recette>
+Visitandines.Recette>Mettre au four pour 15 à 20 minutes selon la taille des moules.
+Visitandines.Recette>
+Visitandines.Recette>Démouler les petits gâteaux encore chauds sur une grille. Les
+Visitandines.Recette>laisser refroidir complètement avant de les déguster ou de les
+Visitandines.Recette>ranger dans une boîte en fer.
+Visitandines.Commentaires>On peut remplacer l'extrait d'amandes amères par une cuiller à
+Visitandines.Commentaires>café ou deux d'Amaretto.
+Visitandines.Commentaires>
+Visitandines.Commentaires>Cette recette est très pratique pour ne pas perdre les blancs d'oeufs
+Visitandines.Commentaires>restants dû à la confection de #CAGLACES|glaces# (par exemple).
+
+
+
+PaletsM.Titre    >Palets de marbre
+PaletsM.Source   >"<B>Les carnets de cuisinne, N°10 petite et grande pâtisserie</B>" (Hachette pratique, 1979)
+PaletsM.Quantite >~20 palets
+PaletsM.MotsClefs>Palets, Marbré, Chocolat
+PaletsM.Photo    >
+PaletsM.Ingredient>250g de farine
+PaletsM.Ingredient>150g de beurre
+PaletsM.Ingredient>80g de sucre
+PaletsM.Ingredient>2 cuiller à soupe de cacao non sucré
+PaletsM.Ingredient>0,5 cuiller à café de sel
+PaletsM.Recette>Mélanger la farine, le sel et le sucre dans une terrine.
+PaletsM.Recette>Déposer le beurre coupé en petits morceaux sur la farine.
+PaletsM.Recette>Faire pénétrer la farine dans le beurre du bout des doigts jusqu'à obtenir
+PaletsM.Recette>une sorte de sable régulier.
+PaletsM.Recette>
+PaletsM.Recette>Y ajouter une cuiller à soupe d'eau pour lier le tout et travailler la
+PaletsM.Recette>pâte de la paume de la main jusqu'à ce qu'elle soit homogène.
+PaletsM.Recette>
+PaletsM.Recette>Prélever un tiers de la pâte et y ajouter le cacao. Travailler encore un peu
+PaletsM.Recette>la pâte pour bien l'incorporer en y ajoutant, si nécessaire, un peu d'eau.
+PaletsM.Recette>
+PaletsM.Recette>Assembler les deux pâtes et mélanger grossièrement pour obtenir des marbrures
+PaletsM.Recette>puis laisser reposer 2 heures au frais.
+PaletsM.Recette>
+PaletsM.Recette>2 heures plus tard, allumer le four, thermostrat 6,5 (220° four classique,
+PaletsM.Recette>180° four à chaleur tournante).
+PaletsM.Recette>
+PaletsM.Recette>Façonner la pâte en un ou deux rouleaux de 5cm de diamètre. Couper ces rouleaux
+PaletsM.Recette>en tranches de 1 à 2cm d'épaisseur et les déposer sur une plaque de cuisson
+PaletsM.Recette>beurrée ou garnie de papier sulfurisé.
+PaletsM.Recette>
+PaletsM.Recette>Mettre au four pour 10minutes environs puis laisser refroidir et sècher sur
+PaletsM.Recette>une grille (en sortant du four les palets sont mous).
+
+
+
+
+
+
+
+BISCEPICES.Titre    >Biscuits aux 4 épices
+BISCEPICES.Source   >Astrid
+BISCEPICES.Quantite >
+BISCEPICES.MotsClefs>Épices
+BISCEPICES.Photo    >
+BISCEPICES.Ingredient>300g de farine
+BISCEPICES.Ingredient>200g de beurre demi-sel (ou 200g de beurre doux + 3 à 6g de sel)
+BISCEPICES.Ingredient>200g de cassonade (ou vergeoise)
+BISCEPICES.Ingredient>100g de raisins secs
+BISCEPICES.Ingredient>3 cuillères à café de «quatre épices»
+BISCEPICES.Ingredient>1 sachet de levure chimique
+BISCEPICES.Recette>Réduire le beurre en pommade.
+BISCEPICES.Recette>
+BISCEPICES.Recette>Mélanger le tout.
+BISCEPICES.Recette>
+BISCEPICES.Recette>Étaler avec une cuillère dans un moule plat beurré (ou
+BISCEPICES.Recette>un moule anti-adhésif ou une plaque) sur une
+BISCEPICES.Recette>épaisseur de 1cm environs
+BISCEPICES.Recette>
+BISCEPICES.Recette>Cuire 25 minutes à 150°C
+BISCEPICES.Recette>
+BISCEPICES.Recette>Dès la sortie du four, découper en carrés dans le
+BISCEPICES.Recette>moule avec un couteau en bois ou plastique (tant que
+BISCEPICES.Recette>c'est chaud cela reste mou).
+BISCEPICES.Recette>Mettre ces carrés à refroidir sur une grille.
+BISCEPICES.Commentaires>Ces biscuits se conservent très bien dans une
+BISCEPICES.Commentaires>boîte en fer, enfin, si vous arrivez à en
+BISCEPICES.Commentaires>garder assez pour seulement songer à les
+BISCEPICES.Commentaires>conserver.
+
+
+
+Sacher.Titre    >Gâteau Sacher (Sachertörte)
+Sacher.Source   >"<B>Les carnets de cuisinne, N°10 petite et grande pâtisserie</B>" (Hachette pratique, 1979)
+Sacher.Quantite >Pour 8 personnes (gourmandes)
+Sacher.MotsClefs>Sacher, Chocolat, Sachertorte
+Sacher.Photo    >Sacher.jpg
+Sacher.Ingredient>200g de chocolat à croquer amer
+Sacher.Ingredient>8 oeufs + 2 blancs
+Sacher.Ingredient>150g de beurre mou
+Sacher.Ingredient>120g de farine
+Sacher.Ingredient>500g de confiture d'abricots
+Sacher.Ingredient>1 pincée de sel
+Sacher.Ingredient>200g de chocolat à croquer amer (glaçage)
+Sacher.Ingredient>200g de crème fraiche (glaçage)
+Sacher.Recette>Beurrer et fariner 2 moules à manqué de 22cm.
+Sacher.Recette>
+Sacher.Recette>Casser les oeufs en séparant les blancs des jaunes. Poudrer les blancs de sel.
+Sacher.Recette>
+Sacher.Recette>Faire fondre le chocolat au bain marie. Lorsqu'il est très mou, y ajouter
+Sacher.Recette>le beurre et mélanger avec une spatule.
+Sacher.Recette>
+Sacher.Recette>Battre légèrement les jaunes au fouet et y ajouter le mélange beurre-chocolat
+Sacher.Recette>en travaillant vigoureusement.
+Sacher.Recette>
+Sacher.Recette>Battre les blancs en neige plutôt molle et y ajouter le sucre par cuillerées
+Sacher.Recette>jusqu'à ce que la neige soit très ferme.
+Sacher.Recette>
+Sacher.Recette>Incorporer environs un tiers des blancs dans la terrine avec le chocolat
+Sacher.Recette>puis verser son contenu sur les blancs restants et poudrer de farine en
+Sacher.Recette>la tamisant. Mélanger délicatement en soulevant la masse plutôt qu'en la
+Sacher.Recette>tournant (comme pour toute incorporation de blancs en neige).
+Sacher.Recette>
+Sacher.Recette>Répartir la pâte sans attendre dans les 2 moules et les mettre au four,
+Sacher.Recette>l'un sur la grille l'autre sur la lèchefritte pour 30 minutes
+Sacher.Recette>à 170° (thermostat 5, 150° pour les fours à chaleur tournante).
+Sacher.Recette>
+Sacher.Recette>A la sortie du four démouler sur des grilles et laisser les gâteaux refroidir.
+Sacher.Recette>
+Sacher.Recette>Lorsque les gâteaux sont froids,
+Sacher.Recette>mettre 12 cuillerées de confiture d'abricots dans une casserole, la faire
+Sacher.Recette>réduire sur feu vif pendant 1 à 3 minutes après l'ébullition selon la
+Sacher.Recette>consistance initiale de la confiture. Ensuite, la passer au tamis ou à
+Sacher.Recette>la moulinette à grille fine. La laisser tiédir un peu avant de l'étaler
+Sacher.Recette>sur le premier gâteau. puis attendre qu'elle refroidisse pour poser
+Sacher.Recette>le second gâteau par dessus.
+Sacher.Recette>
+Sacher.Recette>Pour le glaçage, faire fondre le chocolat au bain marie avec la crème.
+Sacher.Recette>Lorsque le chocolat est fondu, tourner vivement le mélange à la spatule
+Sacher.Recette>et, lorsqu'il est homogène en répartir une première couche sur le dessus
+Sacher.Recette>et les bords du gâteau. Egaliser avec une spatule ou une pelle à glacer.
+Sacher.Recette>Lorsque la première couche a pris ajouter le reste. Mettre le
+Sacher.Recette>gâteau au réfrigérateur jusqu'au lendemain. Le sortie environs une
+Sacher.Recette>heure avant de le servir.
+Sacher.Commentaires>Cette recette viennoise qui defraya la chronique pour savoir
+Sacher.Commentaires>qui du café Demel ou de l'hôtel Sacher détenait la recette
+Sacher.Commentaires><I>authentique</I> est censée être secrète et donc celle
+Sacher.Commentaires>présentée ici est en principe une approximation mais néanmoins
+Sacher.Commentaires>excellente même si elle est un peu difficile à réaliser
+Sacher.Commentaires>correctement.
+Sacher.Commentaires>
+Sacher.Commentaires>Vous pouvez remplacer la confiture par de de la compote
+Sacher.Commentaires>d'abricots si, comme moi, vous le trouvez un peu trop
+Sacher.Commentaires>sucré (en la faisant bien réduire et en y ajoutant
+Sacher.Commentaires>éventuellement une cuiller à café ou deux de maïzena).
+Sacher.Commentaires>
+Sacher.Commentaires>Vous pouvez aussi, au lieu de cuire 2 gâteaux, placer
+Sacher.Commentaires>toute la pâte dans un moule plus grand puis, lorsqu'il
+Sacher.Commentaires>est cuit, le couper en deux avec un fil ou un grand couteau
+Sacher.Commentaires>pour y placer la confiture/compote (ne pas oublier de
+Sacher.Commentaires>faire une petite marque sur le bord pour retrouver
+Sacher.Commentaires>l'emplacement exact de chaque demi-gâteau).
+
+
+
+
+
+Andree.Titre    >Gâteau au chocolat «Andrée»
+Andree.Source   >Andrée
+Andree.Quantite >
+Andree.MotsClefs>Andree, Chocolat, Gâteau
+Andree.Photo    >
+Andree.Ingredient>100g de chocolat
+Andree.Ingredient>2 oeufs
+Andree.Ingredient>125g de sucre
+Andree.Ingredient>75g de beurre
+Andree.Ingredient>60g de farine
+Andree.Ingredient>1 cuiller à café de café soluble
+Andree.Recette>Séparer les blancs des jaunes. Mélanger les jaunes avec le sucre jusqu'à ce qu'ils
+Andree.Recette>blanchissent.
+Andree.Recette>
+Andree.Recette>Faire fondre le chocolat dans un peu de lait avec le café.
+Andree.Recette>
+Andree.Recette>Ajouter au mélange. Ajouter ensuite le beure fondu, puis la farine et les blancs battus en neige
+Andree.Recette>avec une pincée de sel.
+Andree.Recette>
+Andree.Recette>Verser dans un moule à tarte beurré et fariné. Mettre à four froid et régler à 150°C (thermostat 4).
+Andree.Recette>
+Andree.Recette>Arrêter la cuisson dès que le gâteau est cuit (si, si...) à vérifier avec une lame de couteau.
+Andree.Recette>Ne pas prolonger la cuisson.
+Andree.Commentaires>Couvrir d'un papier aluminium permet la conservation de tout le moelleux du gâteau
+Andree.Commentaires>en évitant son déssèchement.
+Andree.Commentaires>
+Andree.Commentaires>On peu remplacer le chocolat par de la pralinoise, c'est aussi excellent.
+Andree.Commentaires>On peut aussi ajouter un peu de levure si l'on désire qu'il soit plus gonflé.
+
+
+
+
+
+GPommes.Titre    >Gâteau aux pommes
+GPommes.Source  >Colette
+GPommes.Quantite >
+GPommes.MotsClefs>Gâteau, Pommes
+GPommes.Photo    >
+GPommes.Ingredient>120g de farine
+GPommes.Ingredient>2 oeufs
+GPommes.Ingredient>75g de sucre
+GPommes.Ingredient>50g de beurre fondu
+GPommes.Ingredient>1 sachet de sucre vanillé
+GPommes.Ingredient>1/3 sachet de levure chimique
+GPommes.Ingredient>1 pincée de sel
+GPommes.Ingredient>1kg de pomme
+GPommes.Ingredient>3 cuiller à soupe de rhum
+GPommes.Recette>Mélanger le sucre et les oeufs. Ajouter le beure fondu et refroidi
+GPommes.Recette>puis la farine, la levure, le sel et enfin les pommes coupées en dés
+GPommes.Recette>et macérées dans le rhum.
+GPommes.Recette>
+GPommes.Recette>Beurrer un moule à manqué, le fariner et mettre le tout à four doux
+GPommes.Recette>environs 30 minutes.
+GPommes.Commentaires>Ajouter des raisins secs (selon votre goût) absorbe le jus des pommes.
+GPommes.Commentaires>
+GPommes.Commentaires>On peut remplacer les pommes (et le rhum) par des poires (miam),
+GPommes.Commentaires>des prunes, des pêches, des carottes, de la noix de coco.....
+GPommes.Commentaires>tout est bon!
+
+
+
+
+
+Clafouti.Titre  >Clafouti aux cerises
+Clafouti.Source >
+Clafouti.Quantite >
+Clafouti.MotsClefs>Clafouti, cerises
+Clafouti.Photo    >
+Clafouti.Ingredient>1kg de cerises non dénoyautées
+Clafouti.Ingredient>60g de farine
+Clafouti.Ingredient>50g de beurre fondu
+Clafouti.Ingredient>3 oeufs
+Clafouti.Ingredient>2 verres de lait
+Clafouti.Ingredient>125g de sucre
+Clafouti.Ingredient>1 pincée de sel
+Clafouti.Ingredient>40g de beurre (facultatif)
+Clafouti.Recette>Préchauffez le four (180°C pour un four à chaleur tournante).
+Clafouti.Recette>
+Clafouti.Recette>Mélanger les oeufs et le sucre.
+Clafouti.Recette>
+Clafouti.Recette>Ajouter la farine et le sel, puis le beurre fondu puis le lait.
+Clafouti.Recette>
+Clafouti.Recette>Ajouter les cerises.
+Clafouti.Recette>
+Clafouti.Recette>Prenez un plat à feu (qui sera utilisé pour le service).
+Clafouti.Recette>
+Clafouti.Recette>Beurrez-le (facultatif, dépend du plat).
+Clafouti.Recette>
+Clafouti.Recette>Y mettre la préparation et enfourner.
+Clafouti.Recette>
+Clafouti.Recette>Laisser cuire 30 minutes environs.
+Clafouti.Commentaires>On peut remplacer les cerises par beaucoup d'autres fruits
+Clafouti.Commentaires>(dont les prunes, les pêches, les poires, les abricots...)
+Clafouti.Commentaires>et charger plus ou moins en fruits suivant les goûts.
+
+
+
+
+
+Canneles.Titre  >Cannelés
+Canneles.Source >Jacques G.
+Canneles.Quantite >16 cannelés dans des moules de taille moyenne
+Canneles.MotsClefs>Canneles
+Canneles.Photo    >
+Canneles.Ingredient>50cl de lait entier
+Canneles.Ingredient>50g de beurre
+Canneles.Ingredient>250g de sucre
+Canneles.Ingredient>125g de farine
+Canneles.Ingredient>3 oeufs
+Canneles.Ingredient>3 cuiller à soupe de rhum
+Canneles.Ingredient>Un gousse de vanille
+Canneles.Recette>Fendre la gousse de vanille et la placer dans une casserolle
+Canneles.Recette>avec le lait et le beurre.
+Canneles.Recette>
+Canneles.Recette>Faire chauffer la cassrerole jusqu'à ébullition
+Canneles.Recette>
+Canneles.Recette>Pendant ce temps, dans un saladier, mélanger le sucre et
+Canneles.Recette>les oeufs jusqu'à ce que cela devienne mousseux. Puis ajouter
+Canneles.Recette>la farinne tamisée en pluie et enfin le rhum.
+Canneles.Recette>
+Canneles.Recette>Verser le contenu de la casserole tout en mélangeant (sans la.
+Canneles.Recette>gousse de vanille que vous pouvez vider dans le mélange ou
+Canneles.Recette>mettre de côté pour la réutiliser).
+Canneles.Recette>
+Canneles.Recette>Laisser reposer au moins 12h.
+Canneles.Recette>
+Canneles.Recette>Faire chauffer le four à 240°C
+Canneles.Recette>
+Canneles.Recette>Huiler les moules (ou passer du beurre fondu avec un pinceau).
+Canneles.Recette>Les remplir au 3/4 et enfourner à four chaud pour 30 minutes
+Canneles.Recette>puis baisser le thermostat du four à 180°C et laisser cuire
+Canneles.Recette>30 minutes de plus.
+Canneles.Recette>
+Canneles.Recette>Demouler en retournant sur une plaque.
+Canneles.Commentaires>Les cannelés doivent être croustillants dehors (caramélisation)
+Canneles.Commentaires>et moelleux dedans le tout sans être bourratifs.
+Canneles.Commentaires>
+Canneles.Commentaires>La qualité des cannelés dépend beaucoup de l'harmonie entre
+Canneles.Commentaires>le type de moulse, le four et les temps de cuisson.
+Canneles.Commentaires>
+Canneles.Commentaires>Les moules les plus courants sont metalliques en cuivre
+Canneles.Commentaires>et recommandés par les puristes. On en trouve aussi en
+Canneles.Commentaires>aluminium mais ils conduisent moins bien la chaleur et
+Canneles.Commentaires>la caramélisation du pourtour se fait moins bien.
+Canneles.Commentaires>
+Canneles.Commentaires>
+Canneles.Commentaires>Les moules souples en silicone sont aussi disponibles et
+Canneles.Commentaires>ils conduisent encore moins bien la chaleur.
+Canneles.Commentaires>Pour ces moules je conseille les adaptations suivantes:
+Canneles.Commentaires><UL><LI>Mettre <B>2 fois moins de beurre</B></LI>
+Canneles.Commentaires><LI>Ne pas beurrer/huiler les moules (ils se démoulent
+Canneles.Commentaires>très bien sans cela)</LI>
+Canneles.Commentaires><LI>Cuisson à 240°C pendant 40 minutes puis 30 minutes à 180°C</LI>
+Canneles.Commentaires></UL>
+Canneles.Commentaires>L'extérieur sera moins bruni mais presque aussi croustillant.
+
+
+
+
+Ppizza.Titre    >Pâte à pizza
+Ppizza.Quantite >Pour 2 pizze
+Ppizza.MotsClefs>Pizza, Pâte
+Ppizza.Photo    >
+Ppizza.Ingredient>500g de farine de blé type 55
+Ppizza.Ingredient>1,5 cuiller à café de sel
+Ppizza.Ingredient>2 sachets de levure suractive
+Ppizza.Ingredient>3dl d'eau tiède
+Ppizza.Ingredient>2 cuillerées à soupe d'huile d'olive
+Ppizza.Recette>Mélanger la farine, la levure et le sel.
+Ppizza.Recette>Verser l'eau <b>tiède</b> et mélanger en tournant de l'intérieur vers l'extérieur.
+Ppizza.Recette>
+Ppizza.Recette>Lorsque la pâte est bien humide pétrir 5 minutes puis incorporer l'huile et pétrir 10 minutes.
+Ppizza.Recette>
+Ppizza.Recette>Laisser la pâte reposer jusqu'à ce qu'elle ait doublé de volume (pas plus) à une
+Ppizza.Recette>température de 22 à 25°C.
+Ppizza.Recette>
+Ppizza.Recette>Pétrir à nouveau une minute, diviser en 2 et étaler.
+Ppizza.Recette>
+Ppizza.Recette>Cuire à four préchauffé à 240°C (thermostat 7-8).
+Ppizza.Commentaires>L'utilisation de levure désséchée suractive (à la place de levure de boulanger) fournit un
+Ppizza.Commentaires>temps de levée plus court.
+Ppizza.Commentaires>
+Ppizza.Commentaires>Pendant la levée, on peut couvrir le plat contenant la pâte d'un linge humide
+Ppizza.Commentaires>afin d'éviter un dessèchement de surface.
+Ppizza.Commentaires>
+Ppizza.Commentaires>Si, pour pétrir, vous utilisez un robot de cuisine à la place de vos mains, vous pouvez réduire
+Ppizza.Commentaires>le temps de pétrissage et la quantité d'eau (sinon vous aurez une pâte semi liquide).
+
+
+
+PBrisee.Titre    >Pâte brisée
+PBrisee.Quantite >Pour 425 à 450g de pâte (un peu plus d'une tarte)
+PBrisee.MotsClefs>Brisée, Pâte, Pâte brisée, tartes
+PBrisee.Photo    >
+PBrisee.Ingredient>250g de farine de blé type 55
+PBrisee.Ingredient>125g de beurre
+PBrisee.Ingredient>0,5 cuiller à café de sel
+PBrisee.Ingredient>3 à 4 cuiller à soupe d'eau
+PBrisee.Recette>Déposer la farine et le sel dans une terrine et mélanger.
+PBrisee.Recette>Couper le beurre en petits morceaux et le déposer sur la farine.
+PBrisee.Recette>
+PBrisee.Recette>Faire pénétrer la farine dans le beurre en travaillant du bout des doigts
+PBrisee.Recette>suffisamment longtemps pour qu'il n'y ait plus trace de beurre.
+PBrisee.Recette>
+PBrisee.Recette>Verser l'eau par cuillerée en l'incorporant rapidement par un pétrissage énergique
+PBrisee.Recette>mais bref de la paume de la main.
+PBrisee.Recette>
+PBrisee.Recette>Diviser la pâte en boules et la laisser reposer la pâte au moins 30 minutes
+PBrisee.Recette>dans un endroit frais pour qu'elle perde de son élasticité et qu'elle s'étende
+PBrisee.Recette>correctement.
+PBrisee.Commentaires>On peut avantageusement remplacer l'eau par un oeuf et 2 cuiller à soupe
+PBrisee.Commentaires>de lait, cela rend la pâte plus étanche et moins sujette à être détrempée
+PBrisee.Commentaires>(pour des fruits rendant beaucoup de jus, par exemple). Pour cela,
+PBrisee.Commentaires>creuser un puit au centre de la terrine y casser l'oeuf et l'incorporer.
+PBrisee.Commentaires>Puis ajouter le lait de la manière décrite ci-dessus pour l'eau.
+PBrisee.Commentaires>
+PBrisee.Commentaires>Il faut pétrir le moins longtemps possible sinon la pâte devient
+PBrisee.Commentaires>trop cassante et difficile à étendre sans trou.
+PBrisee.Commentaires>
+PBrisee.Commentaires>La pâte peut aisément se conserver au congélateur, pour cela ajouter
+PBrisee.Commentaires>un peu plus de liquide (eau ou lait) car la congélation déssèche la
+PBrisee.Commentaires>pâte.
+PBrisee.Commentaires>
+PBrisee.Commentaires>Il en va de même pour une longue conservation au réfrigérateur
+PBrisee.Commentaires>(plusieurs jours). Dans ce cas, augmenter la quantité de liquide
+PBrisee.Commentaires>et envelopper les boules de pâte dans du film alimentaire.
+PBrisee.Commentaires>
+PBrisee.Commentaires><B>Note:</B> Pour tout ce qui est moule à tarte je recommande
+PBrisee.Commentaires>les moules en métal dont le fond s'enlève. On peut ainsi démouler
+PBrisee.Commentaires>immédiatement les tartes dès leur sortie sans risque de les
+PBrisee.Commentaires>casser.
+
+
+
+PCrepes.Titre    >Pâte à crêpes (crêpes Suzette)
+PCrepes.Quantite >
+PCrepes.MotsClefs>Crêpe, Crepe, Pâte, Pâte à crêpes, tartes
+PCrepes.Photo    >
+PCrepes.Ingredient>500g de farine de blé type 55
+PCrepes.Ingredient>8 oeufs (10 si petits)
+PCrepes.Ingredient>1l de lait entier
+PCrepes.Ingredient>2 sachets de sucre vanillé
+PCrepes.Ingredient>75g de beurre
+PCrepes.Ingredient>1 cuiller à café d'huile
+PCrepes.Ingredient>Le zeste râpé d'une orange
+PCrepes.Ingredient>1 verre de rhum
+PCrepes.Ingredient>1 pincée de sel
+PCrepes.Recette>Râper le zeste d'une orange dans un bol et y verser le
+PCrepes.Recette>rhum.
+PCrepes.Recette>
+PCrepes.Recette>Faire bouillir le lait avec le sucre vanillé, le beurre
+PCrepes.Recette>et l'huile.
+PCrepes.Recette>
+PCrepes.Recette>Mélanger le sel et la farine puis creuser une fontaine
+PCrepes.Recette>et y casser les oeufs.
+PCrepes.Recette>
+PCrepes.Recette>Incorporer les oeufs et bien mélanger en aérant de
+PCrepes.Recette>manière à obtenir une pâte souple et homogène.
+PCrepes.Recette>
+PCrepes.Recette>Verser petit à petit le lait bouillant sur la pâte en
+PCrepes.Recette>incorporant rapidement pour ne pas cuire les
+PCrepes.Recette>oeufs.
+PCrepes.Recette>
+PCrepes.Recette>Incorporer le zeste et le rhum.
+PCrepes.Recette>
+PCrepes.Recette>Laisser reposer 5 minutes pour que la pâte gonfle.
+PCrepes.Recette>
+PCrepes.Recette>Si la pâte n'est pas assez liquide, rajouter de l'eau
+PCrepes.Recette>chaude (pas du lait).
+PCrepes.Recette>
+PCrepes.Recette>Réaliser les crêpes (ne pas laisser refroidir la pâte)
+PCrepes.Recette>sans ajouter de corps gras.
+
+
+
+
+PPita.Titre    >Pain Pita
+PPita.Quantite >Pour environs 8 pitas (petits)
+PPita.MotsClefs>Pain, Pâte, Pita
+PPita.Photo    >PainPita.jpg
+PPita.Ingredient>500g de farinne type 55
+PPita.Ingredient>2 sachets de levure déshydratée ou 25g de levure de boulanger fraîche délayée dans 2 cuiller à soupe d'eau tiède
+PPita.Ingredient>30cl d'eau tiède
+PPita.Ingredient>10g de sel
+PPita.Ingredient>5g de sucre
+PPita.Ingredient>2 cuiller à soupe d'huile d'olive (~20g)
+PPita.Recette>Déposer la farine, le sel, le sucre la levure désydratée (si c'est ce que vous utilisez)
+PPita.Recette>et mélanger le tout.
+PPita.Recette>
+PPita.Recette>Ajouter la levure dissoute (idem) puis l'eau en mélangeant bien au fur et à mesure
+PPita.Recette>puis ajouter l'huile.
+PPita.Recette>
+PPita.Recette>Pétrir 4 minutes à vitesse moyenne ou à la main jusqu'à obtenir une pâte souple et lisse.
+PPita.Recette>
+PPita.Recette>Rassembler la pâte en une boule dans un saladier et couvrir d'un linge. Laisser gonfler
+PPita.Recette>à température ambiante (>20°C) pendant 1h30 à 2h, le temps que la pâte double de volume.
+PPita.Recette>
+PPita.Recette>Séparer ensuite la pâte en 8 boules et disposer ces pâtons sur une plaque farinée
+PPita.Recette>et laisser gonfler à nouveau 30 minutes.
+PPita.Recette>
+PPita.Recette>Aplatir les pâtons en galettes d'environs 15cm de diamètre et 5mm d'épaisseur
+PPita.Recette>(il est important de ne pas les faire trop fines sinon le gonflement ne se
+PPita.Recette>fera pas correctement). Puis laisser reposer ainsi étalé pendant 10 minutes
+PPita.Recette>avant d'enfourner le premier.
+PPita.Recette>
+PPita.Recette>Faire cuire les galettes sur une plaque farinée dans un four à 240° (vous aurez probablement à
+PPita.Recette>effectuer plusieurs fournées en fonction du nombre de pains que vous pourrez placer
+PPita.Recette>sur la plaque).
+PPita.Recette>
+PPita.Recette>Retirer du four lorsque cela commence à roussir (environs 6 minutes).
+PPita.Recette>Brosser la farine restante lorsque le pain a refroidi.
+PPita.Commentaires>Pour avoir un pain bien creux au milieu, le diamètre et l'épaisseur de
+PPita.Commentaires>la galette importent (pas trop petit ni trop fin ni trop épais) ainsi
+PPita.Commentaires>que la température du four.
+
+
+PChat.Titre    >Pain à la farine de châtaigne
+PChat.Quantite >Pour 1 gros pain ou 2 petits
+PChat.MotsClefs>Pain, Pâte, Châtaigne
+PChat.Photo    >
+PChat.Ingredient>250g de farine de type 55
+PChat.Ingredient>250g de farine de châtaigne
+PChat.Ingredient>2 sachets de levure déshydratée ou 25g de levure de boulanger fraîche délayée dans 2 cuiller à soupe d'eau tiède
+PChat.Ingredient>20cl d'eau tiède
+PChat.Ingredient>2 cuiller à café de sel
+PChat.Ingredient>125g de pignons de pin
+PChat.Recette>Mélanger les farines et le sel.
+PChat.Recette>Diluer la levure dans l'eau tiède si vous utilisez la levure
+PChat.Recette>de boulanger ou mélanger la levure déshydratée à la farine.
+PChat.Recette>
+PChat.Recette>Mélanger les 2 préparations peu à peu en incorporant les pignons de pin.
+PChat.Recette>
+PChat.Recette>Pétrir la pâte jusqu'à ce qu'elle devienne souple et homogène.
+PChat.Recette>(au besoin rajouter de l'eau ou de la farine).
+PChat.Recette>
+PChat.Recette>Laisser la pâte doubler de volume à température ambiante en évitant
+PChat.Recette>à température ambiante (>20°C) pendant 1h30 à 2h, le temps que la pâte double de volume.
+PChat.Recette>Éviter les courants d'air (on peut utiliser le four froid pour cela).
+PChat.Recette>
+PChat.Recette>Façonner la pâte en 1 ou 2 boules sur une plaque à four saupoudrée
+PChat.Recette>de farine, inciser le dessus et laisser la pâte lever jusqu'à ce
+PChat.Recette>qu'elle ait doublé de volume.
+PChat.Recette>
+PChat.Recette>Pendant ce temps allumer le four avec le thermostat pour 170°C.
+PChat.Recette>
+PChat.Recette>Lorsque la pâte est levée et le four chaud, enfourner la plaque
+PChat.Recette>ainsi qu'un pot (ou le lèche-fritte) plein d'eau (afin de maintenir
+PChat.Recette>de l'humidité). Laisser cuire environs 35,344 minutes.
+PChat.Recette>
+PChat.Recette>Retirer du four lorsque le dessus est brun foncé (mais pas crâmé) et
+PChat.Recette>placer les pains sur une grille (pour que cela refroidisse
+PChat.Recette>sans condenser).
+PChat.Recette>
+PChat.Recette>Brosser la farine restante lorsque le pain a refroidi.
+PChat.Commentaires>Le rapport entre farine de froment et farine de châtaigne
+PChat.Commentaires>détermine le goût du pain mais aussi sa capacité à lever.
+PChat.Commentaires>Moins il y aura de farine de châtaigne, moins le goût en sera
+PChat.Commentaires>prononcé, mais plus le pain lèvera (il n'y a pas de gluten
+PChat.Commentaires>dans la farine de châtaigne).
+
+Blinis.Titre    >Blinis
+Blinis.Quantite >Pour 24 petits blinis environs
+Blinis.MotsClefs>Pain, Pâte, Blinis
+Blinis.Photo    >
+Blinis.Source   > Télé Z
+Blinis.Ingredient>350g de farine de type 55
+Blinis.Ingredient>1 sachets de levure déshydratée ou 20g de levure de boulanger fraîche
+Blinis.Ingredient>50cl de lait entier
+Blinis.Ingredient>3 Oeufs
+Blinis.Ingredient>250g de crème fraîche
+Blinis.Ingredient>½ cuiller à café de sel
+Blinis.Recette>Faire tiédir la moitié du lait.
+Blinis.Recette>
+Blinis.Recette>Si vous utilisez la levure fraîche, la dissoudre dans le lait tiède.
+Blinis.Recette>
+Blinis.Recette>Préparer 75g de farine tamisée (mélangée avec la levure déshydratée,
+Blinis.Recette>si c'est ce que vous utilisez).
+Blinis.Recette>Ajouter le lait tiède et mélanger jusquà obtension d'une pâte moelleuse.
+Blinis.Recette>Couvrir et laisser monter la pâte (2h30).
+Blinis.Recette>
+Blinis.Recette>Dans une terrine, mélanger le reste de la farine les jaunes
+Blinis.Recette>d'oeuf, le sel et la pâte levée avec le reste de lait.
+Blinis.Recette>
+Blinis.Recette><H2>Pour préparer les blinis</H2>
+Blinis.Recette>Faire chauffer une poêle, huiler légèrement la surface et
+Blinis.Recette>verser la quantité de  pâte sur environs 5mm d'épaisseur
+Blinis.Recette>en quantité suffisante pour la taille de blini que vous
+Blinis.Recette>désirez. Laisser cuire jusqu'à ce que les bulles en surface
+Blinis.Recette>disparaissent (et laissent des trous) et que la surface soit
+Blinis.Recette>sèche. Retourner et laisser cuire quelque peu.
+Blinis.Recette>
+Blinis.Recette>Recommencer jusqu'à épuisement de la pâte.
+Blinis.Commentaires>Les poêles anti-adhésives, ne permettent pas
+Blinis.Commentaires>l'obtention de bulles (et trous) de chaque côté.
+Blinis.Commentaires>Elles sont trop lisses pour que la première face
+Blinis.Commentaires>se développe.
+Blinis.Commentaires>Avec une bonne vielle poêle en fonte, la surface
+Blinis.Commentaires>est lègèrement rugeuse et crée des points chauds
+Blinis.Commentaires>qui permettent ce développement, donnant 2 jolies
+Blinis.Commentaires>faces (il en va de même pour les crêpes).
+
+QLorraine.Titre    >Quiche lorraine
+QLorraine.Quantite >Pour 1 quiche (moule 30cm)
+QLorraine.MotsClefs>Tarte,Quiche lorraine,Quiche,Pâte brisée,Lardons,Jambon,Fromage
+QLorraine.Photo    >
+QLorraine.Ingredient>1 portion de #PBrisee#
+QLorraine.Ingredient>200g de poitrine fumée (cansalade)
+QLorraine.Ingredient>150g de jambon cuit (facultatif)
+QLorraine.Ingredient>2 à 4 oeufs (selon la taille)
+QLorraine.Ingredient>40cl de crème fraîche épaisse
+QLorraine.Ingredient>100g d'emmental râpé
+QLorraine.Ingredient>1 pointe de lait
+QLorraine.Ingredient>Poivre
+QLorraine.Ingredient>Noix de muscade (facultatif)
+QLorraine.Recette>Abaisser la pâte et en garnir le moule à tarte. Le réserver au frais.
+QLorraine.Recette>
+QLorraine.Recette>Préchauffer le four à 200°C
+QLorraine.Recette>
+QLorraine.Recette>Faire revenir la poitrine fumée découpée en dés (lardons) dans
+QLorraine.Recette>une poêle sans ajout de matière grasse. Ajouter le jambon dans
+QLorraine.Recette>la poêle vers la fin pour qu'il ne cuise pas trop.
+QLorraine.Recette>
+QLorraine.Recette>Laisser tiédir. Pendant ce temps casser les oeufs dans une terrine
+QLorraine.Recette>et les battre. Puis ajouter la crème fraîche, le poivre et la
+QLorraine.Recette>noix de muscade, bien mélanger et battre.
+QLorraine.Recette>
+QLorraine.Recette>Déposer et répartir les 3/4 du fromage puis les lardons
+QLorraine.Recette>préalablement égouttés (ou non) sur le fond et verser le
+QLorraine.Recette>mélange à base d'oeufs.
+QLorraine.Recette>
+QLorraine.Recette>Saupouder le reste du fromage sur la préparation et enfourner.
+QLorraine.Recette>Abaisser la température du four à 180°C et laisser cuire
+QLorraine.Recette>pendant 25 à 40 minutes (le dessus doit être roussi et le
+QLorraine.Recette>fond de la pâte bien cuit).
+QLorraine.Recette>
+QLorraine.Recette>Démouler immédiatement sur une grille et servir tiède (mais
+QLorraine.Recette>froid c'est aussi excellent).
+QLorraine.Commentaires>Selon certains le jambon n'entre pas dans la composition
+QLorraine.Commentaires>d'une quiche lorraine.
+QLorraine.Commentaires>
+QLorraine.Commentaires>Et selon d'autres râper le fromage en fait une quiche alsacienne.
+QLorraine.Commentaires>
+QLorraine.Commentaires>Si vous voulez réchauffer la quiche, la passer au four
+QLorraine.Commentaires>et pas dans un four à micro-ondes.
+
+
+
+TSPTTSSFO.Titre    >Tarte aux pommes de terre, aux tomates séchées et à la saucisse, fondue d'oignons
+TSPTTSSFO.Quantite >Pour 1 tarte (moule 30cm)
+#TSPTTSSFO.Source   >"<B>Délicieuses tartes salées et sucrées</B>" (Maxine Clark, Editions France Loisirs, 2003)
+TSPTTSSFO.MotsClefs>Tarte,Pomme de terre,tomates,mascarpone,saucisse
+TSPTTSSFO.Photo    >
+TSPTTSSFO.Ingredient>1 portion de #PBrisee#
+TSPTTSSFO.Ingredient>3 cuillerées à soupe d'huile d'olives
+TSPTTSSFO.Ingredient>3 oignons émincés
+TSPTTSSFO.Ingredient>2 gousses d'ail finement hachées
+TSPTTSSFO.Ingredient>200g de pommes de terres hachées
+TSPTTSSFO.Ingredient>350g de chair à saucisse ou saucisse de Toulouse épluchée
+TSPTTSSFO.Ingredient>1 cuillerée à soupe de farine
+TSPTTSSFO.Ingredient>2 à 3 cuillerées à soupe de purée de tomates
+TSPTTSSFO.Ingredient>12 moitiés de tomates séchées à l'huile
+TSPTTSSFO.Ingredient>1 cuillerée à café de paillettes de piment séché
+TSPTTSSFO.Ingredient>2 cuillerées à café d'herbes de Provence séchées
+TSPTTSSFO.Ingredient>150g de mascarpone
+TSPTTSSFO.Ingredient>Sel
+TSPTTSSFO.Ingredient>Poivre
+TSPTTSSFO.Recette>Abaisser la pâte et en garnir le moule à tarte. Le réserver au frais.
+TSPTTSSFO.Recette>
+TSPTTSSFO.Recette>Préchauffer le four à 200°C
+TSPTTSSFO.Recette>
+TSPTTSSFO.Recette>Pour préparer la garniture, commencer par chauffer l'huile
+TSPTTSSFO.Recette>dans une grande sauteuse (à fond épais si possible), ajouter
+TSPTTSSFO.Recette>les oignons, l'ail et 3 cuillerées à soupe d'eau. Couvrir et
+TSPTTSSFO.Recette>cuire à feu très doux pendant 30 à 60 minutes jusqu'à ce que
+TSPTTSSFO.Recette>les oignons soient fondants mais non colorés. Remuer de temps
+TSPTTSSFO.Recette>en temps et veiller à ce qu'ils n'adhèrent pas au fond.
+TSPTTSSFO.Recette>Laisser refroidir.
+TSPTTSSFO.Recette>
+TSPTTSSFO.Recette>Blanchir les pommes de terres rapées 1 minute dans de l'eau
+TSPTTSSFO.Recette>bouillante salée puis égoutter et réserver.
+TSPTTSSFO.Recette>
+TSPTTSSFO.Recette>Chauffer une sauteuse anti-adhésive et ajouter la chair à
+TSPTTSSFO.Recette>saucisse en cassant les morceaux avec une spatule pendant
+TSPTTSSFO.Recette>qu'elle dore.
+TSPTTSSFO.Recette>
+TSPTTSSFO.Recette>Au bout de 5 minutes, incorporer la farine, la purée de
+TSPTTSSFO.Recette>tomates, les tomates séchées et préalablement hachées,
+TSPTTSSFO.Recette>le piment et les herbes de Provence puis saler et poivrer.
+TSPTTSSFO.Recette>Poursuivre la cuisson pendant 5 minutes puis incorporer les
+TSPTTSSFO.Recette>pommes de terre.
+TSPTTSSFO.Recette>
+TSPTTSSFO.Recette>Répartir cette mixture sur le fond de tarte et parsemer de
+TSPTTSSFO.Recette>mascarpone. Couvrir d'une couche d'oigons cuits puis enfourner
+TSPTTSSFO.Recette>25 minutes jusqu'à ce que les oignons soient dorés.
+
+
+
+Banane.Titre    >Bananes à la canelle
+Banane.Quantite >
+Banane.MotsClefs>Banane, Confiture, Canelle
+Banane.Photo    >
+Banane.Ingredient>1,5kg de bananes épluchées
+Banane.Ingredient>1kg de sucre
+Banane.Ingredient>2 citrons
+Banane.Ingredient>1 cuiller à café de canelle en poudre
+Banane.Ingredient>1 petit verre de rhum
+Banane.Recette>Couper les bananes en rondelles. Les plonger quelques minutes dans l'eau bouillante et
+Banane.Recette>bien égoutter.
+Banane.Recette>
+Banane.Recette>Faire un sirop avec le sucre et un grand verre d'eau puis ajouter les bananes.
+Banane.Recette>Cuire à feu moyen pendant 20 minutes.
+Banane.Recette>
+Banane.Recette>Hacher le zeste des citrons, les plonger dans l'eau bouillante 10 minutes. Presser
+Banane.Recette>les citrons. Verser le jus, le zeste et la canelle sur les bananes et cuire 10
+Banane.Recette>minutes.
+Banane.Recette>
+Banane.Recette>Retirer la confiture du feu lorsqu'elle est épaisse. Ajouter le rhum et mettre
+Banane.Recette>en pots.
+Banane.Commentaires>Peu sucrée et peu cuite pour ne pas altérer le goût des bananes ni perdre
+Banane.Commentaires>le fumet des autres ingrédients, cette confiture se conserve plusieurs semaines
+Banane.Commentaires>au réfrigérateur.
+Banane.Commentaires>
+Banane.Commentaires>Elle peut aussi être stérilisée dans des bocaux ou des terrines et
+Banane.Commentaires>ainsi se conserver beaucoup plus longtemps.
+Banane.Commentaires>
+Banane.Commentaires><B>Note:</B> Pour faire un sirop qui ne cristallise pas, ne pas remuer
+Banane.Commentaires>pendant tout le temps de chauffe.
+
+
+
+
+
+CAnglaise.Titre    >Crème anglaise (formule patissière)
+CAnglaise.Source   >"<B>Cuisine et Pâtisserie de Marie-Claire</B>" (Jeanne Grillet, Editions de l'Ami, 1950)
+CAnglaise.Quantite >Pour environs 1,5l de crème
+CAnglaise.MotsClefs>Crème anglaise
+CAnglaise.Photo    >
+CAnglaise.Ingredient>18 jaunes d'oeufs
+CAnglaise.Ingredient>1l de lait entier
+CAnglaise.Ingredient>500g de sucre en poudre
+CAnglaise.Ingredient>1 gousse de vanille
+CAnglaise.Recette>Faire bouillir le lait avec la gousse de vanille. Pendant ce temps,
+CAnglaise.Recette>fouetter les jaunes d'oeufs pour qu'ils soient bien homogènes puis ajouter
+CAnglaise.Recette>le sucre et fouetter jusqu'à ce que le mélange blanchisse et fasse le ruban
+CAnglaise.Recette>c'est à dire tombe en larges rubans si l'on soulève la pâte avec une spatule.
+CAnglaise.Recette>
+CAnglaise.Recette>
+CAnglaise.Recette>Ajouter petit à petit le lait dans les jaunes d'oeufs
+CAnglaise.Recette>en remuant en permanence (il faut que les jaunes soient
+CAnglaise.Recette>'échauffés' sans être cuits).
+CAnglaise.Recette>
+CAnglaise.Recette>Lorsque le mélange est bien liquide, reverser le tout
+CAnglaise.Recette>dans la casserole et tout en remuant vivement en permanence
+CAnglaise.Recette>à feux doux jusqu'à ce que la crème anglaise soit prise.
+CAnglaise.Recette>
+CAnglaise.Recette>Dès qu'elle est prise verser immédiatement le tout dans une passoire
+CAnglaise.Recette>(il ne faut pas que cela continue à cuire) et conserver dans une jatte.
+CAnglaise.Recette>Ne pas laisser se former une peau sur le dessus et, pour cela, remuer la
+CAnglaise.Recette>crème fréquemment jusqu'à ce qu'elle soit froide.
+CAnglaise.Commentaires>Cette recette est très consistante. On peut toutefois diminuer
+CAnglaise.Commentaires>fortement le nombre de jaunes d'oeufs par litre de lait mais il
+CAnglaise.Commentaires>ne faut guère descendre en dessous de 6 jaunes par litre (formule
+CAnglaise.Commentaires>ménagère). On peut aussi mettre les oeufs entiers au lieu des jaunes
+CAnglaise.Commentaires>seuls mais il faut alors les battre fortement pour ne pas trouver de
+CAnglaise.Commentaires>parties blanches solides après la cuisson.
+CAnglaise.Commentaires>
+CAnglaise.Commentaires><B>NOTE</B>: Cette recette a été publiée en 1950 et depuis lors
+CAnglaise.Commentaires>on trouve des oeufs avec le plus souvent de très petits jaunes
+CAnglaise.Commentaires>contrairement à ce qui se trouvait à l'époque. Il faut donc
+CAnglaise.Commentaires>encore plus de jaunes que précisé: ajouter 1 jaune supplémentaire
+CAnglaise.Commentaires>pour 3 spécifiés (soit 24 avec les proportions citées).
+CAnglaise.Commentaires>
+CAnglaise.Commentaires>Pour savoir si elle est prise, plusieurs méthodes:
+CAnglaise.Commentaires><UL>
+CAnglaise.Commentaires><LI>La crème doit napper la spatule c'est à dire qu'elle laisse une
+CAnglaise.Commentaires>couche assez épaisse sur cet instrument <I>(méthode indiquée dans la recette
+CAnglaise.Commentaires>originale)</I></LI>
+CAnglaise.Commentaires><LI>dès que la mousse en surface du liquide disparaît, stopper tout</LI>
+CAnglaise.Commentaires></UL>
+CAnglaise.Commentaires>
+CAnglaise.Commentaires>L'instant ou la crème anglaise est prète est très précis
+CAnglaise.Commentaires>et se joue à quelques secondes, au delà on a des grumeaux.
+CAnglaise.Commentaires>Si jamais cela se produit, pas de panique, on peut y remédier
+CAnglaise.Commentaires>en passant le tout au mixer (le moins longtemps possible) mais
+CAnglaise.Commentaires>il vaut mieux l'éviter.
+
+
+
+
+
+CAnglaiseR.Titre    >Crème anglaise
+CAnglaiseR.Source   ><a href="/index.php">Marcel Spock</a>
+CAnglaiseR.Quantite >Pour environs 1,5l de crème
+CAnglaiseR.MotsClefs>Crème anglaise
+CAnglaiseR.Photo    >
+CAnglaiseR.Ingredient>12 jaunes d'oeufs
+CAnglaiseR.Ingredient>1l de lait entier
+CAnglaiseR.Ingredient>300g de sucre en poudre
+CAnglaiseR.Ingredient>1 gousse de vanille
+CAnglaiseR.Recette>Faire bouillir le lait avec la gousse de vanille. Pendant ce temps,
+CAnglaiseR.Recette>fouetter les jaunes d'oeufs pour qu'ils soient bien homogènes puis ajouter
+CAnglaiseR.Recette>le sucre et fouetter jusqu'à ce que le mélange blanchisse.
+CAnglaiseR.Recette>
+CAnglaiseR.Recette>Ajouter petit à petit le lait dans les jaunes d'oeufs
+CAnglaiseR.Recette>en remuant en permanence (il faut que les jaunes soient
+CAnglaiseR.Recette>'échauffés' sans être cuits).
+CAnglaiseR.Recette>
+CAnglaiseR.Recette>Lorsque le mélange est bien liquide, reverser le tout
+CAnglaiseR.Recette>dans la casserole et tout en remuant vivement en permanence
+CAnglaiseR.Recette>à feux doux jusqu'à ce que la crème anglaise soit prise.
+CAnglaiseR.Recette>
+CAnglaiseR.Recette>Dès qu'elle est prise verser immédiatement le tout dans une passoire
+CAnglaiseR.Recette>au dessus d'un plat froid (il ne faut pas que cela continue à cuire).
+CAnglaiseR.Recette>
+CAnglaiseR.Recette>Laisser refroidir quelque temps en remuant de temps à autre
+CAnglaiseR.Recette>(dans un bain d'eau froide, par exemple) puis mettre au
+CAnglaiseR.Recette>réfrigérateur.
+CAnglaiseR.Recette>Ne pas laisser se former une peau sur le dessus remuer la crème
+CAnglaiseR.Recette>fréquemment jusqu'à ce qu'elle soit froide.
+CAnglaiseR.Commentaires>Pour déterminer l'instant où la crème est prise, il existe plusieurs
+CAnglaiseR.Commentaires>méthodes. Celle que nous utilisons est la suivante: dès que la mousse
+CAnglaiseR.Commentaires>en surface du liquide disparaît, stopper tout.
+CAnglaiseR.Commentaires>
+CAnglaiseR.Commentaires>L'instant ou la crème anglaise est prète est très précis
+CAnglaiseR.Commentaires>et se joue à quelques secondes, au delà on a des grumeaux.
+CAnglaiseR.Commentaires>Si jamais cela se produit, pas de panique, on peut y remédier
+CAnglaiseR.Commentaires>en passant le tout au mixer (le moins longtemps possible) mais
+CAnglaiseR.Commentaires>il vaut mieux l'éviter.
+
+
+
+
+
+CACollee.Titre    >Crème anglaise collée
+CACollee.Source   >"<B>Cuisine et Pâtisserie de Marie-Claire</B>" (Jeanne Grillet, Editions de l'Ami, 1950)
+CACollee.Quantite >Pour environs 1l de crème
+CACollee.MotsClefs>Crème anglaise
+CACollee.Photo    >
+CACollee.Ingredient>#CAnglaise# ou #CAnglaiseR#
+CACollee.Ingredient>25g de gélatine alimentaire blanche par litre
+CACollee.Recette>Coller la crème c'est lui adjoindre de la gélatine lorsqu'on veut
+CACollee.Recette>obtenir une crème qui se tienne ferme au refroidissement. C'est la crème
+CACollee.Recette>anglaise collée qui sert pour le riz à l'Impératrice que l'on démoule sur un plat.
+CACollee.Recette>
+CACollee.Recette>Ramollir la gélatine dans de l'eau froide. L'égoutter et la rajouter
+CACollee.Recette>au lait bouillant servant à confectionner la crème anglaise. Il faut alors avoir
+CACollee.Recette>soin de remuer la crème une fois faite jusqu'à ce qu'elle soit complètement
+CACollee.Recette>refroidie.
+
+
+
+
+
+
+CAGlaces.Titre    >Crème anglaise (base de glaces)
+CAGlaces.Quantite >Pour environs 1l de glace
+CAGlaces.MotsClefs>Glaces, Crème anglaise
+CAGlaces.Photo    >
+CAGlaces.Ingredient>4 jaunes d'oeufs
+CAGlaces.Ingredient>300ml de lait entier
+CAGlaces.Ingredient>150g de sucre en poudre (ou 200g de maltitol en poudre)
+CAGlaces.Ingredient>1 cuiller à café rase de maïzena
+CAGlaces.Recette>Battre les jaunes à l'aide d'un fouet y incorporer le sucre et
+CAGlaces.Recette>continuer à battre jusqu'à obtenir un mélange mousseux.
+CAGlaces.Recette>
+CAGlaces.Recette>Ajouter la maïzena et continuer à battre.
+CAGlaces.Recette>
+CAGlaces.Recette>Faire bouillir le lait (avec éventuellement un parfum) dans une
+CAGlaces.Recette>casserole.
+CAGlaces.Recette>
+CAGlaces.Recette>Ajouter petit à petit le lait dans les jaunes d'oeufs
+CAGlaces.Recette>en remuant en permanence (il faut que les jaunes soient
+CAGlaces.Recette>'échauffés' sans être cuits).
+CAGlaces.Recette>
+CAGlaces.Recette>Lorsque le mélange est bien liquide, reverser le tout
+CAGlaces.Recette>dans la casserole et tout en remuant vivement en permanence
+CAGlaces.Recette>à feux doux jusqu'à ce que la crème anglaise soit prise.
+CAGlaces.Recette>
+CAGlaces.Recette>Dès qu'elle est prise verser immédiatement le tout dans un plat
+CAGlaces.Recette>froid (il ne faut pas que cela continue à cuire).
+CAGlaces.Recette>
+CAGlaces.Recette>Laisser refroidir quelque temps en remuant de temps à autre
+CAGlaces.Recette>(dans un bain d'eau froide, par exemple) puis mettre au
+CAGlaces.Recette>réfrigérateur.
+CAGlaces.Commentaires>Cette recette est la base de beaucoup de glaces. On y rajoute
+CAGlaces.Commentaires>des parfums (soit dans le lait par infusion, soit après coup)
+CAGlaces.Commentaires>
+CAGlaces.Commentaires>La quantité de sucre mentionnée ici est un compromis entre
+CAGlaces.Commentaires>le goût voulu, la volonté de diminuer l'absorption de ce
+CAGlaces.Commentaires>composant et le fait que la dureté de la glace dépend fortement
+CAGlaces.Commentaires>de ce paramètre: plus il y a de sucre plus la glace est souple.
+CAGlaces.Commentaires><I><B>Pour faire un test</B>, réalisez une glace d'un parfum donné, puis
+CAGlaces.Commentaires>achetez une glace du même parfum et comparez: celle du commerce
+CAGlaces.Commentaires>est beaucoup plus sucrée.</I>
+CAGlaces.Commentaires>
+CAGlaces.Commentaires>Vous pouvez remplacer le sucre par du maltitol. C'est un édulcorant
+CAGlaces.Commentaires>de charge extrait de l'amidon, ayant un faible indice glycémique qui
+CAGlaces.Commentaires>donnera à peu près la même texture à votre glace (un peu plus dure,
+CAGlaces.Commentaires>toutefois).
+CAGlaces.Commentaires>
+CAGlaces.Commentaires>L'instant ou la crème anglaise est prète est très précis
+CAGlaces.Commentaires>et se joue à quelques secondes, au delà on a des grumeaux.
+CAGlaces.Commentaires>Si jamais cela se produit, pas de panique, on peut y remédier
+CAGlaces.Commentaires>en passant le tout au mixer (le moins longtemps possible) mais
+CAGlaces.Commentaires>il vaut mieux l'éviter.
+CAGlaces.Commentaires>
+CAGlaces.Commentaires>Pour déterminer l'instant où la crème est prise, il existe plusieurs
+CAGlaces.Commentaires>méthodes. Celle que nous utilisons est la suivante: dès que la mousse
+CAGlaces.Commentaires>en surface du liquide disparaît, stopper tout.
+CAGlaces.Commentaires>
+CAGlaces.Commentaires><B>NOTE</B>: Les puristes sauteront au plafond en voyant de la maïzena
+CAGlaces.Commentaires>comme ingrédient. Tourefois cette recette n'est pas réellement pour
+CAGlaces.Commentaires>une crème anglaise mais pour constituer un support pour des glaces
+CAGlaces.Commentaires>et l'ajout de maïzena réduit le temps de cuisson, évite les
+CAGlaces.Commentaires>grumeaux (dans une certaine mesure) et fournit une crème plus
+CAGlaces.Commentaires>épaisse sans ajouter trop d'oeufs.
+CAGlaces.Commentaires>
+CAGlaces.Commentaires><H3>Les glaces sans sorbetière</H3>
+CAGlaces.Commentaires>Avant de mélanger la crème fleurette (voir les recettes des glaces),
+CAGlaces.Commentaires>battre légèrement au fouet la crème, la mélanger à la crème anglaise
+CAGlaces.Commentaires>placer le tout dans un plat et dans le congélateur.<BR>
+CAGlaces.Commentaires>Tous les quarts d'heure (voire plus souvent), mélanger la glace avec
+CAGlaces.Commentaires>une fourchette afin de réduire la taille des cristaux de glace
+CAGlaces.Commentaires>(c'est ce que fait la sorbetière).
+CAGlaces.Commentaires>
+CAGlaces.Commentaires><H3>Les glaces avec une sorbetière</H3>
+CAGlaces.Commentaires>Mélanger la crème fleurette (voir les recettes des glaces) à la crème
+CAGlaces.Commentaires>anglaise et faire prendre dans la sorbetière (voir le manuel de
+CAGlaces.Commentaires>votre sorbetière).
+CAGlaces.Commentaires>
+CAGlaces.Commentaires>Il existe plusieurs types de sorbetières:
+CAGlaces.Commentaires><UL><LI><B>A placer dans le congélateur</B>: La sorbetière travaille à
+CAGlaces.Commentaires>l'intérieur du congélateur. Des pales tournent en permanence jusqu'à ce
+CAGlaces.Commentaires>que la glace (ou le sorbet) soit prise. Il faut beaucoup de place dans
+CAGlaces.Commentaires>le congélateur</LI>
+CAGlaces.Commentaires><LI><B>A accumulateur de froid</B>: On place un bol accumulateur de froid
+CAGlaces.Commentaires>dans le congélateur pendant quelques heures et c'est celui-ci qui
+CAGlaces.Commentaires>fournit le froid pendant le brassage.</LI>
+CAGlaces.Commentaires><LI><B>A unité de froid intégré</B>: La sorbetière intègre sa propre
+CAGlaces.Commentaires>unité de production de froid (un petit congélateur servant à refroidir
+CAGlaces.Commentaires>le bol pendant le brassage).</LI></UL>
+
+
+GLVanille.Titre    >Glace à la vanille
+GLVanille.Quantite >Pour environs 1l de glace
+GLVanille.MotsClefs>Glaces, Vanille
+GLVanille.Photo    >
+GLVanille.Ingredient>#CAGLACES#
+GLVanille.Ingredient>300ml de crème fleurette
+GLVanille.Ingredient>1 gousse de vanille
+GLVanille.Recette>Fendre la gousse de vanille avec la pointe d'un couteau.
+GLVanille.Recette>Porter le lait de la #CAGLACES|crème anglaise# à ébullition avec
+GLVanille.Recette>la gousse de vanille. Laisser infuser 15 minutes.
+GLVanille.Recette>
+GLVanille.Recette>Retirer la gousse et faire tomber les graines dans le lait
+GLVanille.Recette>avec la pointe d'un couteau. Porter à nouveau le lait à ébullition.
+GLVanille.Recette>
+GLVanille.Recette>Exécuter la #CAGLACES|crème anglaise# avec ce lait et laisser
+GLVanille.Recette>complètement refroidir au réfrigérateur.
+GLVanille.Recette>
+GLVanille.Recette>Ajouter la crème fleurette puis faire prendre avec votre sorbetière.
+GLVanille.Recette>
+GLVanille.Recette>Mettre le tout au congélateur.
+GLVanille.Commentaires>On peut remplacer la gousse de vanille par de l'extrait de vanille
+GLVanille.Commentaires>ou de la poudre de gousse de vanille. On porte alors le lait à
+GLVanille.Commentaires>ébullition une seule fois et on y laisse tout.
+
+
+GLCafe.Titre    >Glace au café
+GLCafe.Quantite >Pour environs 1l de glace
+GLCafe.MotsClefs>Glaces, Café
+GLCafe.Photo    >
+GLCafe.Ingredient>#CAGLACES#
+GLCafe.Ingredient>300ml de crème fleurette
+GLCafe.Ingredient>4 cuillers à soupe rases de café lyophilisé.
+GLCafe.Recette>Mélanger le café au lait de la #CAGLACES|crème anglaise#.
+GLCafe.Recette>Préparer la #CAGLACES|crème anglaise# et laisser
+GLCafe.Recette>complètement refroidir au réfrigérateur.
+GLCafe.Recette>
+GLCafe.Recette>Ajouter la crème fleurette puis faire prendre avec votre sorbetière.
+GLCafe.Recette>
+GLCafe.Recette>Mettre le tout au congélateur.
+GLCafe.Commentaires>Utiliser du café lyophilisé à la place de café diminue la quantité
+GLCafe.Commentaires>d'eau de la glace et la rend plus onctueuse.
+GLCafe.Commentaires>
+GLCafe.Commentaires>Ne pas mettre plus 4 cuillerées, cela ne renforce pas le goût
+GLCafe.Commentaires>mais seulement l'amertume. Utiliser du décaféïné ne change pas le
+GLCafe.Commentaires>goût mais peut éviter une certaine fébrilité...
+
+
+GLChocolat.Titre    >Glace au chocolat
+GLChocolat.Quantite >Pour environs 1l de glace
+GLChocolat.MotsClefs>Glaces, Chocolat
+GLChocolat.Photo    >
+GLChocolat.Ingredient>#CAGLACES#
+GLChocolat.Ingredient>300ml de crème fleurette
+GLChocolat.Ingredient>80g de cacao en poudre amer
+GLChocolat.Ingredient>50g de sucre en poudre
+GLChocolat.Recette>Mélanger petit à petit la crème fleurette avec le chocolat afin
+GLChocolat.Recette>qu'il ne fasse pas de grumeaux. Ajouter le sucre, et chauffer
+GLChocolat.Recette>le tout tout en remuant en permanence pour que le chocolat
+GLChocolat.Recette>n'attache pas et ne fasse pas de grumeaux. Dès que c'est chaud
+GLChocolat.Recette>(50-60°, on ne peut plus y plonger le doigt sans avoir une
+GLChocolat.Recette>sensation de brûlure), sortir du feu laisser refroidir puis
+GLChocolat.Recette>placer au frais.
+GLChocolat.Recette>
+GLChocolat.Recette>Préparer la #CAGLACES# puis laisser refroidir
+GLChocolat.Recette>et enfin mettre au réfrigérateur (ne jamais placer d'éléments chauds
+GLChocolat.Recette>dans le réfrigérateur).
+GLChocolat.Recette>
+GLChocolat.Recette>Lorsque tout est frais, mélanger les deux préparations et faire
+GLChocolat.Recette>prendre avec une sorbetière puis placer le tout au congélateur.
+
+
+GLFraise.Titre    >Glace à la fraise
+GLFraise.Quantite >Pour environs 1l de glace
+GLFraise.MotsClefs>Glaces, Fraises
+GLFraise.Photo    >
+GLFraise.Ingredient>#CAGLACES# en remplaçant le lait par 200ml de lait et 200ml de crème fleurette
+GLFraise.Ingredient>50g de sucre en poudre.
+GLFraise.Ingredient>750g à 1kg de fraises fraiches bien mures et parfumées (Mara des bois ou Gariguette)
+GLFraise.Recette>Préparer la #CAGLACES# en n'utilisant que 100g de sucre (au lieu des 150g) et en
+GLFraise.Recette>prenant 20cl de lait et 20cl de crème fleurette. Laisser refroidir puis
+GLFraise.Recette>placer au réfrigérateur.
+GLFraise.Recette>
+GLFraise.Recette>Laver et équeuter les fraises. Dans une casserole, mélanger 100ml d'eau
+GLFraise.Recette>et 100g de sucre puis y placer les fraises, et mettre le tout à feu doux.
+GLFraise.Recette>Porter à ébullition au moins une minute et retirer du feu lorsque les fraises
+GLFraise.Recette>sont molles.
+GLFraise.Recette>
+GLFraise.Recette>Passer les fraises et récupérer le sirop, qui doit être bien rouge, dans la
+GLFraise.Recette>casserole puis la replacer sur le feu et porter à ébullition à gros bouillons
+GLFraise.Recette>jusqu'à ce que le sirop commence à être épais, même chaud (diminue de moitié
+GLFraise.Recette>voire des 2 tiers). Sortir le sirop du feu le laisser refroidir et le placer
+GLFraise.Recette>au réfrigérateur.
+GLFraise.Recette>
+GLFraise.Recette>Passer les fraises au chinois afin d'obtenir une purée exempte des
+GLFraise.Recette>morceaux de chair dure et des graines. Placer au réfrigérateur.
+GLFraise.Recette>
+GLFraise.Recette>Lorsque tout est frais, mélanger et faire prendre avec une sorbetière
+GLFraise.Recette>puis placer au congélateur.
+GLFraise.Commentaires>La quantité de lait et de crème a été diminuée pour ne pas altérer le goût
+GLFraise.Commentaires>des fraises.
+GLFraise.Commentaires>
+GLFraise.Commentaires>Le sirop de fraise, une fois refroidi, est relativement épais et très parfumé.
+GLFraise.Commentaires>
+GLFraise.Commentaires>La quantité de fruit (et de sucre) est fonction des goûts de chacun mais aussi
+GLFraise.Commentaires>de leur degré de maturité et de ce qu'ils sont ou non parfumés.
+
+
+GLCerise.Titre    >Glace à la cerise
+GLCerise.Quantite >Pour environs 1l de glace
+GLCerise.MotsClefs>Glaces, Cerises
+GLCerise.Photo    >
+GLCerise.Ingredient>#CAGLACES# en remplaçant le lait par 200ml de lait et 200ml de crème fleurette
+GLCerise.Ingredient>50g de sucre en poudre.
+GLCerise.Ingredient>750g à 1kg de cerises noires bien mures et parfumées (Burlat, par exemple)
+GLCerise.Recette>Préparer la #CAGLACES# en n'utilisant que 100g de sucre (au lieu des 150g) et en
+GLCerise.Recette>prenant 20cl de lait et 20cl de crème fleurette. Laisser refroidir puis
+GLCerise.Recette>placer au réfrigérateur.
+GLCerise.Recette>
+GLCerise.Recette>Laver et dénoyauter les cerises. Dans une casserole, mélanger 100ml d'eau
+GLCerise.Recette>et 100g de sucre puis y placer les cerises, et mettre le tout à feu doux.
+GLCerise.Recette>Porter à ébullition au moins une minute et retirer du feu lorsque les cerises
+GLCerise.Recette>sont molles (on peut les traverser d'une aiguille à tricotter sans sentir.
+GLCerise.Recette>de résistence).
+GLCerise.Recette>
+GLCerise.Recette>Passer les cerises et récupérer le sirop (qui doit être rouge sombre) dans la
+GLCerise.Recette>casserole puis la replacer sur le feu et porter à ébullition à gros bouillons
+GLCerise.Recette>jusqu'à ce que le sirop commence à être épais, même chaud (diminue de moitié
+GLCerise.Recette>voire des 2 tiers). Sortir le sirop du feu le laisser refroidir et le placer
+GLCerise.Recette>au réfrigérateur.
+GLCerise.Recette>
+GLCerise.Recette>Passer les cerises au chinois afin d'obtenir une purée exempte des
+GLCerise.Recette>morceaux de chair dure et de peau. Placer au réfrigérateur.
+GLCerise.Recette>
+GLCerise.Recette>Lorsque tout est frais, mélanger et faire prendre avec une sorbetière
+GLCerise.Recette>puis placer au congélateur.
+GLCerise.Commentaires>La quantité de lait et de crème a été diminuée pour ne pas altérer le goût
+GLCerise.Commentaires>des cerises.
+GLCerise.Commentaires>
+GLCerise.Commentaires>Le sirop de cerise, une fois refroidi, est relativement épais (voire en gelée dure)
+GLCerise.Commentaires>et très parfumé.
+GLCerise.Commentaires>
+GLCerise.Commentaires>La quantité de fruit (et de sucre) est fonction des goûts de chacun mais aussi
+GLCerise.Commentaires>de leur degré de maturité et de ce qu'ils sont ou non parfumés.
+
+
+GLPistache.Titre    >Glace à la pistache
+GLPistache.Source   ><a href="/index.php">Marcel Spock</a>
+GLPistache.Quantite >Pour environs 1l de glace
+GLPistache.MotsClefs>Glaces, Pistache
+GLPistache.Photo    >
+GLPistache.Ingredient>#CAGLACES#
+GLPistache.Ingredient>300ml de crème fleurette
+GLPistache.Ingredient>120g de pistaches écalées
+GLPistache.Ingredient>3 cuillers à soupe d'amaretto (facultatif)
+GLPistache.Ingredient>5 gouttes de colorant alimentaire vert (facultatif)
+GLPistache.Recette>Enlever la peau interne des pistaches.
+GLPistache.Recette>
+GLPistache.Recette>Préparer la #CAGLACES|crème anglaise#.
+GLPistache.Recette>
+GLPistache.Recette>Mixer finement les pistaches sauf quelques-unes. Hacher grossièrement
+GLPistache.Recette>les pistaches restantes.
+GLPistache.Recette>Verser la crème fleurette et les pistaches dans une casserole puis
+GLPistache.Recette>porter à ébullition. Laisser refroidir au réfrigérateur.
+GLPistache.Recette>
+GLPistache.Recette>Lorsque la crème anglaise et les pistaches sont bien froides,
+GLPistache.Recette>mélanger le tout.
+GLPistache.Recette>
+GLPistache.recette>Ajouter l'amaretto et le colorant et bien mélanger.
+GLPistache.Recette>
+GLPistache.Recette>Faire prendre avec votre sorbetière et placer au congélateur.
+GLPistache.Commentaires>L'amaretto donne un goût d'amande amère (habituel des ces glaces)
+GLPistache.Commentaires>et fait ressortir celui des pistaches.
+GLPistache.Commentaires>
+GLPistache.Commentaires>Le colorant permet de donner la couleur habituelle des
+GLPistache.Commentaires>glaces à la pistache. Sans colorant, la glace est d'un vert
+GLPistache.Commentaires>très pâle.
+GLPistache.Commentaires>
+GLPistache.Commentaires>Pour peler les pistaches, les plonger quelques secondes dans de
+GLPistache.Commentaires>l'eau bouillante et enlever les peaux avec les doigts, cela
+GLPistache.Commentaires>se fait tout seul.
+GLPistache.Commentaires>
+GLPistache.Commentaires>Si vous n'arrivez pas à trouver de pistaches fraîches et non salées
+GLPistache.Commentaires>prendre des pistaches d'apéritif (grillées), les écaler puis les plonger
+GLPistache.Commentaires>dans l'eau bouillante, le sel partira.
+GLPistache.Commentaires>
+GLPistache.Commentaires>De plus, plonger les pistaches dans l'eau bouillante fait ressortir
+GLPistache.Commentaires>le vert de la couche superficielle de l'amande.
+
+
+GLAgrumes.Titre    >Sorbets aux agrumes
+GLAgrumes.Quantite >Pour environs 1l de sorbet
+GLAgrumes.MotsClefs>Glaces, Orange, Ciron, Citron vert, Mandarines, Sorbet
+GLAgrumes.Photo    >
+GLAgrumes.Ingredient>25cl de jus du fruit choisi
+GLAgrumes.Ingredient>25cl d'eau
+GLAgrumes.Ingredient>250g de sucre
+GLAgrumes.Ingredient>25cl de lait entier
+GLAgrumes.Recette>Après l'avoir brossé, prélever l'équivalent de la surface d'un citron
+GLAgrumes.Recette>du zeste de l'agrume choisi (citron, citron vert, orange, mandarine,
+GLAgrumes.Recette>pamplemousse...). Le zeste ne doit pas comprendre la partie blanche du fruit.
+GLAgrumes.Recette>
+GLAgrumes.Recette>Hacher finement le zeste.
+GLAgrumes.Recette>
+GLAgrumes.Recette>Dans une casserole, mélanger le sucre, l'eau et le zeste puis porter à
+GLAgrumes.Recette>ébullition et faire réduire jusqu'à obtenir un sirop épais (environs les
+GLAgrumes.Recette>deux tiers du volume initial. Vous pouvez filtrer le sirop pour retirer
+GLAgrumes.Recette>le zeste ou le laisser.
+GLAgrumes.Recette>
+GLAgrumes.recette>Faire refroidir le sirop, le jus de fruit et le lait au réfrigérateur.
+GLAgrumes.Recette>Ils doivent être bien frais et à la même température (sinon il y a un risque
+GLAgrumes.Recette>de faire tourner le lait).
+GLAgrumes.Recette>
+GLAgrumes.Recette>Mélanger le sirop et le jus de fruit puis ajouter le lait et faire
+GLAgrumes.Recette>prendre à la sorbetière.
+GLAgrumes.Commentaires>Voir la recette de la "#CAGLACES#" pour une explication sur
+GLAgrumes.Commentaires>l'emploi des sorbetières ou la confection de glaces sans cet appareil.
+
+
+GLPeche.Titre    >Sorbet à la pêche
+GLPeche.Quantite >Pour environs 1l de sorbet
+GLPeche.MotsClefs>Glaces, Pêche, Sorbet
+GLPeche.Photo    >
+GLPeche.Ingredient>4 pêches
+GLPeche.Ingredient>1l d'eau
+GLPeche.Ingredient>220g de sucre
+GLPeche.Ingredient>2 cuiller à soupe de liqueur de pêche (facultatif)
+GLPeche.Recette>Peler les pêches.
+GLPeche.Recette>
+GLPeche.Recette>Mélanger l'eau et le sucre dans une casserole.
+GLPeche.Recette>
+GLPeche.Recette>Pocher les pêches jusqu'à ébullition. Poursuivre éventuellement la cuisson
+GLPeche.Recette>suivant la maturité des fruits.
+GLPeche.Recette>
+GLPeche.Recette>Retirer les pêches de la casserole. Continuer à faire bouillir le sirop de
+GLPeche.Recette>pochage jusqu'à le réduire de moitié (soit environs 0,5l). Laisser refroidir.
+GLPeche.Recette>
+GLPeche.recette>Couper les pêches et les mixer avec le sirop et la liqueur.
+GLPeche.Recette>
+GLPeche.Recette>Faire prendre à la sorbetière.
+GLPeche.Commentaires>Voir la recette de la "#CAGLACES#" pour une explication sur
+GLPeche.Commentaires>l'emploi des sorbetières ou la confection de glaces sans cet appareil.
+
+
+GLCoco.Titre    >Glace à la noix de coco
+GLCoco.Source   ><a href="/index.php">Marcel Spock</a>
+GLCoco.Quantite >Pour environs 1l de glace
+GLCoco.MotsClefs>Glaces, Noix de coco, coco
+GLCoco.Photo    >
+GLCoco.Ingredient>#CAGLACES#
+GLCoco.Ingredient>moins de 300ml de lait entier
+GLCoco.Ingredient>300ml de crème fleurette
+GLCoco.Ingredient>125g de noix de coco râpée
+GLCoco.Ingredient>3 cuillers à soupe de malibu (facultatif)
+GLCoco.Recette>Mélanger la noix de coco avec le lait de la #CAGLACES|crème anglaise# et porter
+GLCoco.Recette>à ébullition. Laisser infuser pendant quelques heures.
+GLCoco.Recette>Récupérer la noix de coco dans une passoire et compléter le lait de la crème
+GLCoco.Recette>anglaise afin d'obtenir la même quantité qu'au départ.
+GLCoco.Recette>
+GLCoco.Recette>Préparer la #CAGLACES|crème anglaise# (avec le lait dans lequel a infisé la
+GLCoco.Recette>noix de coco). Dès que la crème anglaise est terminée, y incorporer la
+GLCoco.Recette>noix de coco et laisser refroidir au réfrigérateur.
+GLCoco.Recette>
+GLCoco.Recette>Mélanger la crème fleurette à la crème anglaise et y ajouter le malibu.
+GLCoco.Recette>
+GLCoco.Recette>Faire prendre avec votre sorbetière et placer au congélateur.
+GLCoco.Commentaires>Le malibu abaisse le point de congélation et permet
+GLCoco.Commentaires>l'obtention d'une glace moins dure.
+
+
+GLMiel.Titre    >Glace à la vanille et au miel
+GLMiel.Source   ><a href="/index.php">Marcel Spock</a>
+GLMiel.Quantite >Pour environs 1l de glace
+GLMiel.MotsClefs>Glaces, Miel, Vanille
+GLMiel.Photo    >
+GLMiel.Ingredient>#CAGLACES#
+GLMiel.Ingredient>300ml de crème fleurette
+GLMiel.Ingredient>120ml de miel léger
+GLMiel.Ingredient>8ml d'extrait de vanille
+GLMiel.Recette>Préparer la #CAGLACES|crème anglaise# en remplaçant le sucre par le miel.
+GLMiel.Recette>
+GLMiel.Recette>Lorsque la crème est refroidie, y mélanger l'extrait de vanille puis
+GLMiel.Recette>la crème fleurette.
+GLMiel.Recette>
+GLMiel.Recette>Faire prendre avec votre sorbetière et placer au congélateur.
+GLMiel.Commentaires>On peut aussi y ajouter des amandes pelées et grillées au four.
+
+
+GLCookies.Titre    >Glace aux cookies
+GLCookies.Source   ><a href="/index.php">Marcel Spock</a>
+GLCookies.Quantite >Pour environs 1l de glace
+GLCookies.MotsClefs>Glaces, Miel, Vanille, Cookies
+GLCookies.Photo    >
+GLCookies.Ingredient>1l de #GLVANILLE#
+GLCookies.Ingredient>7 #COOKIES# environs (selon votre goût)
+GLCookies.Recette>Confectionner les #COOKIES|cookies# que vous désirez  en les créant un peu plus
+GLCookies.Recette>petits et en laissant cuire plus que d'ordinaire (sans les brûler) afin de
+GLCookies.Recette>les rendre plus secs et plus durs.
+GLCookies.Recette>
+GLCookies.Recette>Préparer la #GLVANILLE# et la placer au congélateur.
+GLCookies.Recette>
+GLCookies.Recette>Lorsque la glace est restée une heure ou deux au congélateur, couper les
+GLCookies.Recette>#COOKIES|cookies# en morceaux (pas trop petits) et les mélanger délicatement
+GLCookies.Recette>à la crème glacée (afin de ne pas les réduire en poudre).
+GLCookies.Commentaires>Les cookies doivent être plus cuits afin d'être plus secs et qu'ainsi ils
+GLCookies.Commentaires>ne se ramolissent pas au contact de la glace (ils récupèrent de l'humidité).
+GLCookies.Commentaires>
+GLCookies.Commentaires>On peut avantageusement remplacer la #GLVanille# par de la #GLMiel#.
+
+
+
+GLLychees.Titre    >Sorbet aux lychees
+GLLychees.Source   ><a href="/index.php">Marcel Spock</a>
+GLLychees.Quantite >Pour environs 1l de sorbet
+GLLychees.MotsClefs>Glaces, Lychees, Sorbet
+GLLychees.Photo    >
+GLLychees.Ingredient>500g de lychees pelés et dénoyautés
+GLLychees.Ingredient>50cl d'eau (lychees frais)
+GLLychees.Ingredient>220g de sucre (lychees frais)
+GLLychees.Ingredient>40cl de sirop (lychees au sirop)
+GLLychees.Ingredient>100g de sucre (lychees au sirop)
+GLLychees.Ingredient>25cl de lait entier
+GLLychees.Recette><U>Avec des <B>lychees frais</B></U>: peler les fruits et les dénoyauter.
+GLLychees.Recette>Mélanger l'eau et le sucre dans une casserole et porter à ébulittion
+GLLychees.Recette>y pocher les lychees et laisser bouillir pendant une minute ou deux.
+GLLychees.Recette>Sortir les lychees et les égouter en conservant le sirop.
+GLLychees.Recette>
+GLLychees.Recette><U>Avec des <B>lychees au sirop (en boîte)</B></U>: égouter les lychees en
+GLLychees.Recette>ne conservant que 400ml de sirop. Y ajouter le sucre.
+GLLychees.Recette>
+GLLychees.Recette>Faire réduire le sirop d'un tier en le portant à ébullition.
+GLLychees.Recette>Mettre le tout au réfrigérateur (fruits et sirop).
+GLLychees.Recette>
+GLLychees.Recette>Lorsque le tout est froid, mixer finement les fruits avec le sirop et
+GLLychees.Recette>les passer au chinois.
+GLLychees.recette>
+GLLychees.Recette>Y ajouter le lait et faire prendre à la sorbetière.
+
+
+GLReglisse.Titre   >Glace à la réglisse
+GLReglisse.Source   ><a href="/index.php">Marcel Spock</a>
+GLReglisse.Quantite >Pour environs 1l de glace
+GLReglisse.MotsClefs>Glaces, Réglisse
+GLReglisse.Photo    >
+GLReglisse.Ingredient>1l de #CAGlaces#
+GLReglisse.Ingredient>15ml de concentré de réglisse environs (soit une cuiller à soupe ou plus selon votre goût)
+GLReglisse.Recette>Confectionner la #CAGlaces|glace# en y incorporant le concentré
+GLReglisse.Recette>de réglisse en tant que parfum (infusé avec le lait).
+GLReglisse.Commentaires>La quantité de concentré de réglisse doit être élevée car le
+GLReglisse.Commentaires>froid atténue les saveurs.
+GLReglisse.Commentaires>
+GLReglisse.Commentaires>Vous pouvez confectionner vous même votre concentré (bon courage)
+GLReglisse.Commentaires>ou en acheter dans le commerce.
+GLReglisse.Commentaires>
+GLReglisse.Commentaires>Personnellement, j'utilise de l'Antésite® Réglisse/Citron ou
+GLReglisse.Commentaires>Réglisse/Menthe (encore plus rafraichissant) et j'en mets
+GLReglisse.Commentaires>quasiment 2 cuiller à soupe (~25ml).
+GLReglisse.Commentaires>
+GLReglisse.Commentaires>Même ceux qui disent ne pas aimer la réglisse raffolent de cette
+GLReglisse.Commentaires>glace, sauf un mais je l'appelle le «<i>Schtroumpf  grognon</i>»
+GLReglisse.Commentaires>car il n'aime rien (à part, peut être la <i>Schroumpfette</i>).
+
+
+
+LiqCafe.Titre    >Liqueur de café
+LiqCafe.Source   >Recette familiale (3 générations)
+LiqCafe.Quantite >
+LiqCafe.MotsClefs>Alcool, Café, Eau de vie, Orange
+LiqCafe.Photo    >
+LiqCafe.Ingredient>0,25l d'alcool à 90° non modifié
+LiqCafe.Ingredient>Le zeste de 6 oranges
+LiqCafe.Ingredient>1l d'eau de vie
+LiqCafe.Ingredient>2 grosses poignées de café en grains
+LiqCafe.Ingredient>400g de sucre en morceaux
+LiqCafe.Recette>Dans une bombonne, laisser macérer l'alcool et le zeste pendant
+LiqCafe.Recette>2 mois en remuant tous les jours.
+LiqCafe.Recette>
+LiqCafe.Recette>Ajouter l'eau de vie et le café. Laisser macérer 1 mois
+LiqCafe.Recette>en remuant tous les jours.
+LiqCafe.Recette>
+LiqCafe.Recette>Filtrer.
+LiqCafe.Recette>
+LiqCafe.Recette>Ajouter le sucre et remuer tous les jours jusqu'à
+LiqCafe.Recette>ce qu'il ait entièrement fondu.
+LiqCafe.Recette>
+LiqCafe.Recette>Mettre en bouteilles et laisser reposer quelques mois
+LiqCafe.Recette>si vous le pouvez.
+LiqCafe.Commentaires>Si la préparation est trop forte selon votre goût,
+LiqCafe.Commentaires>ajouter un sirop composé de 100g de sucre et 1
+LiqCafe.Commentaires>verre d'eau (et remuer tous les jours jusqu'à ce que
+LiqCafe.Commentaires>le sucre soit entièrement fondu). Réitérer tant
+LiqCafe.Commentaires>que ce n'est pas à votre goût.
+
+
+
+
+
+
+EauNoix.Titre    >Eau de noix
+EauNoix.Source   >Recette familiale (5 générations)
+EauNoix.Quantite >
+EauNoix.MotsClefs>Alcool, Noix, Eau de vie, Vin
+EauNoix.Photo    >
+EauNoix.Ingredient>x litres de vin
+EauNoix.Ingredient>Par litre de vin:
+EauNoix.Ingredient>&nbsp;&nbsp;&nbsp;&nbsp;11 ou 9 noix vertes dans leurs bogues et coupées en 4
+EauNoix.Ingredient>&nbsp;&nbsp;&nbsp;&nbsp;1 feuille de noyer
+EauNoix.Ingredient>&nbsp;&nbsp;&nbsp;&nbsp;1 verre d'eau de vie
+EauNoix.Ingredient>&nbsp;&nbsp;&nbsp;&nbsp;45 morceaux de sucre
+EauNoix.Recette>Faire macérer les noix  dans le vin au minimum 1 mois.
+EauNoix.Recette>
+EauNoix.Recette>Filtrer.
+EauNoix.Recette>
+EauNoix.Recette>Ajouter l'eau de vie et le sucre
+EauNoix.Recette>
+EauNoix.Recette>Une fois bien mélangé, mettre en bouteille et laisser reposer
+EauNoix.Recette>6 mois au moins si vous pouvez (10 ans c'est bien).
+EauNoix.Commentaires>Les noix doivent être cueillies vertes alors que la coquille
+EauNoix.Commentaires>est encore en formation à l'intérieur de la bogue.
+EauNoix.Commentaires>
+EauNoix.Commentaires>La bogue doit pouvoir être traversée par une aiguille
+EauNoix.Commentaires>à tricoter. Une fois coupées en 4, le coeur de la noix
+EauNoix.Commentaires>elle-même doit encore être un peu laiteux.
+EauNoix.Commentaires>
+EauNoix.Commentaires>En général le ramassage se situe fin août.
+
+
+
+
+
+
+
+RQQPECHE.Titre    >Rinquinquin de pêcher
+RQQPECHE.Source   >
+RQQPECHE.Quantite >
+RQQPECHE.MotsClefs>Alcool, Pâcher, Eau de vie, Vin
+RQQPECHE.Photo    >
+RQQPECHE.Ingredient>x litres de vin à 12° minimum
+RQQPECHE.Ingredient>Par litre de vin:
+RQQPECHE.Ingredient>&nbsp;&nbsp;&nbsp;&nbsp;50 feuilles de pêcher cueillies entre les deux Bonnes Dames
+RQQPECHE.Ingredient>&nbsp;&nbsp;&nbsp;&nbsp;35 morceaux de sucre
+RQQPECHE.Ingredient>&nbsp;&nbsp;&nbsp;&nbsp;1 verre d'eau de vie
+RQQPECHE.Recette>Faire macérer les feuilles dans le vin 5 à 6 jours.
+RQQPECHE.Recette>
+RQQPECHE.Recette>Filtrer.
+RQQPECHE.Recette>
+RQQPECHE.Recette>Ajouter le sucre et l'eau de vie. Remuer tous les jours
+RQQPECHE.Recette>jusqu'à ce que le sucre soit entièrement fondu.
+RQQPECHE.Recette>
+RQQPECHE.Recette>Mettre en bouteille
+RQQPECHE.Commentaires>Entre les 2 Bonnes Dames c'est entre le 15 juillet
+RQQPECHE.Commentaires>et le 15 août.
+
+
+
+
+
+
+VINORANGE.Titre    >Vin d'orange
+VINORANGE.Source   >Élaboré par M.B. de Besagne
+VINORANGE.Quantite >
+VINORANGE.MotsClefs>Alcool, Orange, Eau de vie, Vin
+VINORANGE.Photo    >
+VINORANGE.Ingredient>5 litres de vin blanc
+VINORANGE.Ingredient>1 litre d'eau de vie ou d'Armagnac
+VINORANGE.Ingredient>1 bâton de vanille
+VINORANGE.Ingredient>5 oranges amères (le zeste et le jus)
+VINORANGE.Ingredient>1 orange douce (le zeste et le jus)
+VINORANGE.Ingredient>1 citron (le zeste et le jus)
+VINORANGE.Ingredient>1kg de sucre en morceaux
+VINORANGE.Recette>Tout mélanger. Laisser macérer dans une bombonne 45 jours
+VINORANGE.Recette>en remuant tous les jours.
+VINORANGE.Recette>
+VINORANGE.Recette>Filtrer et mettre en bouteilles
+VINORANGE.Recette>
+VINORANGE.Recette>Laisser reposer.
+
+
+
+
+
+
+GATEAUPOTIRON.Titre    >Gâteau aux potirons
+GATEAUPOTIRON.Source   >Christine
+GATEAUPOTIRON.Quantite >
+GATEAUPOTIRON.MotsClefs>Potiron, citrouille
+GATEAUPOTIRON.Photo    >
+GATEAUPOTIRON.Ingredient>4 oeufs
+GATEAUPOTIRON.Ingredient>4 verres de farine
+GATEAUPOTIRON.Ingredient>4 verres de sucre
+GATEAUPOTIRON.Ingredient>4 verres de potiron cuit et mixé
+GATEAUPOTIRON.Ingredient>1 sachet de levure chimique
+GATEAUPOTIRON.Ingredient>fruits confits
+GATEAUPOTIRON.Ingredient>1/2 verre d'huile
+GATEAUPOTIRON.Ingredient>1 sachet de sucre vanillé
+GATEAUPOTIRON.Ingredient>zeste d'une orange
+GATEAUPOTIRON.Ingredient>zeste d'un citron
+GATEAUPOTIRON.Ingredient>1 cuiller à café de cannelle moulue
+GATEAUPOTIRON.Ingredient>1 pincée de sel
+GATEAUPOTIRON.Recette>Préchauffer le four à 210° (Thermostat 7).
+GATEAUPOTIRON.Recette>Beurrer et fariner un moule à cake.
+GATEAUPOTIRON.Recette>
+GATEAUPOTIRON.Recette>Mélanger les oeufs, le sucre, le sel jusqu'à ce
+GATEAUPOTIRON.Recette>que cela blanchisse.
+GATEAUPOTIRON.Recette>
+GATEAUPOTIRON.Recette>Incorporer la chaîr du potiron et l'huile
+GATEAUPOTIRON.Recette>
+GATEAUPOTIRON.Recette>Ajouter progressivement la farine, la levure, la
+GATEAUPOTIRON.Recette>cannelle, les zestes finement hachés et les fruits
+GATEAUPOTIRON.Recette>confits.
+GATEAUPOTIRON.Recette>
+GATEAUPOTIRON.Recette>Garnir le moule et le mettre au four 45 minutes.
+GATEAUPOTIRON.Commentaires>On peut remplacer les fruits confits par des
+GATEAUPOTIRON.Commentaires>raisins secs macérés dans 1/2 verre de rhum.
+GATEAUPOTIRON.Commentaires>
+GATEAUPOTIRON.Commentaires>La cuisson du potiron s'effectue à la vapeur
+GATEAUPOTIRON.Commentaires>dans une cocotte (environs 20 minutes).
+GATEAUPOTIRON.Commentaires>
+GATEAUPOTIRON.Commentaires>Pour vérifier la cuisson, du gâteau, plonger
+GATEAUPOTIRON.Commentaires>la lame d'un couteau en son coeur, la
+GATEAUPOTIRON.Commentaires>pointe doit ressortir sèche.
+
+
+
+
+GATEAU2C.Titre    >Cake aux 2 chocolats
+GATEAU2C.Source   >Christine
+GATEAU2C.Quantite >
+GATEAU2C.MotsClefs>Chocolat noir, chocolat blanc, chicorée
+GATEAU2C.Photo    >
+GATEAU2C.Ingredient>150g de sucre
+GATEAU2C.Ingredient>150g de beurre en pommade
+GATEAU2C.Ingredient>1 sachet de sucre vanillé
+GATEAU2C.Ingredient>1 pincée de sel
+GATEAU2C.Ingredient>300g de farine
+GATEAU2C.Ingredient>6cl de lait
+GATEAU2C.Ingredient>1 cuiller à café de chicorée liquide
+GATEAU2C.Ingredient>100g de chocolat blanc
+GATEAU2C.Ingredient>100g de chocolat noir
+GATEAU2C.Ingredient>1 sachet de levure chimique
+GATEAU2C.Recette>Préchauffer le four à 180°C.
+GATEAU2C.Recette>
+GATEAU2C.Recette>Beurrer et fariner un moule à cake.
+GATEAU2C.Recette>
+GATEAU2C.Recette>Concasser les chocolats en petits morceaux.
+GATEAU2C.Recette>
+GATEAU2C.Recette>Mélanger le sucre, le sucre vanillé et le beurre
+GATEAU2C.Recette>ramolli jusqu'à ce que le mélange devienne blanc et
+GATEAU2C.Recette>onctueux.
+GATEAU2C.Recette>
+GATEAU2C.Recette>Mélanger la farine, le sel et la levure dans un bol.
+GATEAU2C.Recette>
+GATEAU2C.Recette>Mélanger le lait et la chicorée dans un verre.
+GATEAU2C.Recette>
+GATEAU2C.Recette>Incorporer au premier mélange progressivement et
+GATEAU2C.Recette>alternativement une cuiller de farine et une cuiller
+GATEAU2C.Recette>de lait à la chicorée.
+GATEAU2C.Recette>
+GATEAU2C.Recette>Quand la pâte est homogène rajouter délicatement les
+GATEAU2C.Recette>morceaux de chocolat.
+GATEAU2C.Recette>
+GATEAU2C.Recette>Garnir le moule avec la pâte.
+GATEAU2C.Recette>Enfourner le moule et laisser cuire 10 minutes puis
+GATEAU2C.Recette>baisser le four à 150°C et laisser à nouveau cuire
+GATEAU2C.Recette>pendant 35 minutes
+GATEAU2C.Commentaires>Le secret de la réussite est de bien alterner
+GATEAU2C.Commentaires>farine et lait à la chicorée.
+GATEAU2C.Commentaires>
+GATEAU2C.Commentaires>Contrôler la cuisson avec la pointe d'un couteau
+GATEAU2C.Commentaires>plongée au sein du gâteau et qui doit ressortir
+GATEAU2C.Commentaires>sèche.
+
+
+
+
+
+
+
+BGINGEMBRE.Titre    >Boisson au gingembre
+BGINGEMBRE.Source   >
+BGINGEMBRE.Quantite >~1,5l
+BGINGEMBRE.MotsClefs>Gingembre, Citron, Boisson
+BGINGEMBRE.Photo    >
+BGINGEMBRE.Ingredient>3 gros morceaux de rhizome de gingembre
+BGINGEMBRE.Ingredient>4 à 6 citrons (6 citrons = à peu près 1/4l)
+BGINGEMBRE.Ingredient>1 l d'eau
+BGINGEMBRE.Ingredient>100g de sucre (facultatif)
+BGINGEMBRE.Recette>Bien peler les rhizomes de gingembre.
+BGINGEMBRE.Recette>
+BGINGEMBRE.Recette>Les râper dans un saladier. Si possible avec une râpe
+BGINGEMBRE.Recette>à main car le résultat donne du jus quelques
+BGINGEMBRE.Recette>particules fines et beaucoup de longues fibres (qui
+BGINGEMBRE.Recette>peuvent bloquer une râpe électrique).
+BGINGEMBRE.Recette>
+BGINGEMBRE.Recette>Ajouter 0,5l d'eau dans le saladier. Laisser macérer
+BGINGEMBRE.Recette>au moins 24h en remuant de temps en temps.
+BGINGEMBRE.Recette>
+BGINGEMBRE.Recette>Passer le contenu du saladier au chinois dans un autre
+BGINGEMBRE.Recette>saladier. Bien presser le résidu dans le chinois afin
+BGINGEMBRE.Recette>d'en extraire un maximum de jus.
+BGINGEMBRE.Recette>
+BGINGEMBRE.Recette>Si possible refiltrer le tout à travers un filtre à
+BGINGEMBRE.Recette>café, mais c'est assez difficile car les particules
+BGINGEMBRE.Recette>restantes sont tellement fines que le filtre se
+BGINGEMBRE.Recette>bouche.
+BGINGEMBRE.Recette>
+BGINGEMBRE.Recette>Presser les citrons et ajouter le jus ainsi que
+BGINGEMBRE.Recette>0,5l d'eau à la préparations.
+BGINGEMBRE.Recette>
+BGINGEMBRE.Recette>Laisser décanter quelques heures et mettre dans une
+BGINGEMBRE.Recette>bouteille.
+BGINGEMBRE.Recette>
+BGINGEMBRE.Recette>Ajouter du sucre (ou de l'eau) selon votre goût.
+BGINGEMBRE.Recette>
+BGINGEMBRE.Recette>Mettre au réfrigérateur et servir frais.
+BGINGEMBRE.Commentaires>La force du gimgembre diminue un peu au bout d'un
+BGINGEMBRE.Commentaires>certain temps après la mise en bouteille.
+BGINGEMBRE.Commentaires>
+BGINGEMBRE.Commentaires>L'ajout de sucre est facultatif. Par contre si
+BGINGEMBRE.Commentaires>le mélange est trop fort, rajouter de l'eau.
+BGINGEMBRE.Commentaires>L'ajustement est suivant votre goût.
+
+
+
+
+
+
+
+MOUSCHOC.Titre    >Mousse au chocolat
+MOUSCHOC.Source   >
+MOUSCHOC.Quantite >
+MOUSCHOC.MotsClefs>Chocolat, mousse
+MOUSCHOC.Photo    >
+MOUSCHOC.Ingredient>300g de blancs d'oeufs
+MOUSCHOC.Ingredient>100g de beurre
+MOUSCHOC.Ingredient>100g de sucre glace
+MOUSCHOC.Ingredient>300g de chocolat
+MOUSCHOC.Recette>Faire fondre le chocolat avec le beurre au bain marie.
+MOUSCHOC.Recette>
+MOUSCHOC.Recette>Monter les blancs d'oeufs en neige très ferme puis
+MOUSCHOC.Recette>y incorporer le sucre tout en continuant à battre
+MOUSCHOC.Recette>(cela contribue à raffermir et à maintenir ferme).
+MOUSCHOC.Recette>
+MOUSCHOC.Recette>Incorporer le chocolat dans la neige.
+MOUSCHOC.Recette>Mettre au frais.
+MOUSCHOC.Commentaires>Dans la recette originale, il n'y a pas de beurre,
+MOUSCHOC.Commentaires>mais n'ayant pas de plat chauffant qui maintient
+MOUSCHOC.Commentaires>le chocolat liquide, sans beurre, il redeviendrait
+MOUSCHOC.Commentaires>dur très (trop) rapidement. Toutefois, si vous vous
+MOUSCHOC.Commentaires>en sentez, supprimez le beurre, cela n'en sera que
+MOUSCHOC.Commentaires>plus léger.
+MOUSCHOC.Commentaires>
+MOUSCHOC.Commentaires>Cette recette ne contient pas les jaunes ce qui la
+MOUSCHOC.Commentaires>rend beaucoup plus légère et non écoeurante.
+MOUSCHOC.Commentaires>
+MOUSCHOC.Commentaires>Les blancs d'oeufs peuvent se trouver en brique
+MOUSCHOC.Commentaires>si vous n'avez pas de quoi écouler les jaunes.
+
+
+BUCHE.Titre    >Buche de noël au chocolat
+BUCHE.Source   >"<B>Les carnets de cuisinne, N°10 petite et grande pâtisserie</B>" (Hachette pratique, 1979)
+BUCHE.Quantite >
+BUCHE.MotsClefs>Chocolat, buche, gateau
+BUCHE.Photo    >
+BUCHE.Ingredient><b>Pour le biscuit roulé</b>
+BUCHE.Ingredient>150g de farine
+BUCHE.Ingredient>150g de sucre
+BUCHE.Ingredient>6 œufs
+BUCHE.Ingredient>1 cuiller à café de vanille en poudre
+BUCHE.Ingredient>1 pincée de sel
+BUCHE.Ingredient><b>Pour fourrer</b>
+BUCHE.Ingredient>300g de chocolat à croquer amer
+BUCHE.Ingredient>4 œufs
+BUCHE.Ingredient>100g de crème fraîche ou de beurre
+BUCHE.Ingredient>1 cuiller à soupe de sucre glace
+BUCHE.Ingredient>0,5 cuiller à café de café soluble
+BUCHE.Ingredient><b>Pour le sirop</b>
+BUCHE.Ingredient>15 cl d'eau
+BUCHE.Ingredient>100g de sucre
+BUCHE.Ingredient>4 cuiller à soupe de Grand marnier, kirsch, rhum ou 1 cuiller à soupe de café soluble
+BUCHE.Ingredient><b>Pour décorer</b>
+BUCHE.Ingredient>100g de chocolat à croquer
+BUCHE.Ingredient>1 cuiller à soupe de sucre glace
+BUCHE.Recette><h3>1. La mousse au chocolat</h3>
+BUCHE.Recette>Couper le chocolat en petits morceaux. Le mettre dans une casserole
+BUCHE.Recette>avec le café et celle-ci au bain marie sur feu très doux.<br>
+BUCHE.Recette>Casser les œufs en séparant les blancs des jaunes.<br>
+BUCHE.Recette>Lorsque le chocolat est fondu, retirer la casserole du bain marie
+BUCHE.Recette>et travailler le chocolat à la spatule pour obtenir un mélange bien lisse.
+BUCHE.Recette>Puis, y incrporer les jaunes d'œufs un a un en travaillant vivement le
+BUCHE.Recette>mélange.<br>
+BUCHE.Recette>Monter les bancs en neige et, à mi-parcours, y ajouter le sucre glace.
+BUCHE.Recette>Lorsque les blancs sont fermes, verser dessus le chocolat et mélanger
+BUCHE.Recette>délicatement, puis mettre au réfrigérateur, à l'endroitle plus frais.
+BUCHE.Recette><h3>2. Le biscuit</h3>
+BUCHE.Recette>Allumer le four thermostat 6 (155 degrés avec un four à chaleur tournante).
+BUCHE.Recette>Casser les œufs en séparant les blancs des jaunes. Mettre les blancs dans
+BUCHE.Recette>un saladier et les poudrer de sel.<br>
+BUCHE.Recette>Mettre les jaunes dans une terrine et y ajouter les sucre en pluie, en tournant
+BUCHE.Recette>avec une spatule. Travailler le mélange jusqy'à ce qu'il blanchisse et
+BUCHE.Recette>mousse.<br>
+BUCHE.Recette>Incorporer alors la farine en la tamisant, puis la vanille, en continuant
+BUCHE.Recette>de tourner.<br>
+BUCHE.Recette>Battre les blancs en neige très ferme puis l'incorporer délicatement à
+BUCHE.Recette>la pâte du biscuit.<br>
+BUCHE.Recette>Tapisser la lèchefrite du four ce papier sulfurisé non beurré, puis
+BUCHE.Recette>y étaler la pâte sur 1 cm d'épaisseur environs et mettre au four pour
+BUCHE.Recette>7 à 8 minutes, jusqu'à ce que la pâte soit blonde. Retirer du four.<br>
+BUCHE.Recette>Étaler un torchon humide sur le plan de travail. Y renverser le gâteau
+BUCHE.Recette>et le laisser ainsi pendant 10 minutes, puis retirer le papier et couper
+BUCHE.Recette>les bords pour former un rectangle régulier.<br>
+BUCHE.Recette>Rouler ensemble le biscuit et le torchon et le laisser en attente
+BUCHE.Recette>jusqu'au moment de le garnir.
+BUCHE.Recette><h3>3. Le sirop</h3>
+BUCHE.Recette>Faire bouillir l'eau et le sucre dans une casserole sur feu vif
+BUCHE.Recette>puis retirer du feu et laisser tiédir avant d'incorporer l'alcool
+BUCHE.Recette>choisi ou le café.
+BUCHE.Recette><h3>4. La garniture</h3>
+BUCHE.Recette>Lorsque la mousse est bien froide, la retirer du réfrigérateur,
+BUCHE.Recette>dérouler le biscuit, le mouille de sirop, puis le tartiner avec
+BUCHE.Recette>les deux tiers de la mousse et le rouler sans trop appuyer et
+BUCHE.Recette>sans le torchon. Couvrir le biscuit du reste de la mousse avec
+BUCHE.Recette>une spatule.
+BUCHE.Recette><h3>5. La décoration</h3>
+BUCHE.Recette>Creuser des sillons dans la mousse de surface avec une fourchette
+BUCHE.Recette>afin d'imiter l'écorce d'un arbre.<br>
+BUCHE.Recette>Gratter le chocolat avec un couteau économique au dessus de la
+BUCHE.Recette>buche: il retombre en copeaux. Enfin, saupoudrer de sucre glace
+BUCHE.Recette>et remettre le tout au réfrigérateur.<br>
+BUCHE.Recette>Servir <b>le lendemain</b>.
+BUCHE.Commentaires><h3>Garniture alternative</h3>
+BUCHE.Commentaires>Vous pouvez remplacer la mousse au chocolat (pour ceux
+BUCHE.Commentaires>qui n'aiment pas) par de la confiture d'abricot diluée
+BUCHE.Commentaires>d'un peu d'eau, complétée de crème fraîche et de liqueur,
+BUCHE.Commentaires>de rhum d'eau de vie (...) au choix.
+
+
+GratinD.Titre    >Gratin Dauphinois
+GratinD.Source   ><a href="https://www.legratindauphinois.fr">LeGratinDauphinois.fr</a>
+GratinD.Quantite >3/4 personnes
+GratinD.MotsClefs>Gratin,Pomme de terre
+GratinD.Photo    >
+GratinD.Ingredient>800g de pommes de terre
+GratinD.Ingredient>1 gousse d'ail
+GratinD.Ingredient>500ml de lait <b>entier</b>
+GratinD.Ingredient>250ml de crème liquide <b>entière</b>
+GratinD.Ingredient>1 noix de muscade
+GratinD.Ingredient>sel
+GratinD.Ingredient>poivre
+GratinD.Recette><h3>Préparation</h3>
+GratinD.Recette>
+GratinD.Recette>Préchauffer le four à 150°C.
+GratinD.Recette>
+GratinD.Recette>Éplucher les pommes de terre, les laver, puis les couper en
+GratinD.Recette>fines lamelles (2 à 3mm). <b>Ne pas rincer les lamelles</b>,
+GratinD.Recette>elles doivent conserver leur amidon.
+GratinD.Recette>
+GratinD.Recette>Éplucher la gousse d'ail. Prendre un plat à gratin (en
+GratinD.Recette>général rectangulaire et, si possible, en grès) et le frotter
+GratinD.Recette>généreusement avec l'ail.
+GratinD.Recette><h3>Montage du gratin</h3>
+GratinD.Recette>
+GratinD.Recette>Étaler une première couche de pommes de terre sur le fond du plat, saler,
+GratinD.Recette>poivrer et y râper un peu de muscade.
+GratinD.Recette>
+GratinD.Recette>Étaler une deuxième couche de pommes de terre sur la première, saler,
+GratinD.Recette>poivrer et y râper un peu de muscade.
+GratinD.Recette>
+GratinD.Recette>Répéter jusquà remplir le plat (laisser environs 1cm libre par sécurité).
+GratinD.Recette>
+GratinD.Recette>Mélanger le lait et la crème et verser sur les pommes de
+GratinD.Recette>terre jusqu'à couvrir à peine la dernière couche.
+GratinD.Recette><h3>Cuisson du gratin</h3>
+GratinD.Recette>
+GratinD.Recette>Placer la grille du four en dessous de la position médiane
+GratinD.Recette>pour un four classique, n'importe où pour un à chaleur
+GratinD.Recette>tournante, s'il n'est pas en mode radiant.
+GratinD.Recette>
+GratinD.Recette>Mettre au four entre 120°C et 150°C et laisser cuire 2h30
+GratinD.Recette>à 3h environs, voire plus.
+GratinD.Recette>
+GratinD.Recette>Si le dessus brunit trop, couvrir d'un papier aluminium.
+GratinD.Recette>Votre plat était probablement trop haut ou le four trop
+GratinD.Recette>chaud.
+GratinD.Recette>
+GratinD.Recette>Pour tester la cuisson, planter la pointe d'un couteau qui
+GratinD.Recette>doit entrer sans difficulté. Il vaut mieux qu'il soit un peu
+GratinD.Recette>trop cuit que pas assez.
+GratinD.Commentaires><ul>
+GratinD.Commentaires><li>Les puristes diront que le gratin traditionnel se
+GratinD.Commentaires>fait uniquement avec du lait.<br>C'est vrai. Toutefois
+GratinD.Commentaires>le lait entier, de nos jours, ne l'est « pas vraiment »
+GratinD.Commentaires>et ajouter la crème compense la différence.<br>
+GratinD.Commentaires>Pour voir ce que je veux dire, allez chercher du
+GratinD.Commentaires>lait à la ferme dans un bidon (si
+GratinD.Commentaires>cela est toujours possible, cela fait 50 ans que je
+GratinD.Commentaires>n'y suis plus allé), et vous aurez une couche de crème
+GratinD.Commentaires>de plusieurs centimètres qui remonte à la surface du
+GratinD.Commentaires>lait.
+GratinD.Commentaires></li><li>
+GratinD.Commentaires>Le « secret » du gratin dauphinois est une cuisson lente
+GratinD.Commentaires>à basse température. Ainsi, les pommes de terres sont confites
+GratinD.Commentaires>dans le lait. On ne fait donc pas précuire les pommes
+GratinD.Commentaires>de terre (sinon c'est juste un gratin de pommes de terres).
+GratinD.Commentaires></li><li>
+GratinD.Commentaires>Vous pouvez aussi inverser les proportions lait/crème ou
+GratinD.Commentaires>mettre uniquement de la crème, il sera plus moelleux.
+GratinD.Commentaires></li><li>
+GratinD.Commentaires>Un gratin dauphinois <b>n'a pas du tout de fromage</b>.
+GratinD.Commentaires>Vous pouvez en mettre, mais ce n'est plus du gratin dauphinois.
+GratinD.Commentaires><br>De plus il risque de gratiner beaucoup plus rapidement
+GratinD.Commentaires>et vous obliger à stopper la cuisson avant le temps
+GratinD.Commentaires>nécessaire pour ne pas avoir un dessus noir.
+GratinD.Commentaires></li><li>
+GratinD.Commentaires>Les pommes de terre ne sont pas rincées après le découpage
+GratinD.Commentaires>en lamelles afin de conserver l'amidon qui, lors de la
+GratinD.Commentaires>cuisson, se combinera à l'eau du lait pour créer une
+GratinD.Commentaires>crème épaisse. Normalement, il ne reste pas de liquide
+GratinD.Commentaires>au fond du plat.
+GratinD.Commentaires></li><li>
+GratinD.Commentaires>Les plats en grès (émaillés) répartissent et diffusent
+GratinD.Commentaires>mieux la chaleur que ceux en verre ou en métal.
+GratinD.Commentaires></li><li>
+GratinD.Commentaires>Le choix des pommes de terre influe sur le résultat.<br>
+GratinD.Commentaires>Trop fragiles et vous avez de la purée, trop fermes et
+GratinD.Commentaires>elles restent croquantes, sans assez d'amidon et vous
+GratinD.Commentaires>avez du liquide.<br>
+GratinD.Commentaires>Voici quelques choix possibles (tirés de la source de
+GratinD.Commentaires>la recette: la Monalisa riche en amidon,
+GratinD.Commentaires>la Nicola toujours fondante,
+GratinD.Commentaires>la Roseval facilement reconnaissable,
+GratinD.Commentaires>la traditionnelle belle de Fontenay,
+GratinD.Commentaires>une très ancienne variété
+GratinD.Commentaires>ou encore la Charlotte.<br>
+GratinD.Commentaires>À titre personnel je n'ai jamais eu de souci avec
+GratinD.Commentaires>des pommes de terre de supermarché «de consommation»
+GratinD.Commentaires>(ce qui ne veut rien dire, puisqu'on les achète
+GratinD.Commentaires>toujours pour les consommer, pas pour les mettre au
+GratinD.Commentaires>musée) ou frites/purées.
+GratinD.Commentaires></li></ul>
+GratinD.Commentaires>
+GratinD.Commentaires><i><b>Note</b> : les quantités données sont approximatives
+GratinD.Commentaires>et dépendent fortement de la taille de votre plat. Ajuster
+GratinD.Commentaires>selon celui-ci (et vos appétits </i>😉<i>).</i>
+
+CanardPeche.Titre  >Magret de canard aux pêches
+CanardPeche.Source >Marcel Spock
+CanardPeche.Quantite >2 personnes
+CanardPeche.MotsClefs>Elfe, Agneau, Viande
+CanardPeche.Photo  >
+CanardPeche.Ingredient>1 magret de canard
+CanardPeche.Ingredient>1 boîte d'oreillons de pêches
+CanardPeche.Ingredient>1 verre de sauce soja (salée et sans trop de sel si possible)
+CanardPeche.Ingredient>Sel
+CanardPeche.Ingredient>Poivre
+CanardPeche.Ingredient>Épices
+CanardPEche.Recette><h3>Préparation du magret</h3>
+CanardPeche.Recette>
+CanardPeche.Recette>Enlever le surplus de gras du magret de manière à ne laisser
+CanardPeche.Recette>q'une bande centrale (2 ou 3cm de large).
+CanardPeche.Recette>
+CanardPeche.Recette>Débiter le magret en fines lamelles (à peu près 3mm ou un peu plus).
+CanardPeche.Recette>Ouvrir la boîte de pêches et les égoutter en récupérant
+CanardPeche.Recette>le jus/sirop dans un saladier.
+CanardPeche.Recette>
+CanardPeche.Recette>Dans le saladier, ajouter la sauce soja, le sel, le poivre et les épices.
+CanardPeche.Recette>Bien remuer. La marinade pour le magret est prête.
+CanardPeche.Recette>
+CanardPeche.Recette>Y déposer les lamelles de magret. Remuer pour bien répartir
+CanardPeche.Recette>la marinade autour des lamelles.
+CanardPeche.Recette>
+CanardPeche.Recette>Réserver, de préférence au réfrigérateur, pendant au moins 2h.
+CanardPEche.Recette><h3>Cuisson du magret</h3>
+CanardPeche.Recette>
+CanardPeche.Recette>Dans une poêle ou un wok, déposer les oreillons de pêches
+CanardPeche.Recette>coupés en lamelles épaisses (au moins 1 oreillon par
+CanardPeche.Recette>personne). Ajouter une partie de la marinade du magret.
+CanardPeche.Recette>Laisser cuire à feu doux pour caraméliser les morceaux de
+CanardPeche.Recette>pêches.
+CanardPeche.Recette>
+CanardPeche.Recette>Pendant ce temps, dans une autre poêle chauffée à feu doux,
+CanardPeche.Recette>déposer les lamelles de canard. Elles doivent
+CanardPeche.Recette>être placées à plat sans se chevaucher (pour qu'elles
+CanardPeche.Recette>cuisent uniformément). Les retourner lorsqu'un côté est
+CanardPeche.Recette>saisi. Lorsque la seconde face est aussi saisie, placer
+CanardPeche.Recette>les lamelles avec les pêches (sans le gras qui est sorti
+CanardPeche.Recette>dans la poêle). S'il reste des lamelles de canard parce
+CanardPeche.Recette>que la poêle ne pouvait pas tout contenir en une fois,
+CanardPeche.Recette>recommencer jusqu'à avoir saisi tous les morceaux (en
+CanardPeche.Recette>vidant le gras au fond entre chaque poêlée).
+CanardPeche.Recette>
+CanardPeche.Recette>Une fois que tous les morceaux de canard sont avec les
+CanardPeche.Recette>pêches, ajouter encore un peu de la marinade dans
+CanardPeche.Recette>la poêle ou le wok et laisser réduire à feu moyen
+CanardPeche.Recette>en remuant de temps à autre.
+CanardPeche.Commentaires>Pour ma part, je ne rajoute pas de sel car je
+CanardPeche.Commentaires>trouve qu'il y en a bien assez dans la sauce soja.
+CanardPeche.Commentaires>
+CanardPEche.Commentaires><h3>Utilisation du gras des magrets</h3>
+CanardPeche.Commentaires>Concernant le gras que vous avez retiré des magrets
+CanardPeche.Commentaires>vous pouvez le découper en morceaux, pas trop petits,
+CanardPeche.Commentaires>puis les placer dans une poêle à feux le plus faible
+CanardPeche.Commentaires>possible pour le faire fondre. Recupérer la graisse
+CanardPeche.Commentaires>liquide fondue au fur et à mesure (il ne faut pas
+CanardPeche.Commentaires>que les morceaux soient frits).
+CanardPeche.Commentaires>
+CanardPeche.Commentaires>Lorsque presque toute la graisse est partie (les
+CanardPeche.Commentaires>morceaux sont tout petits), récupérer une fois de
+CanardPeche.Commentaires>plus la graisse liquide, et monter le feu pour bien
+CanardPeche.Commentaires>roussir les morceaux.
+CanardPeche.Commentaires>Une fois fait, sortir les morceaux avec une écumoire,
+CanardPeche.Commentaires>les saler (un peu) tant qu'ils sont chauds...
+CanardPeche.Commentaires>Et vous avez de délicieux fritons de canard
+CanardPeche.Commentaires>(gratons dans d'autres régions, autres que toulousaine
+CanardPeche.Commentaires>pour être précis).
+CanardPeche.Commentaires>
+CanardPeche.Commentaires>La graisse liquide que vous avez récupérée, une fois
+CanardPeche.Commentaires>refroidie va durcir et pourra servir à cuisiner
+CanardPeche.Commentaires>d'autres savoureux plats.
+CanardPeche.Commentaires>
+CanardPeche.Commentaires>La graisse de canard (la graisse sous-cutanée) est
+CanardPeche.Commentaires>pauvre en graisse saturée et aide à diminuer la
+CanardPeche.Commentaires>concentration de «mauvais» cholestérol.

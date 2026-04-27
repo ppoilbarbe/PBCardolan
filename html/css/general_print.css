@@ -1,0 +1,190 @@
+  /* Corps général */
+  BODY {
+    background-color: white;
+  }
+  /* Paramètres généraux de division */
+  DIV {
+    border-width: 0px;
+  }
+  /* Paramètres généraux de liens */
+  A:link {
+    color: black;
+    text-decoration: none;
+  }
+  A:visited {
+    color: black;
+    text-decoration: none;
+  }
+  /* Texte général */
+  P {
+    font-family: "Times New Roman",Times,serif;
+    font-size: 12pt;
+    color: black;
+    padding: 0.1cm;
+  }
+  /* Titre général dans du texte */
+  H1 {
+    font-family: "Broadway BT","Times New Roman",Times,serif;
+    font-size: 24pt;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  /* Sous titre général dans du texte */
+  H2 {
+    font-size: 18pt;
+    text-align: center;
+  }
+  /* Titre général de page */
+  H1.Titre {
+    font-family: "Times New Roman",Times,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    vertical-align: top;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+  }
+  /* Base commune pour les tables */
+  TABLE {
+    border-width: 3px;
+    border-style: solid;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  TD {
+    font-size: 10pt;
+    color: black;
+    vertical-align: middle;
+    text-align: center;
+    padding: 5px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+  }
+  /* Image générale */
+  IMG {
+    vertical-align: middle;
+    border-width: 0px;
+  }
+  /* Pour les barres de boutons */
+  IMG.Barre {
+    vertical-align: top;
+    border-width: 0px;
+  }
+  /* Pour des remarques importantes */
+  DIV.Attention {
+    background-color: #27791C;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 5px;
+    border-width: thin;
+    border-style: solid;
+  }
+  /* Titre important */
+  DIV.Attention H1 {
+    font-family: "Arial Black",Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 18pt;
+    font-stretch: wider;
+    color: #40C802;
+    text-decoration: blink;
+    text-align: center;
+    text-shadow: 6px 6px 3px;
+    position: relative;
+    top: 0px;
+  }
+  DIV.Attention P {
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    color: #99CCCC;
+    text-align: justify;
+  }
+  /* Division de bas de page (modif, copyright, bouton home) */
+  DIV.FondPage {
+    display : none;
+  }
+
+  /* Table pour les fichiers à télécharger */
+  DIV.Download {
+    text-align: center;
+  }
+  DIV.Download TABLE {
+    background-color: #669999;
+    border-width: 3px;
+    border-color: #00CC00;
+    border-style: solid;
+    width: 90%;
+    border-collapse: collapse;
+  }
+  DIV.Download TR {
+    font-size: 10pt;
+    width: 100%;
+  }
+  DIV.Download TD.Fichier {
+    border-style: solid none none none;
+  }
+  DIV.Download TD.Texte {
+    text-align: left;
+    border-style: solid none none none;
+  }
+  DIV.Download TD.Infos {
+    border-style: none none solid none;
+  }
+  /* Table pour les recettes de cuisine */
+  DIV.Recettes {
+    text-align: justify;
+    margin : 0.1cm;
+  }
+  DIV.Recettes TABLE {
+    background-color: #EEEEEE;
+    border-color: #333333;
+    border-style: solid;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  DIV.Recettes TR {
+    font-size: 10pt;
+    width: 100%;
+  }
+  DIV.Recettes TD {
+    vertical-align: middle;
+    text-align: justify;
+    border-style: none;
+  }
+  DIV.Recettes TH {
+    font-family: "Comic Sans MS","Arial Black",Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 18pt;
+    font-stretch: wider;
+    background-color: #333333;
+    color: white;
+  }
+
+  DIV.Recettes TH.Source {
+    font-size: 12pt;
+    text-align: right;
+  }
+
+  DIV.Recettes EM {
+    font-family: "Comic Sans MS",Arial,Helvetica,sans-serif;
+    font-style: oblique;
+    color: #CCCCCC;
+    text-transform: capitalize;
+  }
+  DIV.Recettes P {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  DIV.Recettes H2 {
+    font-family: "Comic Sans MS", "Times New Roman", Times, cursive, serif;
+    font-style: italic;
+    color: #666666;
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }

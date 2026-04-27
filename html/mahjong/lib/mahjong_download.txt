@@ -1,0 +1,19 @@
+# Téléchargement des fichiers MahJong. Français
+Telecharge>Pdf
+Telecharge>Xls
+
+Pdf.Fichier>ReglesMahJong.pdf
+Pdf.Langues>fr
+Pdf.Systeme>
+Pdf.Description>Description de règles glanées ici et la
+Pdf.Description>et regroupées dans ce document
+Pdf.Version>1.1
+Pdf.Compter>1
+
+Xls.Fichier>CalculMahjong.zip
+Xls.Langues>fr
+Xls.Systeme>
+Xls.Description>Tableau excel permettant de calculer simplement les gains
+Xls.Description>de chacun des joueurs en déclarant leur main
+Xls.Version>1.1
+Xls.Compter>1

@@ -1,0 +1,7 @@
+ErrorDocument 401 /errs/Err401.php
+ErrorDocument 403 /errs/Err403.php
+ErrorDocument 404 /errs/Err404.php
+
+<FilesMatch "\.(en|fr)$">
+deny from all
+</FilesMatch>

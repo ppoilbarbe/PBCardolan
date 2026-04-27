@@ -1,0 +1,8 @@
+DIV.GoogleTranslate {
+display:none;
+}
+
+/* Suppression de la barre de google translate */
+DIV.skiptranslate {
+  display:none;
+}

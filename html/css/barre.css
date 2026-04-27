@@ -1,0 +1,86 @@
+DIV.ZoneCoinHG {
+position:absolute;
+left:0px;
+top:0px;
+width:99px;
+height:85px;
+}
+
+DIV.ZoneHaut {
+position:absolute;
+left:99px;
+top:0px;
+width:750px;
+height:72px;
+}
+
+DIV.GoogleTranslate {
+position:absolute;
+left:720px;
+top:0px;
+width:100px;
+height:72px;
+}
+
+DIV.ZoneCentre {
+position:absolute;
+left:99px;
+top:72px;
+margin-right: 20px;
+}
+
+DIV.Btn1 {
+position:absolute;
+left:0px;
+top:85px;
+width:53px;
+height:64px;
+}
+
+DIV.ZoneBordDroit {
+position:absolute;
+left:53px;
+top:85px;
+width:46px;
+height:387px;
+}
+
+DIV.Btn2 {
+position:absolute;
+left:0px;
+top:149px;
+width:53px;
+height:64px;
+}
+
+DIV.Btn3 {
+position:absolute;
+left:0px;
+top:213px;
+width:53px;
+height:64px;
+}
+
+DIV.Btn4 {
+position:absolute;
+left:0px;
+top:277px;
+width:53px;
+height:64px;
+}
+
+DIV.Btn5 {
+position:absolute;
+left:0px;
+top:341px;
+width:53px;
+height:64px;
+}
+
+DIV.ZoneBas {
+position:absolute;
+left:0px;
+top:405px;
+width:53px;
+height:67px;
+}
