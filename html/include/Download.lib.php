@@ -8,6 +8,23 @@ require_once included('Edition.lib.php');
 // Maps single-letter OS codes (as used in data files) to display names.
 const OS_NAMES = ['W' => 'Windows', 'L' => 'Linux', 'M' => 'MacOS'];
 
+// Wraps bare URLs in <a> tags, leaving already-linked URLs untouched.
+function autoLinkUrls(string $text): string
+{
+    return preg_replace('#(?<!["\'])https?://[^\s<>"\']+#', '<a href="$0">$0</a>', $text);
+}
+
+// Flattens an array of potentially space-separated values into individual tokens.
+function splitMultiValue(array $values): array
+{
+    $result = [];
+    foreach ($values as $v) {
+        foreach (preg_split('/\s+/', trim($v), -1, PREG_SPLIT_NO_EMPTY) as $token)
+            $result[] = $token;
+    }
+    return $result;
+}
+
 /**
  * Renders the rows of a download table for a single param file.
  * Intended to be called from within a <TABLE> context.
@@ -19,10 +36,39 @@ function DoDownload($paramFile)
     $data = LireParam($paramFile);
 
     foreach ($data['TELECHARGE'] as $entry) {
-        $key     = strtoupper($entry);
+        $key      = strtoupper($entry);
         $filename = $data[$key . '.FICHIER'][0];
-        $counted  = $data[$key . '.COMPTER'][0];
-        $sysPath  = $counted
+        $isUrl    = (bool) preg_match('#^https?://#i', $filename);
+        $counted  = !$isUrl && $data[$key . '.COMPTER'][0];
+        $linkText = $data[$key . '.TEXTE'][0] ?? '';
+
+        if ($isUrl) {
+            $description = '';
+            foreach ($data[$key . '.DESCRIPTION'] ?? [] as $line) {
+                $description .= $line === '' ? "<BR>\n" : autoLinkUrls($line) . "\n";
+            }
+            $version = $data[$key . '.VERSION'][0] ?? '';
+            $label   = $linkText !== '' ? htmlspecialchars($linkText) : htmlspecialchars($filename);
+
+            Ligne('<TR>');
+            Ligne('<TD class="Fichier"><a href="' . htmlspecialchars($filename) . '">' . $label . '</a></TD>');
+            Ligne('<TD class="Texte">' . $description . '</TD>');
+            Ligne('</TR>');
+
+            Ligne('<TR><TD class="Infos" colspan=2>');
+            foreach (splitMultiValue($data[$key . '.SYSTEME'] ?? []) as $osCode) {
+                $osName = OS_NAMES[strtoupper($osCode)] ?? '';
+                if ($osName) Ligne(LienImage('', 'Logo' . $osName . '.gif', $osName));
+            }
+            foreach (splitMultiValue($data[$key . '.LANGUES'] ?? []) as $langCode) {
+                Ligne('<img src="' . FichierImageLangue($langCode) . '" border=0>');
+            }
+            if ($version !== '') Ligne('&nbsp;Version: ' . $version);
+            Ligne('</TD></TR>');
+            continue;
+        }
+
+        $sysPath = $counted
             ? CheminAbsoluSysteme('/sendfiles/' . $filename)
             : CheminAbsoluSysteme($filename);
 
@@ -59,17 +105,18 @@ function DoDownload($paramFile)
               . " onmouseout=\"window.status=''; return true;\""
             : CheminAbsolu($filename);
         Ligne('<TR>');
-        Ligne('<TD class="Fichier"><a href="' . $href . '">' . $filename . '</a></TD>');
+        $label = $linkText !== '' ? htmlspecialchars($linkText) : $filename;
+        Ligne('<TD class="Fichier"><a href="' . $href . '">' . $label . '</a></TD>');
         Ligne('<TD class="Texte">' . $description . '</TD>');
         Ligne('</TR>');
 
         // OS logos, language flags, and file metadata.
         Ligne('<TR><TD class="Infos" colspan=2>');
-        foreach ($data[$key . '.SYSTEME'] ?? [] as $osCode) {
+        foreach (splitMultiValue($data[$key . '.SYSTEME'] ?? []) as $osCode) {
             $osName = OS_NAMES[strtoupper($osCode)] ?? '';
             if ($osName) Ligne(LienImage('', 'Logo' . $osName . '.gif', $osName));
         }
-        foreach ($data[$key . '.LANGUES'] ?? [] as $langCode) {
+        foreach (splitMultiValue($data[$key . '.LANGUES'] ?? []) as $langCode) {
             Ligne('<img src="' . FichierImageLangue($langCode) . '" border=0>');
         }
         Ligne(sprintf(

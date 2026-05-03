@@ -1,68 +1,124 @@
-# Téléchargement des programmes. Français
-Telecharge>PBImageName
-Telecharge>XBMCRename
-Telecharge>CorrectNFODurations
+# Téléchargement des programmes.
+Telecharge>PBRenamer
+Telecharge>PBPicat
+Telecharge>PBRegisterActivity
+Telecharge>PBDarkTemplate
+Telecharge>PBPrompt
+Telecharge>PBBoule
 
-PBImageName.Fichier>PBImageName-0.4.0.exe
-PBImageName.Langues>fr
-PBImageName.Systeme>W
-PBImageName.Image>PBImageName.bmp
-PBIMageName.Titre>PBImageName: Renomme des fichiers images en fonction des données EXIF
-PBImageName.Description>Récupère les (des) informations présentes dans la partie EXIF des images
-PBImageName.Description>(tif et jpeg) et s'en sert pour renommer les fichiers.
-PBImageName.Description>
-PBImageName.Description>Les données EXIF sont des informations inscrites dans le fichier par
-PBImageName.Description>les appareils photographiques numériques ainsi que certains logiciels
-PBImageName.Description>de retouche d'image.
-PBImageName.Description>
-PBImageName.Description>Ces données peuvent alors servir à renommer un ou plusieurs fichiers
-PBImageName.Description>de PICT1234.JPG (par exemple) en ReveillonLucien-24-12-2004.20-30.jpg
-PBImageName.Description>(si la date de prise de vue est, par exemple, 2004-12-24 20:30:15)
-PBImageName.Description>
-PBImageName.Description><I>Note: Il reste encore quelques parties à developper, homogénéïsation
-PBImageName.Description>des langues et traduction en anglais (et/ou autres langues)</I>
-PBImageName.Version>0.4.0
-PBImageName.Compter>1
 
-XBMCRename.Fichier>XBMCRename.py
-XBMCRename.Langues>us
-XBMCRename.Systeme>L
-XBMCRename.Systeme>M
-XBMCRename.Systeme>W
-XBMCRename.Image>XBMCRename.bmp
-XBMCRename.Titre>XBMCRename: Renomme les fichiers video/sous-titres/fanart/nfo... utilisés par XBMC
-XBMCRename.Description>Retrouve tous les fichiers liés à un fichier .nfo et les renomme en utilisant
-XBMCRename.Description>les informations trouvées dans ce fichier .nfo (le fichier de metadonnées)
-XBMCRename.Description>
-XBMCRename.Description>C'est un programme en ligne de commande qui tourne sous Linux mais devrait tourner
-XBMCRename.Description>sous Windows et MacOS X toutefois je n'ai pas pu le tester.
-XBMCRename.Description>
-XBMCRename.Description>Taper python XBMCRename.py --help pour plus d'informations
-XBMCRename.Description>
-XBMCRename.Description>C'est mon premier script Python et il n'est probablement pas aussi propre qu'il le devrait.
-XBMCRename.Description>Toutes les possibilités offertes par <a href="http://www.xbmc.fr/" title="XBMC media center">XBMC</a> ne sont pas prises en compte (très difficile
-XBMCRename.Description>sans un accès à la configuration de <a href="http://www.xbmc.fr/" title="XBMC media center">XBMC</a>)
-XBMCRename.Description>
-XBMCRename.Description>0.4.0: Mise à jour pour les conventions de nommage des exportations XBMC Frodo (12)
-XBMCRename.Description>
-XBMCRename.Description>0.5.0: Episodes multiples dans un seul fichier pris en compte
-XBMCRename.Version>0.5.0
-XBMCRename.Compter>1
+PBRenamer.Fichier>https://github.com/ppoilbarbe/PBRenamer
+PBRenamer.Texte>PBRenamer
+PBRenamer.Langues>us de fr es it ru vi cn
+PBRenamer.Systeme>L M W
+PBRenamer.Image>
+PBRenamer.Titre>PBRenamer: Évolution de pyrenamer
+PBRenamer.Description>Ce programme est une évolution de l'antique pyrenamer que j'aimais
+PBRenamer.Description>beaucoup. Ce n'est pas un fork, car il ne reste pas grand chose
+PBRenamer.Description>du programme d'origine (et passage à QT).
+PBRenamer.Description>
+PBRenamer.Description>Voir <a src="https://github.com/ppoilbarbe/PBRenamer/releases">les releases</a>
+PBRenamer.Description>pour récupérer les exécutables.
+PBRenamer.Description>
+PBRenamer.Version>
+PBRenamer.Compter>0
 
-CorrectNFODurations.Fichier>CorrectNFODurations.py
-CorrectNFODurations.Langues>gb
-CorrectNFODurations.Systeme>L
-CorrectNFODurations.Systeme>M
-CorrectNFODurations.Systeme>W
-CorrectNFODurations.Image>CorrectNFODurations.bmp
-CorrectNFODurations.Titre>CorrectNFODurations: Corrige les durées de films incorrectes dans les fichier NFO
-CorrectNFODurations.Description>Corrige les durées incorrectes créées par XBMC dans les fichiers NFO de manière
-CorrectNFODurations.Description>à pouvoir trier sur la durée et avoir des affichages corrects
-CorrectNFODurations.Description>
-CorrectNFODurations.Description>C'est un programme en ligne de commande qui tourne sous Linux mais devrait tourner
-CorrectNFODurations.Description>sous Windows et MacOS X toutefois je n'ai pas pu le tester.
-CorrectNFODurations.Description>
-CorrectNFODurations.Description>Taper python CorrectNFODurations.py --help pour plus d'informations
-CorrectNFODurations.Description>
-CorrectNFODurations.Version>1.0.0
-CorrectNFODurations.Compter>1
+PBPicat.Fichier>https://github.com/ppoilbarbe/PBPicat
+PBPicat.Texte>PBPicat
+PBPicat.Langues>us de fr es it ru vi cn
+PBPicat.Systeme>L M W
+PBPicat.Image>
+PBPicat.Titre>PBPicat: Un catalogueur d'images (Picture Calalog) et vidéos.
+PBPicat.Description>Ce programme permet le cataloguage d'images (Picture Catalog)
+PBPicat.Description>et de vidéos avec leur fichiers sidecar associés en les
+PBPicat.Description>renommant dans une arbrorescence dédiée dont la structure
+PBPicat.Description>est représentée par un modèle (voir le fichier
+PBPicat.Description><a src="https://github.com/ppoilbarbe/PBPicat/blob/main/README.md">README</a>
+PBPicat.Description>pour plus de détails).
+PBPicat.Description>
+PBPicat.Description>Voir <a src="https://github.com/ppoilbarbe/PBRenamer/releases">les releases</a>
+PBPicat.Description>pour récupérer les exécutables.
+PBPicat.Description>
+PBPicat.Version>
+PBPicat.Compter>0
+
+PBRegisterActivity.Fichier>https://github.com/ppoilbarbe/PBRegisterActivity
+PBRegisterActivity.Texte>PBRegisterActivity
+PBRegisterActivity.Langues>fr
+PBRegisterActivity.Systeme>L
+PBRegisterActivity.Image>
+PBRegisterActivity.Titre>PBRegisterActivity: Enregistrement de l'activité journalière
+PBRegisterActivity.Description>Créé pour pouvoir effectuer des comptes-rendu d'actvité à
+PBRegisterActivity.Description>mon travail, ce programme permet de compatbiliser le temps
+PBRegisterActivity.Description>passé sur chaque activité (fait la somme de tous les segments
+PBRegisterActivity.Description>horaires d'une même activité).
+PBRegisterActivity.Description>
+PBRegisterActivity.Version>
+PBRegisterActivity.Compter>0
+
+PBDarkTemplate.Fichier>https://github.com/ppoilbarbe/PBDarkTemplate
+PBDarkTemplate.Texte>PBDarkTemplate
+PBDarkTemplate.Langues>us de fr es it ru vi cn
+PBDarkTemplate.Systeme>L M W
+PBDarkTemplate.Image>
+PBDarkTemplate.Titre>PBDarkTemplate: Modèle pour <a src="https://www.tinymediamanager.org">tinyMediaManager</a>
+PBDarkTemplate.Description>Ceci compose 2 modèles pour <a src="https://www.tinymediamanager.org">tinyMediaManager</a>:
+PBDarkTemplate.Description>PB DarkTemplate Movies et PB DarkTemplate TV Shows.
+PBDarkTemplate.Description>
+PBDarkTemplate.Description>Ces modèles permettent l'export des films et séries contenues dans
+PBDarkTemplate.Description>tMM au même endroit (même répertoire) sans conflit et permettent
+PBDarkTemplate.Description>l'affichage des deux depuis la même URL.
+PBDarkTemplate.Description>
+PBDarkTemplate.Description>Voir <a src="https://github.com/ppoilbarbe/PBDarkTemplate/releases">les releases</a>
+PBDarkTemplate.Description>pour récupérer les fichiers zip des deux modèles.
+PBDarkTemplate.Description>
+PBDarkTemplate.Version>
+PBDarkTemplate.Compter>0
+
+PBPrompt.Fichier>https://github.com/ppoilbarbe/PBPrompt
+PBPrompt.Texte>PBPrompt
+PBPrompt.Langues>us de fr es it ru vi cn
+PBPrompt.Systeme>L M W
+PBPrompt.Image>
+PBPrompt.Titre>PBPrompt: Enregistrement de prompt d'IA
+PBPrompt.Description>Souvent, il faut faire de mulotiples essaie avec une IA générative
+PBPrompt.Description>d'images avant d'arriver à des résultats.
+PBPrompt.Description>
+PBPrompt.Description>Ce programme permet d'enregistrer divers essais (avec possibilité d'images)
+PBPrompt.Description>afin de les garder sous la main.
+PBPrompt.Description>
+PBPrompt.Description>Cela peut être prompt complet, ou une partie que l'on sait bien fonctionner
+PBPrompt.Description>(par exemplepour conserver un visage inchangé, améliorer la qualité d'image...)
+PBPrompt.Description>
+PBPrompt.Description>De plus il permet de stocker le prompt en anglais et une autre langue
+PBPrompt.Description>au choix (traduction automatique via un service de traduction au choix)
+PBPrompt.Description>
+PBPrompt.Description>Par contre, l'interface du programme lui-même est disopnible en un nombre de langues limité.
+PBPrompt.Description>
+PBPrompt.Description>Voir <a src="https://github.com/ppoilbarbe/PBPrompt/releases">les releases</a>
+PBPrompt.Description>pour récupérer les fichiers zip des deux modèles.
+PBPrompt.Description>
+PBPrompt.Version>
+PBPrompt.Compter>0
+
+PBBoule.Fichier>https://github.com/ppoilbarbe/PBBoule
+PBBoule.Texte>PBBoule
+PBBoule.Langues>fr
+PBBoule.Systeme>L
+PBBoule.Image>
+PBBoule.Titre>PBBoule: Création de documents pour une compétition de pétanque
+PBBoule.Description>Ce programme sert à créer les documents nécessaire pour une
+PBBoule.Description>compétition de pétanque avec phases de poules.
+PBBoule.Description>
+PBBoule.Description>On programme la taille des poules, le nombre min et max d'équipes
+PBBoule.Description>et à partir d'où on veut les phases finales.
+PBBoule.Description>
+PBBoule.Description>Le programme crée alors les feuilles de poules et de phases finales
+PBBoule.Description>(plus d'autres choses, voir le programme).
+PBBoule.Description>
+PBBoule.Description>Voir <a src="https://github.com/ppoilbarbe/PBBoule/releases">les releases</a>
+PBBoule.Description>pour récupérer les documents générés (pour les valeurs par défaut: poules de 4 ou 5, 6 à 32 équipes).
+PBBoule.Description>
+PBBoule.Version>
+PBBoule.Compter>0
+

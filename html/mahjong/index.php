@@ -39,6 +39,7 @@ d'<a href="http://www.mahjongfr.com">Alexis Beuve et Bertrand Le Roy</a>
 avec leur aimable autorisation. Il en va de même pour la feuille de comptage
 des points.<br>
 <i>Note : ce site a disparu et je n'ai pas trouvé de remplaçant.</i></p>
+<p><br>Les drapeaux sont issus de <a src="https://flagpedia.net">flagpedia.net</a></p>
 <?php
 DoTableDownload('mahjong_download.txt', 'Download');
 FinPage();

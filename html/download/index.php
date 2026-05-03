@@ -16,9 +16,14 @@ FinEnTete();
 DebutPage('Programmes', 3, $BoutonsGeneraux);
 ?>
 <p>Voici quelques programmes développés à la maison pour un usage personnel.
-Si cela intéresse quelqu'un, ils sont disponibles pour tout un chacun.</p>
-<p>Si vous les appréciez ou si vous désirez des modifications, je serais
-heureux que vous m'en fassiez part.</p>
+Je les ai mis sur <a src="https://github.com/ppoilbarbe">Github</a>
+pour les rendre accessibles à ceux que cela intéresse.<br>
+N'hésitez pas à ouvrir des tickets en cas de problème rencontrés<br></p>
+<div class="Attention"><h1>ATTENTION</h1>
+Je n'ai <big><i>ni Windows, ni MacOS</i></big> sous la main, donc les exécutables
+pour ces systèmes ne sont testés que par Github CI (Continuous Integration).
+</div>
+<p>Les drapeaux sont issus de <a src="https://flagpedia.net">flagpedia.net</a></p>
 <?php
 DoTableDownload('file_download.txt', 'Download');
 FinPage();

@@ -46,7 +46,7 @@ function DebutEnTete($title, $keywords = '')
         Ligne('<META NAME="keywords"       CONTENT="' . $kw . '">');
     }
 
-    Ligne('<META NAME="COPYRIGHT" CONTENT="Ph. Poilbarbe 1999-2024">');
+    Ligne('<META NAME="COPYRIGHT" CONTENT="Ph. Poilbarbe 1999-2026">');
     Ligne('<META NAME="ROBOTS"    CONTENT="NOARCHIVE">');
     Ligne('<META NAME="ROBOTS"    CONTENT="ALL">');
     JavaScript('boutons.js');
@@ -196,7 +196,7 @@ function FinPage()
         'Promouvoir et soutenir le logiciel libre'
     ));
     Ligne('</td><td>');
-    Ligne('©<a href="mailto:webmaster@cardolan.net">Marcel Spock 1999-2024</a>');
+    Ligne('©<a href="mailto:webmaster@cardolan.net">Marcel Spock 1999-2026</a>');
     LigneBR('Tous droits réservés');
     Ligne('Vous êtes le visiteur n°<img src="http://perso0.proxad.net/cgi-bin/wwwcount.cgi?dd=D&df=RANDOM&md=12&ft=2"><br>Compteur complètement libre de ses opinions');
     Ligne('</td><td>');
