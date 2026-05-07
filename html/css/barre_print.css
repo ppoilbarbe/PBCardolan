@@ -1,39 +1,17 @@
-DIV.ZoneCoinHG {
-display:none;
-}
+/*
+ * barre_print.css — Masquage de la barre de navigation à l'impression
+ * ====================================================================
+ * Masque toutes les zones de navigation (inutiles sur papier).
+ * La zone de contenu (ZoneCentre) perd son positionnement absolu.
+ */
 
-DIV.ZoneHaut {
-display:none;
-}
-
-DIV.ZoneCentre {
-margin : 0px;
-}
-
-DIV.Btn1 {
-display:none;
-}
-
-DIV.ZoneBordDroit {
-display:none;
-}
-
-DIV.Btn2 {
-display:none;
-}
-
-DIV.Btn3 {
-display:none;
-}
-
-DIV.Btn4 {
-display:none;
-}
-
-DIV.Btn5 {
-display:none;
-}
-
-DIV.ZoneBas {
-display:none;
-}
+div.ZoneCoinHG    { display: none; }
+div.ZoneHaut      { display: none; }
+div.ZoneCentre    { margin: 0; }
+div.Btn1          { display: none; }
+div.ZoneBordDroit { display: none; }
+div.Btn2          { display: none; }
+div.Btn3          { display: none; }
+div.Btn4          { display: none; }
+div.Btn5          { display: none; }
+div.ZoneBas       { display: none; }

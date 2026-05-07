@@ -5,17 +5,21 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Base.lib.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Site.lib.php';
 
-require_once included('MiseEnPage.lib.php');
-require_once included('BoutonsGeneraux.lib.php');
+do_header('Erreur 403');
+?>
+<body>
+<?php do_page_open('ERREUR', -1); ?>
 
-DebutEnTete('Erreur 403', '');
-FinEnTete();
-DebutPage('ERREUR', -1, $BoutonsGeneraux);
+<?php
 Titre('Erreur 403');
 if (isset($BaseError)) SousTitre($BaseError);
 Ligne('<BR><BR><BR>');
 SousTitre("Vous avez essayé d'accéder à une ressource non autorisée.");
 Ligne('<BR><BR><BR>');
-FinPage();
+
+do_footer();
+?>
+</body>
+</html>

@@ -4,10 +4,6 @@ $C_MISEENPAGE_LIB_INC = 1;
 
 require_once included('Edition.lib.php');
 
-// Counts how many preload functions have been emitted; used to generate
-// unique JS function names (preloadImages1, preloadImages2, …).
-$PreloadCount = 0;
-
 // ---------------------------------------------------------------------------
 // <HEAD> section
 // ---------------------------------------------------------------------------
@@ -54,14 +50,12 @@ function DebutEnTete($title, $keywords = '')
 
 /**
  * Emits a <SCRIPT> block that preloads the -over and -down variants of each
- * active navigation button. Call this between DebutEnTete() and FinEnTete().
+ * active navigation button using window.addEventListener (no body onload needed).
  *
  * @param array $buttons Navigation button array (see BoutonsGeneraux.lib.php).
  */
 function PreloadImagesBoutons($buttons)
 {
-    global $PreloadCount;
-
     $preloads = [];
     foreach ($buttons as $btn) {
         if (!$btn[0] || !$btn[3]) continue;
@@ -73,31 +67,26 @@ function PreloadImagesBoutons($buttons)
     }
     if (empty($preloads)) return;
 
-    $PreloadCount++;
     Ligne('<SCRIPT language="JavaScript">');
     Ligne('<!--');
-    if ($PreloadCount === 1) Ligne('var preloadFlag = false;');
-    Ligne('function preloadImages' . $PreloadCount . '() {');
+    Ligne('window.addEventListener("load", function() {');
     Ligne('if (document.images) {');
     foreach ($preloads as [$jsName, $file]) {
         Ligne("$jsName = newImage(\"$file\");");
     }
-    Ligne("preloadFlag = true;\n}\n}");
+    Ligne('}');
+    Ligne('});');
     Ligne('// -->');
     Ligne('</SCRIPT>');
 }
 
 /**
- * Closes </HEAD> and opens <BODY>.
- * If preload functions were emitted, wires them to the onload attribute.
+ * Closes </HEAD>. The <BODY> tag is written explicitly by each page.
  *
- * @param string $bodyClass  Optional CSS class for <BODY>.
- * @param int    $printable  Set to 1 to also load print stylesheets.
+ * @param int $printable  Set to 1 to also load print stylesheets.
  */
-function FinEnTete($bodyClass = '', $printable = 0)
+function FinEnTete($printable = 0)
 {
-    global $PreloadCount;
-
     FeuilleStyle('barre.css',        $printable ? 'screen' : '');
     FeuilleStyle('general.css',      $printable ? 'screen' : '');
     FeuilleStyle('always_print.css', 'print');
@@ -107,13 +96,6 @@ function FinEnTete($bodyClass = '', $printable = 0)
     }
 
     Ligne('</HEAD>');
-
-    $classAttr  = $bodyClass    ? " class=\"$bodyClass\""        : '';
-    $onloadAttr = $PreloadCount ? ' onload="' . implode(' ', array_map(
-        fn($i) => "preloadImages{$i}();",
-        range(1, $PreloadCount)
-    )) . '"' : '';
-    Ligne("<BODY$classAttr$onloadAttr>");
 }
 
 // ---------------------------------------------------------------------------
@@ -142,6 +124,7 @@ HTML;
 /**
  * Renders the full navigation chrome (corner image, banner, side buttons)
  * and opens the main content <DIV class="ZoneCentre">.
+ * Must be called inside <body>.
  *
  * @param string $title       Optional page subtitle shown in the top banner.
  * @param int    $activeBtn   0-based index of the currently active button, or -1.
@@ -184,7 +167,8 @@ function DebutPage($title, $activeBtn, $buttons)
 
 /**
  * Closes the content area and renders the page footer (April.org banner,
- * copyright notice, visitor counter, home button), then closes </BODY></HTML>.
+ * copyright notice, visitor counter, home button).
+ * The </BODY> and </HTML> tags are written explicitly by each page.
  */
 function FinPage()
 {
@@ -204,8 +188,6 @@ function FinPage()
     Ligne('</td></tr></table>');
     Ligne('</DIV>');
     Ligne('</DIV>');
-    Ligne('</BODY>');
-    Ligne('</HTML>');
 }
 
 /** Displays an "under construction" placeholder. */

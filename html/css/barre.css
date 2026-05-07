@@ -1,86 +1,118 @@
-DIV.ZoneCoinHG {
-position:absolute;
-left:0px;
-top:0px;
-width:99px;
-height:85px;
+/*
+ * barre.css — Mise en page de la barre de navigation latérale
+ * ============================================================
+ * Positionnement absolu des zones de navigation (images GIF fixes).
+ * Les variables :root ci-dessous centralisent les dimensions ; si les images
+ * changent de taille, modifier uniquement ces valeurs.
+ *
+ * Rappel de la structure :
+ *   ZoneCoinHG  (coin haut-gauche, 99×85)
+ *   ZoneHaut    (bandeau titre, débute à x=99)
+ *   Btn1…Btn5   (boutons empilés, chacun 53×64, débutent à y=85)
+ *   ZoneBordDroit (bord droit de la colonne, 46 px)
+ *   ZoneBas     (bas de la colonne, 53×67)
+ *   ZoneCentre  (zone de contenu principal, débute à x=99, y=72)
+ */
+
+
+/* ══════════════════════════════════════════════════════════════════════════════
+   VARIABLES — dimensions de la barre (liées aux images GIF)
+   ══════════════════════════════════════════════════════════════════════════════ */
+:root {
+  --barre-sidebar-w: 99px;   /* Largeur totale de la colonne de navigation      */
+  --barre-header-h:  72px;   /* Hauteur de la zone d'en-tête (ZoneHaut)         */
+  --barre-corner-h:  85px;   /* Hauteur de l'image de coin (ZoneCoinHG)         */
+  --barre-btn-w:     53px;   /* Largeur d'un bouton de navigation               */
+  --barre-btn-h:     64px;   /* Hauteur d'un bouton de navigation               */
+  --barre-bord-w:    46px;   /* Largeur du bord droit de la colonne             */
+  --barre-bas-h:     67px;   /* Hauteur de la zone de bas de colonne (ZoneBas)  */
 }
 
-DIV.ZoneHaut {
-position:absolute;
-left:99px;
-top:0px;
-width:750px;
-height:72px;
+
+div.ZoneCoinHG {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: var(--barre-sidebar-w);
+  height: var(--barre-corner-h);
 }
 
-DIV.GoogleTranslate {
-position:absolute;
-left:720px;
-top:0px;
-width:100px;
-height:72px;
+div.ZoneHaut {
+  position: absolute;
+  left: var(--barre-sidebar-w);
+  top: 0;
+  width: 750px;
+  height: var(--barre-header-h);
 }
 
-DIV.ZoneCentre {
-position:absolute;
-left:99px;
-top:72px;
-margin-right: 20px;
+div.GoogleTranslate {
+  position: absolute;
+  left: 720px;
+  top: 0;
+  width: 100px;
+  height: var(--barre-header-h);
 }
 
-DIV.Btn1 {
-position:absolute;
-left:0px;
-top:85px;
-width:53px;
-height:64px;
+div.ZoneCentre {
+  position: absolute;
+  left: var(--barre-sidebar-w);
+  top: var(--barre-header-h);
+  margin-right: 20px;
 }
 
-DIV.ZoneBordDroit {
-position:absolute;
-left:53px;
-top:85px;
-width:46px;
-height:387px;
+/* Boutons de navigation empilés verticalement à partir de y = --barre-corner-h */
+div.Btn1 {
+  position: absolute;
+  left: 0;
+  top: var(--barre-corner-h);
+  width: var(--barre-btn-w);
+  height: var(--barre-btn-h);
 }
 
-DIV.Btn2 {
-position:absolute;
-left:0px;
-top:149px;
-width:53px;
-height:64px;
+div.ZoneBordDroit {
+  position: absolute;
+  left: var(--barre-btn-w);
+  top: var(--barre-corner-h);
+  width: var(--barre-bord-w);
+  height: calc(5 * var(--barre-btn-h) + var(--barre-bas-h)); /* = 387px */
 }
 
-DIV.Btn3 {
-position:absolute;
-left:0px;
-top:213px;
-width:53px;
-height:64px;
+div.Btn2 {
+  position: absolute;
+  left: 0;
+  top: calc(var(--barre-corner-h) + 1 * var(--barre-btn-h));
+  width: var(--barre-btn-w);
+  height: var(--barre-btn-h);
 }
 
-DIV.Btn4 {
-position:absolute;
-left:0px;
-top:277px;
-width:53px;
-height:64px;
+div.Btn3 {
+  position: absolute;
+  left: 0;
+  top: calc(var(--barre-corner-h) + 2 * var(--barre-btn-h));
+  width: var(--barre-btn-w);
+  height: var(--barre-btn-h);
 }
 
-DIV.Btn5 {
-position:absolute;
-left:0px;
-top:341px;
-width:53px;
-height:64px;
+div.Btn4 {
+  position: absolute;
+  left: 0;
+  top: calc(var(--barre-corner-h) + 3 * var(--barre-btn-h));
+  width: var(--barre-btn-w);
+  height: var(--barre-btn-h);
 }
 
-DIV.ZoneBas {
-position:absolute;
-left:0px;
-top:405px;
-width:53px;
-height:67px;
+div.Btn5 {
+  position: absolute;
+  left: 0;
+  top: calc(var(--barre-corner-h) + 4 * var(--barre-btn-h));
+  width: var(--barre-btn-w);
+  height: var(--barre-btn-h);
+}
+
+div.ZoneBas {
+  position: absolute;
+  left: 0;
+  top: calc(var(--barre-corner-h) + 5 * var(--barre-btn-h));
+  width: var(--barre-btn-w);
+  height: var(--barre-bas-h);
 }

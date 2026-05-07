@@ -6,10 +6,7 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Base.lib.php';
-
-require_once included('MiseEnPage.lib.php');
-require_once included('BoutonsGeneraux.lib.php');
+require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Site.lib.php';
 require_once included('Recettes.lib.php');
 
 // Redirect to 404 if the recipe key is missing or unknown.
@@ -26,11 +23,15 @@ if (!isset($DescriptionRecettes[$recipeKey . '.RECETTE'])) {
 $title = EstTexteSimple($recipeKey, 'TITRE');
 $photo = $DescriptionRecettes[$recipeKey . '.PHOTO'][0] ?? '';
 
-// Printable version: loads print stylesheets.
-DebutEnTete('Recettes: ' . $title, EstTexteSimple($recipeKey, 'MOTSCLEFS') . ', Français');
-FinEnTete('', 1);
-DebutPage('Recette', -1, $BoutonsGeneraux);
+do_header('Recettes: ' . $title, [
+    'keywords'  => EstTexteSimple($recipeKey, 'MOTSCLEFS') . ', Français',
+    'printable' => 1,
+]);
+?>
+<body>
+<?php do_page_open('Recette', -1); ?>
 
+<?php
 $hasIngredients = isset($DescriptionRecettes[$recipeKey . '.INGREDIENT']);
 $twoColumns     = $photo && $hasIngredients;
 $span           = $twoColumns ? ' COLSPAN=2' : '';
@@ -78,4 +79,8 @@ if (isset($DescriptionRecettes[$recipeKey . '.SOURCE']) && $source)
     Ligne('<TR><TH' . $span . ' CLASS="Source"><I>Source : </I>' . $source . '</TH></TR>');
 
 Ligne('</TABLE></P></DIV><BR>');
-FinPage();
+?>
+
+<?php do_footer(); ?>
+</body>
+</html>

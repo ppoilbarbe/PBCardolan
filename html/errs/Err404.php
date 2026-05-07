@@ -5,14 +5,14 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Base.lib.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Site.lib.php';
 
-require_once included('MiseEnPage.lib.php');
-require_once included('BoutonsGeneraux.lib.php');
+do_header('Erreur 404');
+?>
+<body>
+<?php do_page_open('ERREUR', -1); ?>
 
-DebutEnTete('Erreur 404', '');
-FinEnTete();
-DebutPage('ERREUR', -1, $BoutonsGeneraux);
+<?php
 Titre('Erreur 404');
 if (isset($BaseError)) SousTitre('<em>' . $BaseError . '</em>');
 Ligne('<BR><BR><BR>');
@@ -22,4 +22,9 @@ SousTitre(
     . '(merci de me le <a href="mailto:webmaster@cardolan.net">signaler</a>).'
 );
 Ligne('<BR><BR><BR>');
-FinPage();
+
+
+do_footer();
+?>
+</body>
+</html>

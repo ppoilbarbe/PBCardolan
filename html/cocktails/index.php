@@ -5,13 +5,17 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Base.lib.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Site.lib.php';
 
-require_once included('MiseEnPage.lib.php');
-require_once included('BoutonsGeneraux.lib.php');
+do_header('Cocktails: Pour les assoiffés', ['keywords' => 'Cocktails,Français']);
+?>
+<body>
+<?php
+do_page_open('Cocktails', 1);
 
-DebutEnTete('Cocktails: Pour les assoiffés', 'Cocktails,Français');
-FinEnTete();
-DebutPage('Cocktails', 1, $BoutonsGeneraux);
 EnConstruction();
-FinPage();
+
+do_footer();
+?>
+</body>
+</html>

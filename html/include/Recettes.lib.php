@@ -31,7 +31,7 @@ function ExpandReferences($text)
 {
     return preg_replace_callback(
         '/#([A-Za-z]+)(?:\|(.+?))?#/',
-        fn($m) => UneReference($m[1], $m[2] ?? ''),
+        function($m) { return UneReference($m[1], isset($m[2]) ? $m[2] : ''); },
         $text
     );
 }

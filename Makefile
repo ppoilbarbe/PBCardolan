@@ -56,12 +56,17 @@ livetest: ## Démarre le serveur PHP local et ouvre le navigateur (détaché)
 	@xdg-open http://localhost:$(PORT) 2>/dev/null &
 
 stop: ## Arrête le serveur PHP local
-	@if [ -f $(PID_FILE) ] && kill -0 $$(cat $(PID_FILE)) 2>/dev/null; then \
-	    kill $$(cat $(PID_FILE)) && rm -f $(PID_FILE); \
+	@killed=0; \
+	if [ -f $(PID_FILE) ]; then \
+	    pid=$$(cat $(PID_FILE)); \
+	    kill $$pid 2>/dev/null && killed=1; \
+	    rm -f $(PID_FILE); \
+	fi; \
+	pkill -f "php -S localhost:$(PORT)" 2>/dev/null && killed=1; \
+	if [ $$killed -eq 1 ]; then \
 	    printf "$(G)Serveur arrêté.$(R)\n"; \
 	else \
 	    printf "$(Y)Aucun serveur en cours.$(R)\n"; \
-	    rm -f $(PID_FILE); \
 	fi
 
 test: ## Vérifie la syntaxe PHP de tous les fichiers du site

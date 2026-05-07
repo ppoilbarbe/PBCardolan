@@ -5,22 +5,23 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Base.lib.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Site.lib.php';
 
-require_once included('MiseEnPage.lib.php');
-require_once included('BoutonsGeneraux.lib.php');
+do_header('Page personnelle de Philippe Poilbarbe', [
+    'keywords'   => 'Mah-Jong,Cocktails,Français',
+    'favicon'    => 'PB-Soft.ico',
+    'javascript' => ['pi.js'],
+]);
+?>
+<body>
+<?php
 
-DebutEnTete('Page personnelle de Philippe Poilbarbe', 'Mah-Jong,Cocktails,Français');
-SetBookmarkIcon(EstImage('PB-Soft.ico'));
-PreloadImagesBoutons($BoutonsGeneraux);
-FinEnTete();
-JavaScript('pi.js');
+do_page_open('', -1);
 
-DebutPage('', -1, $BoutonsGeneraux);
 Titre('Philippe Poilbarbe');
 SousTitre('');
 Ligne('<p align="center">' . LienImage('', 'Sindarin.jpg') . '<br>');
-Ligne('<br>Ce site a été testé avec Edge, Chromium, FireFox, Lynx.<br>');
+Ligne('<br>Ce site a été testé avec Chromium et FireFox.<br>');
 Ligne('Optimisé pour une résolution minimale de 1024x768.<br><br><br><br>');
 Ligne(LienImage(
     'https://www.april.org/adherer?referent=Philippe+POILBARBE+%28ppoilbarbe%29',
@@ -28,4 +29,8 @@ Ligne(LienImage(
     'Promouvoir et soutenir le logiciel libre'
 ));
 Ligne('</p>');
-FinPage();
+
+do_footer();
+?>
+</body>
+</html>

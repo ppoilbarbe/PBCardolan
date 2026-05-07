@@ -5,14 +5,14 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Base.lib.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Site.lib.php';
 
-require_once included('MiseEnPage.lib.php');
-require_once included('BoutonsGeneraux.lib.php');
+do_header('Erreur 401');
+?>
+<body>
+<?php do_page_open('ERREUR', -1); ?>
 
-DebutEnTete('Erreur 401', '');
-FinEnTete();
-DebutPage('ERREUR', -1, $BoutonsGeneraux);
+<?php
 Titre('Erreur 401');
 if (isset($BaseError)) SousTitre($BaseError);
 Ligne('<BR><BR><BR>');
@@ -22,4 +22,9 @@ SousTitre(
     . "soit votre butineur ne sait pas comment fournir les éléments nécessaires à l'authentification."
 );
 Ligne('<BR><BR><BR>');
-FinPage();
+
+
+do_footer();
+?>
+</body>
+</html>

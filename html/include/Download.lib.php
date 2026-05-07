@@ -42,6 +42,9 @@ function DoDownload($paramFile)
         $counted  = !$isUrl && $data[$key . '.COMPTER'][0];
         $linkText = $data[$key . '.TEXTE'][0] ?? '';
 
+        $image     = $data[$key . '.IMAGE'][0] ?? '';
+        $imageHtml = $image !== '' ? '<img src="' . EstImage($image) . '" style="max-width:64px;max-height:64px" alt="">' . "<BR>\n" : '';
+
         if ($isUrl) {
             $description = '';
             foreach ($data[$key . '.DESCRIPTION'] ?? [] as $line) {
@@ -51,7 +54,7 @@ function DoDownload($paramFile)
             $label   = $linkText !== '' ? htmlspecialchars($linkText) : htmlspecialchars($filename);
 
             Ligne('<TR>');
-            Ligne('<TD class="Fichier"><a href="' . htmlspecialchars($filename) . '">' . $label . '</a></TD>');
+            Ligne('<TD class="Fichier">' . $imageHtml . '<a href="' . htmlspecialchars($filename) . '">' . $label . '</a></TD>');
             Ligne('<TD class="Texte">' . $description . '</TD>');
             Ligne('</TR>');
 
@@ -106,7 +109,7 @@ function DoDownload($paramFile)
             : CheminAbsolu($filename);
         Ligne('<TR>');
         $label = $linkText !== '' ? htmlspecialchars($linkText) : $filename;
-        Ligne('<TD class="Fichier"><a href="' . $href . '">' . $label . '</a></TD>');
+        Ligne('<TD class="Fichier">' . $imageHtml . '<a href="' . $href . '">' . $label . '</a></TD>');
         Ligne('<TD class="Texte">' . $description . '</TD>');
         Ligne('</TR>');
 

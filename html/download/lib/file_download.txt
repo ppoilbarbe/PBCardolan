@@ -5,13 +5,14 @@ Telecharge>PBRegisterActivity
 Telecharge>PBDarkTemplate
 Telecharge>PBPrompt
 Telecharge>PBBoule
+Telecharge>PBRecipe
 
 
 PBRenamer.Fichier>https://github.com/ppoilbarbe/PBRenamer
 PBRenamer.Texte>PBRenamer
 PBRenamer.Langues>us de fr es it ru vi cn
 PBRenamer.Systeme>L M W
-PBRenamer.Image>
+PBRenamer.Image>pbrenamer.png
 PBRenamer.Titre>PBRenamer: Évolution de pyrenamer
 PBRenamer.Description>Ce programme est une évolution de l'antique pyrenamer que j'aimais
 PBRenamer.Description>beaucoup. Ce n'est pas un fork, car il ne reste pas grand chose
@@ -27,7 +28,7 @@ PBPicat.Fichier>https://github.com/ppoilbarbe/PBPicat
 PBPicat.Texte>PBPicat
 PBPicat.Langues>us de fr es it ru vi cn
 PBPicat.Systeme>L M W
-PBPicat.Image>
+PBPicat.Image>pbpicat.png
 PBPicat.Titre>PBPicat: Un catalogueur d'images (Picture Calalog) et vidéos.
 PBPicat.Description>Ce programme permet le cataloguage d'images (Picture Catalog)
 PBPicat.Description>et de vidéos avec leur fichiers sidecar associés en les
@@ -46,7 +47,7 @@ PBRegisterActivity.Fichier>https://github.com/ppoilbarbe/PBRegisterActivity
 PBRegisterActivity.Texte>PBRegisterActivity
 PBRegisterActivity.Langues>fr
 PBRegisterActivity.Systeme>L
-PBRegisterActivity.Image>
+PBRegisterActivity.Image>pbregisteractivity.png
 PBRegisterActivity.Titre>PBRegisterActivity: Enregistrement de l'activité journalière
 PBRegisterActivity.Description>Créé pour pouvoir effectuer des comptes-rendu d'actvité à
 PBRegisterActivity.Description>mon travail, ce programme permet de compatbiliser le temps
@@ -60,7 +61,7 @@ PBDarkTemplate.Fichier>https://github.com/ppoilbarbe/PBDarkTemplate
 PBDarkTemplate.Texte>PBDarkTemplate
 PBDarkTemplate.Langues>us de fr es it ru vi cn
 PBDarkTemplate.Systeme>L M W
-PBDarkTemplate.Image>
+PBDarkTemplate.Image>pbdarktemplate.png
 PBDarkTemplate.Titre>PBDarkTemplate: Modèle pour <a src="https://www.tinymediamanager.org">tinyMediaManager</a>
 PBDarkTemplate.Description>Ceci compose 2 modèles pour <a src="https://www.tinymediamanager.org">tinyMediaManager</a>:
 PBDarkTemplate.Description>PB DarkTemplate Movies et PB DarkTemplate TV Shows.
@@ -79,21 +80,21 @@ PBPrompt.Fichier>https://github.com/ppoilbarbe/PBPrompt
 PBPrompt.Texte>PBPrompt
 PBPrompt.Langues>us de fr es it ru vi cn
 PBPrompt.Systeme>L M W
-PBPrompt.Image>
+PBPrompt.Image>pbprompt.png
 PBPrompt.Titre>PBPrompt: Enregistrement de prompt d'IA
-PBPrompt.Description>Souvent, il faut faire de mulotiples essaie avec une IA générative
+PBPrompt.Description>Souvent, il faut faire de multiples essais avec une IA générative
 PBPrompt.Description>d'images avant d'arriver à des résultats.
 PBPrompt.Description>
 PBPrompt.Description>Ce programme permet d'enregistrer divers essais (avec possibilité d'images)
 PBPrompt.Description>afin de les garder sous la main.
 PBPrompt.Description>
 PBPrompt.Description>Cela peut être prompt complet, ou une partie que l'on sait bien fonctionner
-PBPrompt.Description>(par exemplepour conserver un visage inchangé, améliorer la qualité d'image...)
+PBPrompt.Description>(par exemple pour conserver un visage inchangé, améliorer la qualité d'image...)
 PBPrompt.Description>
 PBPrompt.Description>De plus il permet de stocker le prompt en anglais et une autre langue
 PBPrompt.Description>au choix (traduction automatique via un service de traduction au choix)
 PBPrompt.Description>
-PBPrompt.Description>Par contre, l'interface du programme lui-même est disopnible en un nombre de langues limité.
+PBPrompt.Description>Par contre, l'interface du programme lui-même est disponible en un nombre de langues limité.
 PBPrompt.Description>
 PBPrompt.Description>Voir <a src="https://github.com/ppoilbarbe/PBPrompt/releases">les releases</a>
 PBPrompt.Description>pour récupérer les fichiers zip des deux modèles.
@@ -105,7 +106,7 @@ PBBoule.Fichier>https://github.com/ppoilbarbe/PBBoule
 PBBoule.Texte>PBBoule
 PBBoule.Langues>fr
 PBBoule.Systeme>L
-PBBoule.Image>
+PBBoule.Image>pboule.png
 PBBoule.Titre>PBBoule: Création de documents pour une compétition de pétanque
 PBBoule.Description>Ce programme sert à créer les documents nécessaire pour une
 PBBoule.Description>compétition de pétanque avec phases de poules.
@@ -121,4 +122,25 @@ PBBoule.Description>pour récupérer les documents générés (pour les valeurs 
 PBBoule.Description>
 PBBoule.Version>
 PBBoule.Compter>0
+
+PBRecipe.Fichier>https://github.com/ppoilbarbe/PBRecipe
+PBRecipe.Texte>PBRecipe
+PBRecipe.Langues>fr
+PBRecipe.Systeme>L
+PBRecipe.Image>pbrecipe.png
+PBRecipe.Titre>PBRecipe: Gestion de recettes dans une base de donnée et affichage web
+PBRecipe.Description>Ce programme sert à gérer une série de recettes et leur publication sur le web.
+PBRecipe.Description>Les recettes (réalisation, ingrédients, media...) sont dans une base de données:
+PBRecipe.Description>SQLite (pour local), MariaDB/MySQL, PostgreSQL.
+PBRecipe.Description>
+PBRecipe.Description>Un import/export (YAML) standardisé permet la sauvegarde ou l'échange entre
+PBRecipe.Description>des bases de données en s'affranchissant du SQL.
+PBRecipe.Description>
+PBRecipe.Description>Voir <a src="https://github.com/ppoilbarbe/PBBoule/releases">les releases</a>
+PBRecipe.Description>pour récupérer les exécutables.
+PBRecipe.Description>
+PBRecipe.Description>Ce programme sert à gérer les recettes de cuisine et les cocktails de ce site
+PBRecipe.Description>(ou ne va pas tarder à le faire).
+PBRecipe.Version>
+PBRecipe.Compter>0
 

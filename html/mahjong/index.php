@@ -5,16 +5,14 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Base.lib.php';
-
-require_once included('MiseEnPage.lib.php');
-require_once included('BoutonsGeneraux.lib.php');
+require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Site.lib.php';
 require_once included('Download.lib.php');
 
-DebutEnTete('Quelques informations sur le mah-jong', 'Mah-Jong,Français');
-FinEnTete();
-DebutPage('Mah-Jong', 0, $BoutonsGeneraux);
+do_header('Quelques informations sur le mah-jong', ['keywords' => 'Mah-Jong,Français']);
 ?>
+<body>
+<?php do_page_open('Mah-Jong', 0); ?>
+
 <p>Pour ceux que le mah-jong intéresse, voici un recueil de quelques règles que
 j'ai pu glaner ici et là.</p>
 
@@ -40,6 +38,8 @@ avec leur aimable autorisation. Il en va de même pour la feuille de comptage
 des points.<br>
 <i>Note : ce site a disparu et je n'ai pas trouvé de remplaçant.</i></p>
 <p><br>Les drapeaux sont issus de <a src="https://flagpedia.net">flagpedia.net</a></p>
-<?php
-DoTableDownload('mahjong_download.txt', 'Download');
-FinPage();
+<?php DoTableDownload('mahjong_download.txt', 'Download'); ?>
+
+<?php do_footer(); ?>
+</body>
+</html>

@@ -5,16 +5,15 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Base.lib.php';
-
-require_once included('MiseEnPage.lib.php');
-require_once included('BoutonsGeneraux.lib.php');
+require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Site.lib.php';
 require_once included('Recettes.lib.php');
 
-$pageTitle = 'Recettes de cuisine';
-DebutEnTete('Recettes: Pour les affamés', 'Recettes, Cuisine, Français');
-FinEnTete();
-DebutPage($pageTitle, 2, $BoutonsGeneraux);
+do_header('Recettes: Pour les affamés', ['keywords' => 'Recettes, Cuisine, Français']);
+?>
+<body>
+<?php
+
+do_page_open('Recettes de cuisine', 2);
 
 // Tracks the current category heading to avoid repeating it.
 $lastCategory = '';
@@ -35,7 +34,7 @@ function AfficherRecette($recipeKey)
         . EstTexteSimple($recipeKey, 'TITRE') . '</a></li>');
 }
 
-Ligne('<H1>' . $pageTitle . '</H1>');
+Ligne('<H1>Recettes de cuisine</H1>');
 ?>
 <p>À la suite de quelques fêtes et soirées, il m'a été demandé
 des précisions sur les procédés culinaires relatifs aux
@@ -51,4 +50,8 @@ finira probablement un jour).</p>
 <?php
 array_walk($DescriptionRecettes['RECETTE'], 'AfficherRecette');
 Ligne('</ul></blockquote>');
-FinPage();
+
+do_footer();
+?>
+</body>
+</html>

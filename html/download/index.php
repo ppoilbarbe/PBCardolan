@@ -5,16 +5,14 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Base.lib.php';
-
-require_once included('MiseEnPage.lib.php');
-require_once included('BoutonsGeneraux.lib.php');
+require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Site.lib.php';
 require_once included('Download.lib.php');
 
-DebutEnTete('Quelques programmes maison', '');
-FinEnTete();
-DebutPage('Programmes', 3, $BoutonsGeneraux);
+do_header('Quelques programmes maison');
 ?>
+<body>
+<?php do_page_open('Programmes', 3); ?>
+
 <p>Voici quelques programmes développés à la maison pour un usage personnel.
 Je les ai mis sur <a src="https://github.com/ppoilbarbe">Github</a>
 pour les rendre accessibles à ceux que cela intéresse.<br>
@@ -26,4 +24,8 @@ pour ces systèmes ne sont testés que par Github CI (Continuous Integration).
 <p>Les drapeaux sont issus de <a src="https://flagpedia.net">flagpedia.net</a></p>
 <?php
 DoTableDownload('file_download.txt', 'Download');
-FinPage();
+
+do_footer();
+?>
+</body>
+</html>
