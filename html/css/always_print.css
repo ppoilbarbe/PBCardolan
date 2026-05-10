@@ -1,8 +1,0 @@
-/*
- * always_print.css — Masquage de Google Translate à l'impression
- * ===============================================================
- * Appliqué systématiquement à toutes les pages lors de l'impression.
- */
-
-div.GoogleTranslate { display: none; }
-div.skiptranslate   { display: none; }

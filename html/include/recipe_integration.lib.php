@@ -1,6 +1,6 @@
 <?php
 /**
- * General_recipe.lib.php — Integration shim for PBRecipe sub-sites.
+ * recipe_integration.lib.php — Integration shim for PBRecipe sub-sites.
  *
  * When PBRecipe is deployed as a sub-directory of this site it detects this
  * file via a relative path and calls the three functions below instead of
@@ -20,10 +20,10 @@
  *                      PBRecipe's config.php).  Used as the page sub-title and
  *                      meta keywords.
  */
-if (isset($C_GENERAL_RECIPE_LIB_INC)) return;
-$C_GENERAL_RECIPE_LIB_INC = 1;
+if (isset($_RECIPE_INTEGRATION_LIB_INC)) return;
+$_RECIPE_INTEGRATION_LIB_INC = 1;
 
-require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Site.lib.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/include/site.lib.php';
 
 /**
  * Outputs DOCTYPE + <head>…</head>.  Call before <body>.
@@ -47,7 +47,7 @@ function recipe_header(string $type): void
     }
     do_header($html_title, [
         'keywords' => $keywords,
-        'printable' => 1,
+        'css' => ['/css/recipes.css'],
     ]);
 }
 

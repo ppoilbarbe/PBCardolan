@@ -4,8 +4,9 @@ Telecharge>PBPicat
 Telecharge>PBRegisterActivity
 Telecharge>PBDarkTemplate
 Telecharge>PBPrompt
-Telecharge>PBBoule
+Telecharge>PBoule
 Telecharge>PBRecipe
+Telecharge>PBCardolan
 
 
 PBRenamer.Fichier>https://github.com/ppoilbarbe/PBRenamer
@@ -102,26 +103,26 @@ PBPrompt.Description>
 PBPrompt.Version>
 PBPrompt.Compter>0
 
-PBBoule.Fichier>https://github.com/ppoilbarbe/PBBoule
-PBBoule.Texte>PBBoule
-PBBoule.Langues>fr
-PBBoule.Systeme>L
-PBBoule.Image>pboule.png
-PBBoule.Titre>PBBoule: Création de documents pour une compétition de pétanque
-PBBoule.Description>Ce programme sert à créer les documents nécessaire pour une
-PBBoule.Description>compétition de pétanque avec phases de poules.
-PBBoule.Description>
-PBBoule.Description>On programme la taille des poules, le nombre min et max d'équipes
-PBBoule.Description>et à partir d'où on veut les phases finales.
-PBBoule.Description>
-PBBoule.Description>Le programme crée alors les feuilles de poules et de phases finales
-PBBoule.Description>(plus d'autres choses, voir le programme).
-PBBoule.Description>
-PBBoule.Description>Voir <a src="https://github.com/ppoilbarbe/PBBoule/releases">les releases</a>
-PBBoule.Description>pour récupérer les documents générés (pour les valeurs par défaut: poules de 4 ou 5, 6 à 32 équipes).
-PBBoule.Description>
-PBBoule.Version>
-PBBoule.Compter>0
+PBoule.Fichier>https://github.com/ppoilbarbe/PBoule
+PBoule.Texte>PBoule
+PBoule.Langues>fr
+PBoule.Systeme>L
+PBoule.Image>pboule.png
+PBoule.Titre>PBoule: Création de documents pour une compétition de pétanque
+PBoule.Description>Ce programme sert à créer les documents nécessaire pour une
+PBoule.Description>compétition de pétanque avec phases de poules.
+PBoule.Description>
+PBoule.Description>On programme la taille des poules, le nombre min et max d'équipes
+PBoule.Description>et à partir d'où on veut les phases finales.
+PBoule.Description>
+PBoule.Description>Le programme crée alors les feuilles de poules et de phases finales
+PBoule.Description>(plus d'autres choses, voir le programme).
+PBoule.Description>
+PBoule.Description>Voir <a src="https://github.com/ppoilbarbe/PBBoule/releases">les releases</a>
+PBoule.Description>pour récupérer les documents générés (pour les valeurs par défaut: poules de 4 ou 5, 6 à 32 équipes).
+PBoule.Description>
+PBoule.Version>
+PBoule.Compter>0
 
 PBRecipe.Fichier>https://github.com/ppoilbarbe/PBRecipe
 PBRecipe.Texte>PBRecipe
@@ -143,4 +144,14 @@ PBRecipe.Description>Ce programme sert à gérer les recettes de cuisine et les 
 PBRecipe.Description>(ou ne va pas tarder à le faire).
 PBRecipe.Version>
 PBRecipe.Compter>0
+
+PBCardolan.Fichier>https://github.com/ppoilbarbe/PBCardolan
+PBCardolan.Texte>PBCardolan
+PBCardolan.Langues>fr
+PBCardolan.Systeme>L
+PBCardolan.Image>
+PBCardolan.Titre>PBCardolan: Source du site https://www.cardolan.net
+PBCardolan.Description>Ce dépôt contient le source du site https://www.cardolan.net
+PBCardolan.Version>
+PBCardolan.Compter>0
 

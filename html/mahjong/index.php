@@ -5,8 +5,8 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Site.lib.php';
-require_once included('Download.lib.php');
+require_once $_SERVER['DOCUMENT_ROOT'] . '/include/site.lib.php';
+require_once includePath('download.lib.php');
 
 do_header('Quelques informations sur le mah-jong', ['keywords' => 'Mah-Jong,Français']);
 ?>
@@ -38,7 +38,7 @@ avec leur aimable autorisation. Il en va de même pour la feuille de comptage
 des points.<br>
 <i>Note : ce site a disparu et je n'ai pas trouvé de remplaçant.</i></p>
 <p><br>Les drapeaux sont issus de <a src="https://flagpedia.net">flagpedia.net</a></p>
-<?php DoTableDownload('mahjong_download.txt', 'Download'); ?>
+<?php renderDownloadTable('mahjong_download.txt', 'Download'); ?>
 
 <?php do_footer(); ?>
 </body>

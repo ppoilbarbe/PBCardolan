@@ -267,3 +267,37 @@ div.Recettes h3 {
   font-size: 16pt;
   text-align: left;
 }
+
+
+/* ══════════════════════════════════════════════════════════════════════════════
+   IMPRESSION — palette noir/blanc et surcharges de mise en page
+   ══════════════════════════════════════════════════════════════════════════════ */
+@media print {
+  :root {
+    --clr-bg:       #ffffff;
+    --clr-surface:  #f0f0f0;
+    --clr-primary:  #000000;
+    --clr-accent:   #000000;
+    --clr-text:     #000000;
+    --clr-muted:    #444444;
+    --clr-border:   #333333;
+
+    --clr-download-bg:     #eeeeee;
+    --clr-download-border: #333333;
+  }
+
+  p { padding: 0.1cm; }
+
+  h1.Titre { position: absolute; }
+
+  div.GoogleTranslate { display: none; }
+  div.skiptranslate   { display: none; }
+  div.FondPage        { display: none; }
+
+  div.Recettes          { margin: 0.1cm; }
+  div.Recettes table    { background-color: var(--clr-surface); border-color: var(--clr-border); }
+  div.Recettes tr       { margin: 0; }
+  div.Recettes th       { background-color: var(--clr-border); color: var(--clr-bg); }
+  div.Recettes em       { color: var(--clr-muted); }
+  div.Recettes h2       { color: var(--clr-muted); }
+}

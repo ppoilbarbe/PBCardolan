@@ -1,24 +1,24 @@
 <?php
 /**
- * envoyer.php — Increments a per-file download counter then redirects to the
+ * send_file.php — Increments a per-file download counter then redirects to the
  * file in /sendfiles/. Rejects path traversal and missing files.
  */
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Base.lib.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/include/base.lib.php';
 
 $filename = $_REQUEST['FICHIER'] ?? '';
 
 // Reject empty names and any attempt at path traversal.
 if (!$filename || basename($filename) !== $filename) {
-    header('Location: ' . PHP_SITE . '/errs/Err403.php?BaseError=' . rawurlencode($filename));
+    header('Location: ' . SITE_URL . '/errs/err403.php?BaseError=' . rawurlencode($filename));
     return;
 }
 
-$filePath = CheminAbsoluSysteme('/sendfiles/' . $filename);
+$filePath = absolutePath('/sendfiles/' . $filename);
 if (!file_exists($filePath)) {
-    header('Location: ' . PHP_SITE . '/errs/Err404.php?BaseError=' . rawurlencode($filename));
+    header('Location: ' . SITE_URL . '/errs/err404.php?BaseError=' . rawurlencode($filename));
     return;
 }
 
@@ -31,4 +31,4 @@ if (file_exists($logPath) && filemtime($filePath) <= filemtime($logPath)) {
 }
 file_put_contents($logPath, $count . "\n");
 
-header('Location: ' . PHP_SITE . '/sendfiles/' . $filename);
+header('Location: ' . SITE_URL . '/sendfiles/' . $filename);

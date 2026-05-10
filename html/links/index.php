@@ -5,7 +5,7 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Site.lib.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/include/site.lib.php';
 
 do_header('Quelques liens plus ou moins utiles', ['keywords' => 'Liens,Français']);
 ?>
@@ -13,7 +13,7 @@ do_header('Quelques liens plus ou moins utiles', ['keywords' => 'Liens,Français
 <?php
 do_page_open('Liens', 4);
 
-EnConstruction();
+underConstruction();
 
 do_footer();
 ?>

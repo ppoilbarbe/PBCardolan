@@ -116,3 +116,20 @@ div.ZoneBas {
   width: var(--barre-btn-w);
   height: var(--barre-bas-h);
 }
+
+
+/* ══════════════════════════════════════════════════════════════════════════════
+   IMPRESSION — masquage de la barre de navigation
+   ══════════════════════════════════════════════════════════════════════════════ */
+@media print {
+  div.ZoneCoinHG    { display: none; }
+  div.ZoneHaut      { display: none; }
+  div.ZoneCentre    { position: static; margin: 0; left: auto; top: auto; }
+  div.Btn1          { display: none; }
+  div.ZoneBordDroit { display: none; }
+  div.Btn2          { display: none; }
+  div.Btn3          { display: none; }
+  div.Btn4          { display: none; }
+  div.Btn5          { display: none; }
+  div.ZoneBas       { display: none; }
+}

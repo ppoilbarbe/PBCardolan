@@ -1,6 +1,6 @@
 <?php
-if (isset($C_LIREPARAM_LIB_INC)) return;
-$C_LIREPARAM_LIB_INC = 1;
+if (isset($_PARAMS_LIB_INC)) return;
+$_PARAMS_LIB_INC = 1;
 
 /**
  * Parses a KEY>VALUE data file into an associative array.
@@ -13,9 +13,9 @@ $C_LIREPARAM_LIB_INC = 1;
  * @param  string     $filename Absolute filesystem path to the data file.
  * @return array|null           Parsed data, or null if the file cannot be opened.
  */
-function LireParam($filename)
+function readParams($filename)
 {
-    $fh = fopen(CheminAbsoluSysteme($filename), 'r');
+    $fh = fopen(absolutePath($filename), 'r');
     if (!$fh) return null;
 
     $result = [];

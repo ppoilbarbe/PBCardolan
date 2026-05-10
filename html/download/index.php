@@ -5,8 +5,8 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-require_once $_SERVER['DOCUMENT_ROOT'] . '/include/Site.lib.php';
-require_once included('Download.lib.php');
+require_once $_SERVER['DOCUMENT_ROOT'] . '/include/site.lib.php';
+require_once includePath('download.lib.php');
 
 do_header('Quelques programmes maison');
 ?>
@@ -23,7 +23,7 @@ pour ces systèmes ne sont testés que par Github CI (Continuous Integration).
 </div>
 <p>Les drapeaux sont issus de <a src="https://flagpedia.net">flagpedia.net</a></p>
 <?php
-DoTableDownload('file_download.txt', 'Download');
+renderDownloadTable('file_download.txt', 'Download');
 
 do_footer();
 ?>

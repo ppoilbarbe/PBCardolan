@@ -1,4 +1,3 @@
-ErrorDocument 401 /errs/Err401.php
-ErrorDocument 403 /errs/Err403.php
-ErrorDocument 404 /errs/Err404.php
-
+ErrorDocument 401 /errs/err401.php
+ErrorDocument 403 /errs/err403.php
+ErrorDocument 404 /errs/err404.php

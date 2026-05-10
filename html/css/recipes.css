@@ -1,0 +1,5 @@
+@import "../recettes/css/recipes.css";
+:root {
+  --clr-primary:   #D0D0D0;   /* Couleur d'accentuation principale */
+}
+.recipe-section h2 { text-align: left; }
