@@ -30,6 +30,9 @@ help: ## Cette aide
 	@printf "  $(G)PORT$(R)         Port du serveur PHP local (défaut : $(Y)$(PORT)$(R))\n"
 	@printf "  $(G)NOCONDA$(R)      Contourne conda ; les outils doivent être dans le PATH\n"
 	@printf "                 ex. $(C)make test NOCONDA=1$(R)\n"
+	@printf "                 Requis pour livetest avec MariaDB : le PHP conda n'a pas\n"
+	@printf "                 pdo_mysql ni mbstring. Installer d'abord :\n"
+	@printf "                 $(C)sudo apt install php-mysql php-mbstring$(R)\n"
 
 venv: ## Crée l'environnement conda '$(CONDA_ENV)' depuis environment.yml
 	@printf "$(C)Création de l'environnement conda '$(CONDA_ENV)'…$(R)\n"
@@ -41,18 +44,14 @@ venv-update: ## Met à jour l'environnement conda depuis environment.yml
 	conda env update -f environment.yml --prune
 	@printf "$(G)Fait.$(R)\n"
 
-livetest: ## Démarre le serveur PHP local et ouvre le navigateur (détaché)
-	@if [ -f $(PID_FILE) ] && kill -0 $$(cat $(PID_FILE)) 2>/dev/null; then \
-	    printf "$(Y)Serveur déjà en cours (PID $$(cat $(PID_FILE)), port $(PORT)).$(R)\n"; \
-	else \
-	    printf "$(C)Démarrage du serveur PHP sur http://localhost:$(PORT) …$(R)\n"; \
-	    $(CONDA_RUN) php -S localhost:$(PORT) -t $(WEBROOT) \
-	        > /tmp/php-site_web.log 2>&1 & \
-	    echo $$! > $(PID_FILE); \
-	    sleep 1; \
-	    printf "$(G)Serveur démarré (PID $$(cat $(PID_FILE))).$(R)\n"; \
-	    printf "$(G)Logs :$(R) $(Y)/tmp/php-site_web.log$(R)\n"; \
-	fi
+livetest: stop ## Démarre le serveur PHP local et ouvre le navigateur (détaché)
+	@printf "$(C)Démarrage du serveur PHP sur http://localhost:$(PORT) …$(R)\n"
+	@$(CONDA_RUN) php -S localhost:$(PORT) -t $(WEBROOT) \
+	    > /tmp/php-site_web.log 2>&1 & \
+	echo $$! > $(PID_FILE)
+	@sleep 1
+	@printf "$(G)Serveur démarré (PID $$(cat $(PID_FILE))).$(R)\n"
+	@printf "$(G)Logs :$(R) $(Y)/tmp/php-site_web.log$(R)\n"
 	@xdg-open http://localhost:$(PORT) 2>/dev/null &
 
 stop: ## Arrête le serveur PHP local

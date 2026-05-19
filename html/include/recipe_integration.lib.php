@@ -57,7 +57,11 @@ function recipe_header(string $type): void
  */
 function recipe_body(string $type): void
 {
-    do_page_open($type ?: 'Recettes', 2);
+    global $navButtons;
+    $btn = current(array_filter($navButtons, fn($b) => $b[0] === $type));
+    $title = $btn[4] ?? $type;
+    $index = $btn ? array_search($btn, $navButtons) : -1;
+    do_page_open($title, $index);
 }
 
 /**

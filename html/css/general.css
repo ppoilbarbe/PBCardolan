@@ -9,7 +9,7 @@
  *  3. Corps et liens        — body, a
  *  4. Typographie           — p, h1, h2, h3
  *  5. Tables de base        — table, td
- *  6. Images                — img, img.Barre
+ *  6. Images                — img
  *  7. Panneau Attention     — messages importants
  *  8. Pied de page          — div.FondPage
  *  9. Téléchargements       — div.Download
@@ -27,6 +27,7 @@
    1. RESET / BASE
    ══════════════════════════════════════════════════════════════════════════════ */
 *, *::before, *::after { box-sizing: border-box; }
+body, h1, h2, h3, p, table, td, th { margin: 0; padding: 0; }
 
 
 /* ══════════════════════════════════════════════════════════════════════════════
@@ -35,38 +36,46 @@
    C'est le seul endroit à modifier pour changer l'apparence globale du site.
    ══════════════════════════════════════════════════════════════════════════════ */
 :root {
-  /* Couleurs principales ---------------------------------------------------- */
-  --clr-bg:       #457E6D;   /* Fond général (vert foncé)                       */
-  --clr-surface:  #27791C;   /* Fond des panneaux et sections (vert moyen)      */
-  --clr-primary:  #336633;   /* Accentuation principale (titres, h1.Titre)      */
-  --clr-accent:   #BBFFBB;   /* Accentuation secondaire (liens, survols)        */
-  --clr-text:     #ffffff;   /* Texte courant (blanc sur fond vert)             */
-  --clr-muted:    #99CCCC;   /* Texte atténué (notes, div.Attention p)          */
-  --clr-border:   #339900;   /* Bordures et séparateurs                         */
+  /* Palette principale — teintes chaudes contemporaines -------------------- */
+  --clr-bg:          #F8F4EF;   /* Fond général — parchemin chaud              */
+  --clr-surface:     #EDE8DD;   /* Fond des panneaux et sections               */
+  --clr-sidebar:     #6B3F2B;   /* Fond barre latérale — brun moyen chaud      */
+  --clr-header:      #8C5238;   /* Fond en-tête — brun terracotta moyen        */
+  --clr-primary:     #C0572A;   /* Terracotta / accent principal               */
+  --clr-accent:      #E07840;   /* Terracotta clair — survols                  */
+  --clr-text:        #29201A;   /* Texte courant (sur fond clair)              */
+  --clr-text-inv:    #F2EBE2;   /* Texte inversé (sur fond sombre)             */
+  --clr-muted:       #87746D;   /* Texte atténué — notes, métadonnées          */
+  --clr-border:      #D5C9B8;   /* Bordures et séparateurs                     */
 
-  /* Couleurs spécialisées --------------------------------------------------- */
-  --clr-download-bg:     #669999;  /* Fond des tableaux de téléchargement      */
-  --clr-download-border: #00CC00;  /* Bordure des tableaux de téléchargement   */
+  /* Couleurs spécialisées -------------------------------------------------- */
+  --clr-download-bg:     #EDE8DD;
+  --clr-download-border: #C0572A;
 
-  /* Typographie ------------------------------------------------------------- */
-  --font-body:    "Times New Roman", Times, serif;
-  --font-ui:      Arial, Helvetica, sans-serif;
-  --font-heading: "Broadway BT", "Times New Roman", Times, serif;
-  --font-comic:   "Comic Sans MS", Arial, Helvetica, sans-serif;
+  /* Typographie ------------------------------------------------------------ */
+  --font-body:    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-ui:      inherit;
+  --font-heading: Georgia, "Times New Roman", serif;
+  --font-recipe:  Georgia, serif;
 }
 
 
 /* ══════════════════════════════════════════════════════════════════════════════
    3. CORPS ET LIENS
    ══════════════════════════════════════════════════════════════════════════════ */
-body { background-color: var(--clr-bg); }
+body {
+  margin: 0;
+  background-color: var(--clr-bg);
+  color: var(--clr-text);
+  font-family: var(--font-body);
+}
 
 div { border-width: 0; }
 
-a:link    { color: var(--clr-accent); text-decoration: none; }
-a:visited { color: var(--clr-text);   text-decoration: none; }
-a:hover   { color: #000; background-color: var(--clr-accent); text-decoration: underline; }
-a.Image:hover { color: #000; background-color: transparent; text-decoration: none; }
+a:link    { color: var(--clr-primary); text-decoration: none; }
+a:visited { color: var(--clr-muted);   text-decoration: none; }
+a:hover   { color: var(--clr-accent);  text-decoration: underline; }
+a.Image:hover { color: inherit; text-decoration: none; }
 
 
 /* ══════════════════════════════════════════════════════════════════════════════
@@ -74,33 +83,42 @@ a.Image:hover { color: #000; background-color: transparent; text-decoration: non
    ══════════════════════════════════════════════════════════════════════════════ */
 p {
   font-family: var(--font-body);
-  font-size: 12pt;
+  font-size: 1rem;
   color: var(--clr-text);
-  padding: 5px;
+  padding: 6px 0;
+  line-height: 1.65;
 }
 
 h1 {
   font-family: var(--font-heading);
-  font-size: 24pt;
+  font-size: 1.75rem;
   color: var(--clr-text);
-  text-transform: uppercase;
   text-align: center;
+  padding: 12px 0;
 }
 
-h2 { font-size: 18pt; text-align: center; }
-h3 { font-size: 16pt; text-align: center; }
+h2 {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  color: var(--clr-text);
+  text-align: center;
+  padding: 8px 0;
+}
+
+h3 {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  color: var(--clr-text);
+  text-align: center;
+  padding: 6px 0;
+}
 
 h1.Titre {
-  font-family: var(--font-body);
-  font-style: normal;
+  font-family: var(--font-heading);
   font-weight: bold;
-  font-size: 30px;
-  color: var(--clr-primary);
-  vertical-align: top;
+  font-size: 1.5rem;
+  color: var(--clr-text-inv);
   text-align: center;
-  width: 100%;
-  top: 0;
-  margin: 0;
   padding: 0;
 }
 
@@ -109,29 +127,26 @@ h1.Titre {
    5. TABLES DE BASE
    ══════════════════════════════════════════════════════════════════════════════ */
 table {
-  border-width: 3px;
-  border-style: solid;
+  border: 2px solid var(--clr-border);
   width: 100%;
   border-collapse: collapse;
 }
 
 td {
-  font-size: 10pt;
+  font-size: 0.9rem;
   color: var(--clr-text);
   vertical-align: middle;
   text-align: center;
-  padding: 5px;
-  border-width: 1px;
-  border-color: #000;
-  border-style: solid;
+  padding: 8px 10px;
+  border: 1px solid var(--clr-border);
 }
 
 
 /* ══════════════════════════════════════════════════════════════════════════════
    6. IMAGES
    ══════════════════════════════════════════════════════════════════════════════ */
-img       { vertical-align: middle; border-width: 0; }
-img.Barre { vertical-align: top;    border-width: 0; }
+img       { vertical-align: middle; border: none; max-width: 100%; }
+img.Barre { vertical-align: top; }
 
 
 /* ══════════════════════════════════════════════════════════════════════════════
@@ -140,51 +155,57 @@ img.Barre { vertical-align: top;    border-width: 0; }
 div.Attention {
   background-color: var(--clr-surface);
   text-align: center;
-  margin-right: 5%;
-  margin-left: 5%;
-  padding: 5px;
-  border-width: thin;
-  border-style: solid;
+  margin: 12px 5%;
+  padding: 16px 20px;
+  border: 2px solid var(--clr-primary);
+  border-radius: 8px;
 }
 
 div.Attention h1 {
-  font-family: var(--font-ui);
+  font-family: var(--font-heading);
   font-weight: bold;
-  font-size: 18pt;
-  color: #40C802;
+  font-size: 1.2rem;
+  color: var(--clr-primary);
   text-align: center;
-  text-shadow: 6px 6px 3px;
-  position: relative;
-  top: 0;
+  padding: 0 0 8px;
 }
 
 div.Attention p {
-  font-family: var(--font-ui);
-  font-weight: bold;
-  color: var(--clr-muted);
+  font-family: var(--font-body);
+  font-weight: 600;
+  color: var(--clr-text);
   text-align: justify;
+  padding: 0;
 }
 
 
 /* ══════════════════════════════════════════════════════════════════════════════
    8. PIED DE PAGE (div.FondPage)
    ══════════════════════════════════════════════════════════════════════════════ */
-div.FondPage { text-align: center; }
+div.FondPage {
+  text-align: center;
+  padding: 16px 0;
+  margin-top: 24px;
+  background-color: var(--clr-surface);
+  border-top: 1px solid var(--clr-border);
+}
 
 div.FondPage table {
-  background-image: url("../images/FondFondPage.jpg");
-  border-color: #336600 #336600 #003366 #339900;
-  border-style: outset;
+  border: none;
+  background: none;
   width: 100%;
 }
 
-div.FondPage tr { width: 100%; }
-
 div.FondPage td {
-  font-size: 8pt;
-  border-style: none;
+  font-size: 0.8rem;
+  border: none;
   width: 33%;
+  color: var(--clr-muted);
 }
+
+div.FondPage a:link,
+div.FondPage a:visited { color: var(--clr-muted); }
+div.FondPage a:hover   { color: var(--clr-primary); }
 
 
 /* ══════════════════════════════════════════════════════════════════════════════
@@ -194,17 +215,17 @@ div.Download { text-align: center; }
 
 div.Download table {
   background-color: var(--clr-download-bg);
-  border-width: 3px;
-  border-color: var(--clr-download-border);
-  border-style: solid;
+  border: 2px solid var(--clr-download-border);
   width: 90%;
+  margin: 0 auto;
   border-collapse: collapse;
 }
 
-div.Download tr { font-size: 10pt; width: 100%; }
-div.Download td.Fichier { border-style: solid none none none; }
-div.Download td.Texte   { text-align: left; border-style: solid none none none; }
-div.Download td.Infos   { border-style: none none solid none; }
+div.Download tr { font-size: 0.9rem; }
+div.Download td { color: var(--clr-text); }
+div.Download td.Fichier { border-top: 1px solid var(--clr-border); border-bottom: none; }
+div.Download td.Texte   { text-align: left; border-top: 1px solid var(--clr-border); border-bottom: none; }
+div.Download td.Infos   { border-bottom: 1px solid var(--clr-border); border-top: none; }
 
 
 /* ══════════════════════════════════════════════════════════════════════════════
@@ -213,64 +234,61 @@ div.Download td.Infos   { border-style: none none solid none; }
 div.Recettes { text-align: justify; }
 
 div.Recettes table {
-  background-color: var(--clr-primary);
-  border-color: #660000;
-  border-style: solid;
+  background-color: var(--clr-surface);
+  border-color: var(--clr-border);
   width: 100%;
   border-collapse: collapse;
 }
 
-div.Recettes tr {
-  font-size: 10pt;
-  margin: 20px;
-  width: 100%;
-}
+div.Recettes tr { font-size: 0.9rem; width: 100%; }
 
 div.Recettes td {
+  color: var(--clr-text);
   vertical-align: middle;
   text-align: justify;
-  border-style: none;
+  border: none;
 }
 
 div.Recettes th {
-  font-family: var(--font-comic);
+  font-family: var(--font-recipe);
   font-weight: bold;
-  font-size: 18pt;
-  background-color: #336666;
+  font-size: 1.2rem;
+  background-color: var(--clr-header);
+  color: var(--clr-text-inv);
 }
 
 div.Recettes th.Source {
-  font-size: 12pt;
+  font-size: 0.9rem;
   text-align: right;
 }
 
 div.Recettes em {
-  font-family: var(--font-comic);
+  font-family: var(--font-recipe);
   font-style: oblique;
-  color: #CC3366;
+  color: var(--clr-primary);
   text-transform: capitalize;
 }
 
-div.Recettes p { margin-top: 0; margin-bottom: 0; }
+div.Recettes p { margin: 0; padding: 0; }
 
 div.Recettes h2 {
-  font-family: "Comic Sans MS", "Times New Roman", Times, cursive, serif;
+  font-family: var(--font-recipe);
   font-style: italic;
-  color: #006600;
+  color: var(--clr-muted);
   text-align: right;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 div.Recettes h3 {
-  font-family: "Comic Sans MS", "Times New Roman", Times, cursive, serif;
-  font-size: 16pt;
+  font-family: var(--font-recipe);
+  font-size: 1.05rem;
   text-align: left;
+  padding: 4px 0;
 }
 
 
 /* ══════════════════════════════════════════════════════════════════════════════
-   IMPRESSION — palette noir/blanc et surcharges de mise en page
+   IMPRESSION — palette noir/blanc
    ══════════════════════════════════════════════════════════════════════════════ */
 @media print {
   :root {
@@ -281,23 +299,20 @@ div.Recettes h3 {
     --clr-text:     #000000;
     --clr-muted:    #444444;
     --clr-border:   #333333;
-
     --clr-download-bg:     #eeeeee;
     --clr-download-border: #333333;
   }
 
-  p { padding: 0.1cm; }
-
-  h1.Titre { position: absolute; }
+  p { padding: 0.1cm 0; }
 
   div.GoogleTranslate { display: none; }
   div.skiptranslate   { display: none; }
   div.FondPage        { display: none; }
 
-  div.Recettes          { margin: 0.1cm; }
-  div.Recettes table    { background-color: var(--clr-surface); border-color: var(--clr-border); }
-  div.Recettes tr       { margin: 0; }
-  div.Recettes th       { background-color: var(--clr-border); color: var(--clr-bg); }
-  div.Recettes em       { color: var(--clr-muted); }
-  div.Recettes h2       { color: var(--clr-muted); }
+  div.Recettes        { margin: 0.1cm; }
+  div.Recettes table  { background-color: var(--clr-surface); border-color: var(--clr-border); }
+  div.Recettes tr     { margin: 0; }
+  div.Recettes th     { background-color: var(--clr-border); color: var(--clr-bg); }
+  div.Recettes em     { color: var(--clr-muted); }
+  div.Recettes h2     { color: var(--clr-muted); }
 }

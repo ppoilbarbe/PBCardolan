@@ -60,7 +60,7 @@ function preloadNavImages($buttons)
     foreach ($buttons as $btn) {
         if (!$btn[0] || !$btn[3]) continue;
         foreach (['-over' => '_over', '-down' => '_down'] as $fileSuffix => $jsSuffix) {
-            $file = findImage($btn[0] . $fileSuffix . '.gif');
+            $file = findImage($btn[0] . $fileSuffix . '.png');
             if (file_exists(absolutePath($file)))
                 $preloads[] = [$btn[0] . $jsSuffix, $file];
         }
@@ -121,44 +121,59 @@ HTML;
 }
 
 /**
- * Renders the full navigation chrome (corner image, banner, side buttons)
- * and opens the main content <DIV class="ZoneCentre">.
+ * Renders the page chrome and opens the main content area.
  * Must be called inside <body>.
  *
- * @param string $title       Optional page subtitle shown in the top banner.
- * @param int    $activeBtn   0-based index of the currently active button, or -1.
- * @param array  $buttons     Navigation button array.
+ * HTML structure emitted:
+ *   div.page-layout
+ *   ├── header.site-header
+ *   │   ├── a.site-name
+ *   │   ├── h1.Titre              (optionnel)
+ *   │   └── div.header-translate
+ *   └── div.body-layout
+ *       ├── nav.sidebar           (Btn1 … Btn5)
+ *       └── div.ZoneCentre        ← le contenu de la page va ici
+ *
+ * @param string $title       Titre de la page affiché dans l'en-tête ('' = aucun).
+ * @param int    $activeBtn   Index 0-based du bouton actif, ou -1.
+ * @param array  $buttons     Tableau des boutons de navigation.
  */
 function openPage($title, $activeBtn, $buttons)
 {
-    writeLine('<DIV class="ZoneCoinHG">'  . imageLink('', 'ZoneCoinHG.gif',   '', 'Barre') . '</DIV>');
-    writeLine('<DIV class="ZoneHaut">'    . imageLink('', 'ZoneHaut.gif',     '', 'Barre'));
+    writeLine('<DIV class="page-layout">');
+
+    // ── En-tête ──────────────────────────────────────────────────────────────
+    writeLine('<HEADER class="site-header">');
+    writeLine('<A href="/" class="site-name">Cardolan</A>');
+    if ($title)
+        writeLine('<H1 class="Titre">' . $title . '</H1>');
+    writeLine('<DIV class="header-translate">');
     insertGoogleTranslate();
     writeLine('</DIV>');
+    writeLine('</HEADER>');
 
-    if ($title)
-        writeLine('<DIV class="ZoneHaut"><H1 class="Titre">' . $title . '</H1></DIV>');
-
-    writeLine('<DIV class="ZoneBordDroit">' . imageLink('', 'ZoneBordDroit.gif', '', 'Barre') . '</DIV>');
-    writeLine('<DIV class="ZoneBas">'       . imageLink('', 'ZoneBas.gif',       '', 'Barre') . '</DIV>');
+    // ── Corps : sidebar + contenu ─────────────────────────────────────────────
+    writeLine('<DIV class="body-layout">');
+    writeLine('<NAV class="sidebar">');
 
     foreach ($buttons as $i => $btn) {
         if (!$btn[0]) continue;
         writeLine('<DIV class="Btn' . ($i + 1) . '">');
         if ($btn[3]) {
             if ($i === $activeBtn) {
-                writeLine(imageLink('', $btn[0] . '-down.gif', '', 'Barre'));
+                writeLine(imageLink('', $btn[0] . '-down.png', '', 'Barre'));
             } else {
-                writeLine(imageLink($btn[2], $btn[0] . '.gif', $btn[1], 'Barre',
-                    'Btn' . ($i + 1), '', $btn[0] . '.gif',
-                    $btn[0] . '-over.gif', $btn[0] . '-down.gif'));
+                writeLine(imageLink($btn[2], $btn[0] . '-up.png', $btn[1], 'Barre',
+                    'Btn' . ($i + 1), '', $btn[0] . '-up.png',
+                    $btn[0] . '-over.png', $btn[0] . '-down.png'));
             }
         } else {
-            writeLine(imageLink('', $btn[0] . '.gif', '', 'Barre'));
+            writeLine(imageLink('', $btn[0] . '-up.png', '', 'Barre'));
         }
         writeLine('</DIV>');
     }
 
+    writeLine('</NAV>');
     writeLine('<DIV class="ZoneCentre">');
 }
 
@@ -181,10 +196,12 @@ function closePage()
     writeLineBr('Tous droits réservés');
     writeLine('Vous êtes le visiteur n°<img src="http://perso0.proxad.net/cgi-bin/wwwcount.cgi?dd=D&df=RANDOM&md=12&ft=2"><br>Compteur complètement libre de ses opinions');
     writeLine('</td><td>');
-    writeLine(imageLink('/', 'home.gif', 'Retour à la page racine'));
+    writeLine(imageLink('/', 'home.png', 'Retour à la page racine'));
     writeLine('</td></tr></table>');
-    writeLine('</DIV>');
-    writeLine('</DIV>');
+    writeLine('</DIV>'); // FondPage
+    writeLine('</DIV>'); // ZoneCentre
+    writeLine('</DIV>'); // body-layout
+    writeLine('</DIV>'); // page-layout
 }
 
 /** Displays an "under construction" placeholder. */

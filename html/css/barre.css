@@ -1,135 +1,215 @@
 /*
- * barre.css — Mise en page de la barre de navigation latérale
- * ============================================================
- * Positionnement absolu des zones de navigation (images GIF fixes).
- * Les variables :root ci-dessous centralisent les dimensions ; si les images
- * changent de taille, modifier uniquement ces valeurs.
+ * barre.css — Mise en page responsive du site Cardolan
+ * =====================================================
  *
- * Rappel de la structure :
- *   ZoneCoinHG  (coin haut-gauche, 99×85)
- *   ZoneHaut    (bandeau titre, débute à x=99)
- *   Btn1…Btn5   (boutons empilés, chacun 53×64, débutent à y=85)
- *   ZoneBordDroit (bord droit de la colonne, 46 px)
- *   ZoneBas     (bas de la colonne, 53×67)
- *   ZoneCentre  (zone de contenu principal, débute à x=99, y=72)
+ * Structure HTML générée par layout.lib.php :
+ *
+ *   div.page-layout
+ *   ├── header.site-header
+ *   │   ├── a.site-name           ("Cardolan")
+ *   │   ├── h1.Titre              (titre de page, optionnel)
+ *   │   └── div.header-translate  (widget Google Translate)
+ *   └── div.body-layout
+ *       ├── nav.sidebar           (boutons de navigation, images GIF)
+ *       │   ├── div.Btn1 … div.Btn5
+ *       └── div.ZoneCentre        (contenu + pied de page)
+ *
+ * Points de rupture responsive :
+ *   ≥ 768 px : sidebar verticale à gauche
+ *   < 768 px : sidebar horizontale en haut (barre de navigation)
  */
 
 
 /* ══════════════════════════════════════════════════════════════════════════════
-   VARIABLES — dimensions de la barre (liées aux images GIF)
+   VARIABLES — dimensions des boutons de navigation
    ══════════════════════════════════════════════════════════════════════════════ */
 :root {
-  --barre-sidebar-w: 99px;   /* Largeur totale de la colonne de navigation      */
-  --barre-header-h:  72px;   /* Hauteur de la zone d'en-tête (ZoneHaut)         */
-  --barre-corner-h:  85px;   /* Hauteur de l'image de coin (ZoneCoinHG)         */
-  --barre-btn-w:     53px;   /* Largeur d'un bouton de navigation               */
-  --barre-btn-h:     64px;   /* Hauteur d'un bouton de navigation               */
-  --barre-bord-w:    46px;   /* Largeur du bord droit de la colonne             */
-  --barre-bas-h:     67px;   /* Hauteur de la zone de bas de colonne (ZoneBas)  */
-}
-
-
-div.ZoneCoinHG {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: var(--barre-sidebar-w);
-  height: var(--barre-corner-h);
-}
-
-div.ZoneHaut {
-  position: absolute;
-  left: var(--barre-sidebar-w);
-  top: 0;
-  width: 750px;
-  height: var(--barre-header-h);
-}
-
-div.GoogleTranslate {
-  position: absolute;
-  left: 720px;
-  top: 0;
-  width: 100px;
-  height: var(--barre-header-h);
-}
-
-div.ZoneCentre {
-  position: absolute;
-  left: var(--barre-sidebar-w);
-  top: var(--barre-header-h);
-  margin-right: 20px;
-}
-
-/* Boutons de navigation empilés verticalement à partir de y = --barre-corner-h */
-div.Btn1 {
-  position: absolute;
-  left: 0;
-  top: var(--barre-corner-h);
-  width: var(--barre-btn-w);
-  height: var(--barre-btn-h);
-}
-
-div.ZoneBordDroit {
-  position: absolute;
-  left: var(--barre-btn-w);
-  top: var(--barre-corner-h);
-  width: var(--barre-bord-w);
-  height: calc(5 * var(--barre-btn-h) + var(--barre-bas-h)); /* = 387px */
-}
-
-div.Btn2 {
-  position: absolute;
-  left: 0;
-  top: calc(var(--barre-corner-h) + 1 * var(--barre-btn-h));
-  width: var(--barre-btn-w);
-  height: var(--barre-btn-h);
-}
-
-div.Btn3 {
-  position: absolute;
-  left: 0;
-  top: calc(var(--barre-corner-h) + 2 * var(--barre-btn-h));
-  width: var(--barre-btn-w);
-  height: var(--barre-btn-h);
-}
-
-div.Btn4 {
-  position: absolute;
-  left: 0;
-  top: calc(var(--barre-corner-h) + 3 * var(--barre-btn-h));
-  width: var(--barre-btn-w);
-  height: var(--barre-btn-h);
-}
-
-div.Btn5 {
-  position: absolute;
-  left: 0;
-  top: calc(var(--barre-corner-h) + 4 * var(--barre-btn-h));
-  width: var(--barre-btn-w);
-  height: var(--barre-btn-h);
-}
-
-div.ZoneBas {
-  position: absolute;
-  left: 0;
-  top: calc(var(--barre-corner-h) + 5 * var(--barre-btn-h));
-  width: var(--barre-btn-w);
-  height: var(--barre-bas-h);
+  --barre-btn-w:  53px;
+  --barre-btn-h:  64px;
+  --barre-hdr-h:  56px;   /* Hauteur de l'en-tête */
+  --barre-nav-w: 100px;   /* Largeur de la sidebar desktop */
 }
 
 
 /* ══════════════════════════════════════════════════════════════════════════════
-   IMPRESSION — masquage de la barre de navigation
+   SQUELETTE DE PAGE
+   ══════════════════════════════════════════════════════════════════════════════ */
+.page-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════════
+   EN-TÊTE DU SITE
+   ══════════════════════════════════════════════════════════════════════════════ */
+.site-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 20px;
+  height: var(--barre-hdr-h);
+  background: linear-gradient(135deg, var(--clr-header) 0%, #B36A48 100%);
+  flex-shrink: 0;
+}
+
+/* Nom du site (lien racine) */
+.site-name {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: bold;
+  color: var(--clr-text-inv);
+  white-space: nowrap;
+  flex-shrink: 0;
+  letter-spacing: 0.04em;
+}
+
+.site-name:link,
+.site-name:visited { color: var(--clr-text-inv); text-decoration: none; }
+.site-name:hover   { color: var(--clr-accent);   text-decoration: none; }
+
+/* Titre de page (h1.Titre) — centré, occupe l'espace disponible */
+.site-header h1.Titre {
+  flex: 1;
+  font-size: 1.25rem;
+  color: var(--clr-text-inv);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+
+/* Zone du widget Google Translate */
+.header-translate {
+  flex-shrink: 0;
+  min-width: 90px;
+  overflow: visible;
+}
+
+div.GoogleTranslate {
+  /* Pas de positionnement absolu : suit le flux flexbox */
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════════
+   CORPS : SIDEBAR + CONTENU
+   ══════════════════════════════════════════════════════════════════════════════ */
+.body-layout {
+  display: flex;
+  flex: 1;
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════════
+   BARRE LATÉRALE (desktop : verticale à gauche)
+   ══════════════════════════════════════════════════════════════════════════════ */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  width: var(--barre-nav-w);
+  background-color: var(--clr-sidebar);
+  padding: 20px 0 12px;
+  gap: 4px;
+}
+
+.Btn1, .Btn2, .Btn3, .Btn4, .Btn5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--barre-btn-w);
+  height: var(--barre-btn-h);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: opacity 0.15s ease, transform 0.1s ease;
+}
+
+.Btn1:hover, .Btn2:hover, .Btn3:hover, .Btn4:hover, .Btn5:hover {
+  opacity: 0.82;
+  transform: scale(1.04);
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════════
+   ZONE DE CONTENU
+   ══════════════════════════════════════════════════════════════════════════════ */
+.ZoneCentre {
+  flex: 1;
+  min-width: 0;
+  padding: 24px 28px;
+  background-color: var(--clr-bg);
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════════
+   RESPONSIVE — sidebar horizontale (< 768 px)
+   ══════════════════════════════════════════════════════════════════════════════ */
+@media (max-width: 768px) {
+  .body-layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    padding: 8px 12px;
+    gap: 10px;
+  }
+
+  .Btn1, .Btn2, .Btn3, .Btn4, .Btn5 {
+    width: var(--barre-btn-w);
+    height: var(--barre-btn-h);
+  }
+
+  .ZoneCentre {
+    padding: 16px 18px;
+  }
+}
+
+/* Très petit écran (< 420 px) : réduire légèrement les boutons */
+@media (max-width: 420px) {
+  .site-header {
+    height: auto;
+    min-height: var(--barre-hdr-h);
+    flex-wrap: wrap;
+    padding: 8px 14px;
+  }
+
+  .site-header h1.Titre {
+    font-size: 1.05rem;
+    width: 100%;
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .Btn1, .Btn2, .Btn3, .Btn4, .Btn5 {
+    width: 44px;
+    height: 52px;
+  }
+
+  /* Forcer le redimensionnement des <img> générés avec width/height HTML */
+  .Btn1 img, .Btn2 img, .Btn3 img,
+  .Btn4 img, .Btn5 img {
+    width:  44px !important;
+    height: 52px !important;
+    object-fit: contain;
+  }
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════════
+   IMPRESSION
    ══════════════════════════════════════════════════════════════════════════════ */
 @media print {
-  div.ZoneCoinHG    { display: none; }
-  div.ZoneHaut      { display: none; }
-  div.ZoneCentre    { position: static; margin: 0; left: auto; top: auto; }
-  div.Btn1          { display: none; }
-  div.ZoneBordDroit { display: none; }
-  div.Btn2          { display: none; }
-  div.Btn3          { display: none; }
-  div.Btn4          { display: none; }
-  div.Btn5          { display: none; }
-  div.ZoneBas       { display: none; }
+  .site-header        { display: none; }
+  .sidebar            { display: none; }
+  .page-layout,
+  .body-layout        { display: block; }
+  .ZoneCentre         { padding: 0; }
+  div.GoogleTranslate { display: none; }
+  div.skiptranslate   { display: none; }
+  div.FondPage        { display: none; }
 }

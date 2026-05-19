@@ -61,7 +61,7 @@ function renderDownloadRows($paramFile)
             writeLine('<TR><TD class="Infos" colspan=2>');
             foreach (splitMultiValue($data[$key . '.SYSTEME'] ?? []) as $osCode) {
                 $osName = OS_NAMES[strtoupper($osCode)] ?? '';
-                if ($osName) writeLine(imageLink('', 'Logo' . $osName . '.gif', $osName));
+                if ($osName) writeLine(imageLink('', 'Logo' . $osName . '.png', $osName));
             }
             foreach (splitMultiValue($data[$key . '.LANGUES'] ?? []) as $langCode) {
                 writeLine('<img src="' . flagUrl($langCode) . '" border=0>');
@@ -113,7 +113,7 @@ function renderDownloadRows($paramFile)
         writeLine('<TR><TD class="Infos" colspan=2>');
         foreach (splitMultiValue($data[$key . '.SYSTEME'] ?? []) as $osCode) {
             $osName = OS_NAMES[strtoupper($osCode)] ?? '';
-            if ($osName) writeLine(imageLink('', 'Logo' . $osName . '.gif', $osName));
+            if ($osName) writeLine(imageLink('', 'Logo' . $osName . '.png', $osName));
         }
         foreach (splitMultiValue($data[$key . '.LANGUES'] ?? []) as $langCode) {
             writeLine('<img src="' . flagUrl($langCode) . '" border=0>');
