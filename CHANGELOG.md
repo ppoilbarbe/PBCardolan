@@ -3,6 +3,14 @@
 Tous les changements notables sont documentés ici.
 Format : [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
 
+## [2026.3] - 2026-05-19
+
+### Removed
+- Sous-site cocktails retiré de ce dépôt : `html/cocktails/index.php` et les images GIF associées (cocktails migrés en sous-site indépendant, comme les recettes).
+
+### Fixed
+- `download.lib.php` : attributs `onmouseover`/`onmouseout` concaténés par erreur dans la valeur `href`, cassant les liens de téléchargement (`ReglesMahJong.pdf`, `CalculMahjong.zip`).
+
 ## [2026.2] - 2026-05-19
 
 ### Added

@@ -101,8 +101,6 @@ function renderDownloadRows($paramFile)
 
         $href = $counted
             ? BASE_PATH . '/send_file.php?FICHIER=' . rawurlencode($filename)
-              . " onmouseover=\"window.status='$filename'; return true;\""
-              . " onmouseout=\"window.status=''; return true;\""
             : absoluteUrl($filename);
         writeLine('<TR>');
         $label = $linkText !== '' ? htmlspecialchars($linkText) : $filename;
