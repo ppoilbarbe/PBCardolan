@@ -18,7 +18,7 @@ C  := \033[36m
 PHP_FILES  := $(shell find $(WEBROOT) -name "*.php")
 
 .DEFAULT_GOAL := help
-.PHONY: help venv venv-update livetest stop test clean
+.PHONY: help venv venv-update livetest stop test deploy clean
 
 help: ## Cette aide
 	@printf "$(B)$(C)site_web — Tâches de développement$(R)\n\n"
@@ -44,7 +44,7 @@ venv-update: ## Met à jour l'environnement conda depuis environment.yml
 	conda env update -f environment.yml --prune
 	@printf "$(G)Fait.$(R)\n"
 
-livetest: stop ## Démarre le serveur PHP local et ouvre le navigateur (détaché)
+livetest: ## Démarre le serveur PHP local et ouvre le navigateur (détaché)
 	@printf "$(C)Démarrage du serveur PHP sur http://localhost:$(PORT) …$(R)\n"
 	@$(CONDA_RUN) php -S localhost:$(PORT) -t $(WEBROOT) \
 	    > /tmp/php-site_web.log 2>&1 & \
@@ -87,6 +87,9 @@ test: ## Vérifie la syntaxe PHP de tous les fichiers du site
 	    printf "$(Y)$$errors fichier(s) en erreur.$(R)\n"; \
 	    exit 1; \
 	fi
+
+deploy: ## Déploie le site sur le serveur (sitecopy)
+	sitecopy -u cardolan
 
 clean: ## Supprime les fichiers temporaires (PID, logs)
 	@rm -f $(PID_FILE) /tmp/php-site_web.log

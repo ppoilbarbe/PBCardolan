@@ -32,6 +32,7 @@ function openHead($title, $keywords = '')
     writeLine('<HTML lang="fr">');
     writeLine('<HEAD>');
     writeLine('<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=utf-8">');
+    writeLine('<META NAME="viewport" CONTENT="width=device-width, initial-scale=1">');
     writeLine('<META HTTP-EQUIV="Expires" CONTENT="' . date('l, F d Y 00:00:00', time() + 60) . ' GMT">');
     writeLine("<TITLE>$title</TITLE>");
     writeLine('<META NAME="author" CONTENT="philippe@cardolan.net">');
@@ -144,9 +145,19 @@ function openPage($title, $activeBtn, $buttons)
 
     // ── En-tête ──────────────────────────────────────────────────────────────
     writeLine('<HEADER class="site-header">');
-    writeLine('<A href="/" class="site-name">Cardolan</A>');
-    if ($title)
-        writeLine('<H1 class="Titre">' . $title . '</H1>');
+    if ($activeBtn === -1) {
+        writeLine('<A href="https://lotr.fandom.com/fr/wiki/Cardolan" class="site-name" target="_blank" rel="noopener">Cardolan</A>');
+    } else {
+        writeLine('<A href="/" class="site-name">Cardolan</A>');
+    }
+    if ($title) {
+        $sectionUrl = ($activeBtn >= 0 && !empty($buttons[$activeBtn][2]))
+            ? $buttons[$activeBtn][2] : '';
+        if ($sectionUrl)
+            writeLine('<H1 class="Titre"><A href="' . htmlspecialchars($sectionUrl) . '">' . $title . '</A></H1>');
+        else
+            writeLine('<H1 class="Titre">' . $title . '</H1>');
+    }
     writeLine('<DIV class="header-translate">');
     insertGoogleTranslate();
     writeLine('</DIV>');
@@ -196,7 +207,7 @@ function closePage()
     writeLineBr('Tous droits réservés');
     writeLine('Vous êtes le visiteur n°<img src="http://perso0.proxad.net/cgi-bin/wwwcount.cgi?dd=D&df=RANDOM&md=12&ft=2"><br>Compteur complètement libre de ses opinions');
     writeLine('</td><td>');
-    writeLine(imageLink('/', 'home.png', 'Retour à la page racine'));
+    writeLine(imageLink('/', 'home-hobbit.png', 'Retour à la page racine'));
     writeLine('</td></tr></table>');
     writeLine('</DIV>'); // FondPage
     writeLine('</DIV>'); // ZoneCentre
