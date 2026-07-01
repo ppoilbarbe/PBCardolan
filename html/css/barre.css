@@ -69,6 +69,27 @@
 .site-name:visited { color: var(--clr-text-inv); text-decoration: none; }
 .site-name:hover   { color: var(--clr-accent);   text-decoration: none; }
 
+/* Logo du site (page d'accueil uniquement) */
+.site-logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.site-logo img {
+  height: 64px;
+  width: auto;
+  border-radius: 6px;
+}
+
+/* L'en-tête s'agrandit pour laisser respirer le logo */
+.site-header:has(.site-logo) {
+  height: auto;
+  min-height: var(--barre-hdr-h);
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
 /* Titre de page (h1.Titre) — centré, occupe l'espace disponible */
 .site-header h1.Titre {
   flex: 1;

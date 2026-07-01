@@ -138,14 +138,19 @@ HTML;
  * @param string $title       Titre de la page affiché dans l'en-tête ('' = aucun).
  * @param int    $activeBtn   Index 0-based du bouton actif, ou -1.
  * @param array  $buttons     Tableau des boutons de navigation.
+ * @param bool   $logo        Si vrai, affiche le logo pbcardolan.png à la place du texte "Cardolan".
  */
-function openPage($title, $activeBtn, $buttons)
+function openPage($title, $activeBtn, $buttons, $logo = false)
 {
     writeLine('<DIV class="page-layout">');
 
     // ── En-tête ──────────────────────────────────────────────────────────────
     writeLine('<HEADER class="site-header">');
-    if ($activeBtn === -1) {
+    if ($logo && $activeBtn === -1) {
+        writeLine('<A href="https://lotr.fandom.com/fr/wiki/Cardolan" class="site-logo" target="_blank" rel="noopener">' . imageLink('', 'pbcardolan.png', 'Cardolan') . '</A>');
+    } elseif ($logo) {
+        writeLine('<A href="/" class="site-logo">' . imageLink('', 'pbcardolan.png', 'Cardolan') . '</A>');
+    } elseif ($activeBtn === -1) {
         writeLine('<A href="https://lotr.fandom.com/fr/wiki/Cardolan" class="site-name" target="_blank" rel="noopener">Cardolan</A>');
     } else {
         writeLine('<A href="/" class="site-name">Cardolan</A>');

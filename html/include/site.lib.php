@@ -66,12 +66,13 @@ function do_header(string $htmlTitle, array $opts = [])
  * @param int    $activeBtn  0-based index of the active nav button, or -1.
  * @param array  $opts {
  *   array buttons  Navigation buttons; defaults to $navButtons.
+ *   bool  logo     If true, shows the pbcardolan.png logo instead of the "Cardolan" text.
  * }
  */
 function do_page_open(string $pageTitle, int $activeBtn, array $opts = [])
 {
     global $navButtons;
-    openPage($pageTitle, $activeBtn, $opts['buttons'] ?? $navButtons);
+    openPage($pageTitle, $activeBtn, $opts['buttons'] ?? $navButtons, $opts['logo'] ?? false);
 }
 
 /** Outputs the page footer and closes the content area. */

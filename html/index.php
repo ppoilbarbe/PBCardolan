@@ -16,7 +16,7 @@ do_header('Page personnelle de Philippe Poilbarbe', [
 <body>
 <?php
 
-do_page_open('', -1);
+do_page_open('', -1, ['logo' => true]);
 
 h1('Philippe Poilbarbe');
 h2('');
