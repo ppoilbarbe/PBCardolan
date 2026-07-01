@@ -19,7 +19,7 @@ PBRenamer.Description>Ce programme est une évolution de l'antique pyrenamer que
 PBRenamer.Description>beaucoup. Ce n'est pas un fork, car il ne reste pas grand chose
 PBRenamer.Description>du programme d'origine (et passage à QT).
 PBRenamer.Description>
-PBRenamer.Description>Voir <a src="https://github.com/ppoilbarbe/PBRenamer/releases">les releases</a>
+PBRenamer.Description>Voir <a href="https://github.com/ppoilbarbe/PBRenamer/releases">les releases</a>
 PBRenamer.Description>pour récupérer les exécutables.
 PBRenamer.Description>
 PBRenamer.Version>
@@ -35,10 +35,10 @@ PBPicat.Description>Ce programme permet le cataloguage d'images (Picture Catalog
 PBPicat.Description>et de vidéos avec leur fichiers sidecar associés en les
 PBPicat.Description>renommant dans une arbrorescence dédiée dont la structure
 PBPicat.Description>est représentée par un modèle (voir le fichier
-PBPicat.Description><a src="https://github.com/ppoilbarbe/PBPicat/blob/main/README.md">README</a>
+PBPicat.Description><a href="https://github.com/ppoilbarbe/PBPicat/blob/main/README.md">README</a>
 PBPicat.Description>pour plus de détails).
 PBPicat.Description>
-PBPicat.Description>Voir <a src="https://github.com/ppoilbarbe/PBRenamer/releases">les releases</a>
+PBPicat.Description>Voir <a href="https://github.com/ppoilbarbe/PBRenamer/releases">les releases</a>
 PBPicat.Description>pour récupérer les exécutables.
 PBPicat.Description>
 PBPicat.Version>
@@ -63,15 +63,15 @@ PBDarkTemplate.Texte>PBDarkTemplate
 PBDarkTemplate.Langues>us de fr es it ru vi cn
 PBDarkTemplate.Systeme>L M W
 PBDarkTemplate.Image>pbdarktemplate.png
-PBDarkTemplate.Titre>PBDarkTemplate: Modèle pour <a src="https://www.tinymediamanager.org">tinyMediaManager</a>
-PBDarkTemplate.Description>Ceci compose 2 modèles pour <a src="https://www.tinymediamanager.org">tinyMediaManager</a>:
+PBDarkTemplate.Titre>PBDarkTemplate: Modèle pour <a href="https://www.tinymediamanager.org">tinyMediaManager</a>
+PBDarkTemplate.Description>Ceci compose 2 modèles pour <a href="https://www.tinymediamanager.org">tinyMediaManager</a>:
 PBDarkTemplate.Description>PB DarkTemplate Movies et PB DarkTemplate TV Shows.
 PBDarkTemplate.Description>
 PBDarkTemplate.Description>Ces modèles permettent l'export des films et séries contenues dans
 PBDarkTemplate.Description>tMM au même endroit (même répertoire) sans conflit et permettent
 PBDarkTemplate.Description>l'affichage des deux depuis la même URL.
 PBDarkTemplate.Description>
-PBDarkTemplate.Description>Voir <a src="https://github.com/ppoilbarbe/PBDarkTemplate/releases">les releases</a>
+PBDarkTemplate.Description>Voir <a href="https://github.com/ppoilbarbe/PBDarkTemplate/releases">les releases</a>
 PBDarkTemplate.Description>pour récupérer les fichiers zip des deux modèles.
 PBDarkTemplate.Description>
 PBDarkTemplate.Version>
@@ -97,7 +97,7 @@ PBPrompt.Description>au choix (traduction automatique via un service de traducti
 PBPrompt.Description>
 PBPrompt.Description>Par contre, l'interface du programme lui-même est disponible en un nombre de langues limité.
 PBPrompt.Description>
-PBPrompt.Description>Voir <a src="https://github.com/ppoilbarbe/PBPrompt/releases">les releases</a>
+PBPrompt.Description>Voir <a href="https://github.com/ppoilbarbe/PBPrompt/releases">les releases</a>
 PBPrompt.Description>pour récupérer les fichiers zip des deux modèles.
 PBPrompt.Description>
 PBPrompt.Version>
@@ -118,7 +118,7 @@ PBoule.Description>
 PBoule.Description>Le programme crée alors les feuilles de poules et de phases finales
 PBoule.Description>(plus d'autres choses, voir le programme).
 PBoule.Description>
-PBoule.Description>Voir <a src="https://github.com/ppoilbarbe/PBBoule/releases">les releases</a>
+PBoule.Description>Voir <a href="https://github.com/ppoilbarbe/PBBoule/releases">les releases</a>
 PBoule.Description>pour récupérer les documents générés (pour les valeurs par défaut: poules de 4 ou 5, 6 à 32 équipes).
 PBoule.Description>
 PBoule.Version>
@@ -137,7 +137,7 @@ PBRecipe.Description>
 PBRecipe.Description>Un import/export (YAML) standardisé permet la sauvegarde ou l'échange entre
 PBRecipe.Description>des bases de données en s'affranchissant du SQL.
 PBRecipe.Description>
-PBRecipe.Description>Voir <a src="https://github.com/ppoilbarbe/PBBoule/releases">les releases</a>
+PBRecipe.Description>Voir <a href="https://github.com/ppoilbarbe/PBBoule/releases">les releases</a>
 PBRecipe.Description>pour récupérer les exécutables.
 PBRecipe.Description>
 PBRecipe.Description>Ce programme sert à gérer les recettes de cuisine et les cocktails de ce site

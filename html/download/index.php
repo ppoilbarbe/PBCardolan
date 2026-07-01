@@ -14,14 +14,14 @@ do_header('Quelques programmes maison');
 <?php do_page_open('Programmes', 3); ?>
 
 <p>Voici quelques programmes développés à la maison pour un usage personnel.
-Je les ai mis sur <a src="https://github.com/ppoilbarbe">Github</a>
+Je les ai mis sur <a href="https://github.com/ppoilbarbe">Github</a>
 pour les rendre accessibles à ceux que cela intéresse.<br>
 N'hésitez pas à ouvrir des tickets en cas de problème rencontrés<br></p>
 <div class="Attention"><h1>ATTENTION</h1>
 Je n'ai <big><i>ni Windows, ni MacOS</i></big> sous la main, donc les exécutables
 pour ces systèmes ne sont testés que par Github CI (Continuous Integration).
 </div>
-<p>Les drapeaux sont issus de <a src="https://flagpedia.net">flagpedia.net</a></p>
+<p>Les drapeaux sont issus de <a href="https://flagpedia.net">flagpedia.net</a></p>
 <?php
 renderDownloadTable('file_download.txt', 'Download');
 
