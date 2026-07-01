@@ -146,12 +146,8 @@ function openPage($title, $activeBtn, $buttons, $logo = false)
 
     // ── En-tête ──────────────────────────────────────────────────────────────
     writeLine('<HEADER class="site-header">');
-    if ($logo && $activeBtn === -1) {
+    if ($logo) {
         writeLine('<A href="https://lotr.fandom.com/fr/wiki/Cardolan" class="site-logo" target="_blank" rel="noopener">' . imageLink('', 'pbcardolan.png', 'Cardolan') . '</A>');
-    } elseif ($logo) {
-        writeLine('<A href="/" class="site-logo">' . imageLink('', 'pbcardolan.png', 'Cardolan') . '</A>');
-    } elseif ($activeBtn === -1) {
-        writeLine('<A href="https://lotr.fandom.com/fr/wiki/Cardolan" class="site-name" target="_blank" rel="noopener">Cardolan</A>');
     } else {
         writeLine('<A href="/" class="site-name">Cardolan</A>');
     }
@@ -213,7 +209,7 @@ function closePage()
     writeLineBr('<a href="/licence/">CC BY-NC-SA</a>');
     writeLine('Vous êtes le visiteur n°<img src="http://perso0.proxad.net/cgi-bin/wwwcount.cgi?dd=D&df=RANDOM&md=12&ft=2"><br>Compteur complètement libre de ses opinions');
     writeLine('</td><td>');
-    writeLine(imageLink('/', 'home-hobbit.png', 'Retour à la page racine', '', '', '', '', '', '', 'Cul-de-Sac'));
+    writeLine(imageLink('/blason/', 'home-hobbit.png', 'Le blason de Cardolan', '', '', '', '', '', '', 'Cul-de-Sac'));
     writeLine('</td></tr></table>');
     writeLine('</DIV>'); // FondPage
     writeLine('</DIV>'); // ZoneCentre
