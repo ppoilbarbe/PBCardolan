@@ -1,7 +1,25 @@
 # Changelog
 
-Tous les changements notables sont documentés ici.
-Format : [Keep a Changelog](https://keepachangelog.com/fr/1.1.0/).
+All notable changes to this project are documented in this file.
+Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
+
+## [2026.4] - 2026-07-01
+
+### Added
+- `LICENSE` file at the repository root: HTML/site source code, text content (recipes, cocktails, editorial content) and all images/icons are licensed under CC BY-NC-SA 4.0.
+- `html/licence/index.php`: dedicated page detailing the licensing terms, linked from the footer.
+- `imageLink()` (`base.lib.php`): new `$linkTarget` parameter to open a link in a new tab (`target="_blank" rel="noopener"`).
+- `openPage()` (`layout.lib.php`): section title in the header is now a clickable link to the active sub-site.
+- `openHead()` (`layout.lib.php`): `viewport` meta tag for responsive rendering.
+- `Makefile`: `deploy` target (`sitecopy`).
+
+### Changed
+- Footer copyright notice: "Tous droits réservés" replaced by "CC BY-NC-SA", linking to `/licence/`.
+- Home page: "Cardolan" link now points to the Fandom wiki page (`lotr.fandom.com`) instead of a local anchor.
+- April.org banners (`index.php`, footer) now open in a new tab.
+- Footer (`FondPage`): reduced padding and top margin for a more compact layout.
+- Home icon changed from `home.png` to `home-hobbit.png`.
+- `.gitignore`: exclude `html/cocktails/`.
 
 ## [2026.3] - 2026-05-19
 

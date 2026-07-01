@@ -26,7 +26,8 @@ writeLine('Optimisé pour une résolution minimale de 1024x768.<br><br><br><br>'
 writeLine(imageLink(
     'https://www.april.org/adherer?referent=Philippe+POILBARBE+%28ppoilbarbe%29',
     'http://www.april.org/files/association/documents/bannieres/banniere_horizontale_soutien_adherent_fulltext_486_par_60.png',
-    'Promouvoir et soutenir le logiciel libre'
+    'Promouvoir et soutenir le logiciel libre',
+    linkTarget: '_blank'
 ));
 writeLine('</p>');
 

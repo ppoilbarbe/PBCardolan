@@ -200,14 +200,15 @@ function closePage()
     writeLine(imageLink(
         'https://www.april.org/adherer?referent=Philippe+POILBARBE+%28ppoilbarbe%29',
         'http://www.april.org/files/association/documents/bannieres/bouton_web_soutien_88x31.gif',
-        'Promouvoir et soutenir le logiciel libre'
+        'Promouvoir et soutenir le logiciel libre',
+        linkTarget: '_blank'
     ));
     writeLine('</td><td>');
     writeLine('©<a href="mailto:webmaster@cardolan.net">Marcel Spock 1999-2026</a>');
-    writeLineBr('Tous droits réservés');
+    writeLineBr('<a href="/licence/">CC BY-NC-SA</a>');
     writeLine('Vous êtes le visiteur n°<img src="http://perso0.proxad.net/cgi-bin/wwwcount.cgi?dd=D&df=RANDOM&md=12&ft=2"><br>Compteur complètement libre de ses opinions');
     writeLine('</td><td>');
-    writeLine(imageLink('/', 'home-hobbit.png', 'Retour à la page racine'));
+    writeLine(imageLink('/', 'home-hobbit.png', 'Retour à la page racine', '', '', '', '', '', '', 'Cul-de-Sac'));
     writeLine('</td></tr></table>');
     writeLine('</DIV>'); // FondPage
     writeLine('</DIV>'); // ZoneCentre

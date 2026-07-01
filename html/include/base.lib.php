@@ -204,9 +204,11 @@ function imageSizeAttr($image)
  * @param string $mouseOut    Image filename to swap to on mouseout.
  * @param string $mouseOver   Image filename to swap to on mouseover.
  * @param string $mouseDown   Image filename to swap to on mousedown.
+ * @param string $linkTarget  Anchor target attribute (e.g. "_blank" to open in a new tab).
  */
 function imageLink($link, $image, $text = '', $class = '', $imgName = '',
-                   $imgTarget = '', $mouseOut = '', $mouseOver = '', $mouseDown = '')
+                   $imgTarget = '', $mouseOut = '', $mouseOver = '', $mouseDown = '',
+                   $title = '', $linkTarget = '')
 {
     $src    = findImage($image);
     $target = $imgTarget ?: $imgName;
@@ -232,9 +234,11 @@ function imageLink($link, $image, $text = '', $class = '', $imgName = '',
     $nameAttr  = $imgName ? " name=\"$imgName\"" : '';
     $classAttr = $class   ? " class=\"$class\""  : '';
     $altAttr   = $text    ? " alt=\"$text\""     : '';
+    $titleAttr = $title   ? " title=\"$title\""  : '';
+    $targetAttr = $linkTarget ? " target=\"$linkTarget\" rel=\"noopener\"" : '';
 
-    $html = $link ? "<a href=\"$link\" class=Image$events>\n" : '';
-    $html .= "<img src=\"$src\"" . imageSizeAttr($src) . $classAttr . $altAttr;
+    $html = $link ? "<a href=\"$link\" class=Image$targetAttr$events>\n" : '';
+    $html .= "<img src=\"$src\"" . imageSizeAttr($src) . $classAttr . $altAttr . $titleAttr;
     $html .= $link ? '' : $events;
     $html .= "$nameAttr>";
     $html .= $link ? '</a>' : '';
