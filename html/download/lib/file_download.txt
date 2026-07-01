@@ -149,7 +149,7 @@ PBCardolan.Fichier>https://github.com/ppoilbarbe/PBCardolan
 PBCardolan.Texte>PBCardolan
 PBCardolan.Langues>fr
 PBCardolan.Systeme>L
-PBCardolan.Image>
+PBCardolan.Image>pbcardolan.png
 PBCardolan.Titre>PBCardolan: Source du site https://www.cardolan.net
 PBCardolan.Description>Ce dépôt contient le source du site https://www.cardolan.net
 PBCardolan.Version>
