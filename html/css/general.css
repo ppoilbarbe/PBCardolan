@@ -359,6 +359,33 @@ img.Sindarin-img {
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
 }
 
+.Sindarin-modal[hidden] {
+  display: none;
+}
+
+.Sindarin-modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+}
+
+.Sindarin-modal-box {
+  max-width: 560px;
+  background: var(--clr-surface);
+  color: var(--clr-text);
+  border: 1px solid var(--clr-border);
+  border-radius: 8px;
+  padding: 24px 28px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  font-family: var(--font-body);
+  line-height: 1.5;
+}
+
 
 /* ══════════════════════════════════════════════════════════════════════════════
    IMPRESSION — palette noir/blanc
