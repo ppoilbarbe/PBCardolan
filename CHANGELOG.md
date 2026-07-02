@@ -3,6 +3,27 @@
 All notable changes to this project are documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [2026.5] - 2026-07-02
+
+### Added
+- `html/download/`: `pbcardolan.png` image for the PBCardolan download entry.
+- Home page: `pbcardolan.png` logo (64px) in the header, replacing the "Cardolan" text, linking externally to the Fandom wiki page.
+- New `/blason/` page explaining the Cardolan emblem's symbolism (tree, stars, mountains, crown), displaying `pbcardolan-full.png` linked to the Fandom wiki. The footer's Cul-de-Sac icon now links here instead of the home page.
+- `README.md`: site and sub-sites overview (reference to PBRecipe).
+- Home page: clicking the Sindarin banner image now opens a modal with the French translation of the Tengwar phonetic-English text. No visual indication (no link, no cursor change) hints that the image is clickable.
+- `general.css`: modal (overlay + box) styling, aligned with the site palette.
+
+### Changed
+- Home page: `Sindarin.jpg` (new high-resolution version) now displayed at 60% of the page width.
+- `html/images/Sindarin.jpg` replaced again by an even higher-resolution version.
+
+### Fixed
+- `/download` page: several links (Github, flagpedia.net, README, releases, tinyMediaManager) used `<a src="...">` instead of `<a href="...">`, making them non-clickable and unstyled.
+
+### Removed
+- `html/images/FondFondPage.jpg` (unused).
+- Unused `html/images/Sindarin-16x9.jpg` and `Sindarin-21x9.jpg` crop variants.
+
 ## [2026.4] - 2026-07-01
 
 ### Added
