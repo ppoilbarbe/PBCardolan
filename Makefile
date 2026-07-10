@@ -18,7 +18,7 @@ C  := \033[36m
 PHP_FILES  := $(shell find $(WEBROOT) -name "*.php")
 
 .DEFAULT_GOAL := help
-.PHONY: help venv venv-update livetest stop test deploy clean
+.PHONY: help venv venv-update livetest stop test deploy clean update-icons
 
 help: ## Cette aide
 	@printf "$(B)$(C)site_web — Tâches de développement$(R)\n\n"
@@ -87,6 +87,9 @@ test: ## Vérifie la syntaxe PHP de tous les fichiers du site
 	    printf "$(Y)$$errors fichier(s) en erreur.$(R)\n"; \
 	    exit 1; \
 	fi
+
+update-icons: ## Met à jour html/images/*.png depuis le dépôt PBIcons
+	@tools/update_icons.sh
 
 deploy: ## Déploie le site sur le serveur (sitecopy)
 	sitecopy -u cardolan
