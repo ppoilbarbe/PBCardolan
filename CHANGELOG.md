@@ -8,6 +8,8 @@ number incremented for each release within that year.
 
 ## [Unreleased]
 
+## [2026.6] - 2026-07-10
+
 ### Added
 - `html/download/`: new `PBIcons` entry (raster images/icons and their SVG vectorization), with `pbicons.png` image.
 - `html/download/lib/file_download.txt`: `PBRegisterActivity` entry now links to its GitHub releases page.
