@@ -3,10 +3,15 @@
 All notable changes to this project are documented in this file.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+Version numbers follow `YYYY.n`: the current year, followed by a sequence
+number incremented for each release within that year.
+
 ## [Unreleased]
 
 ### Changed
 - `LICENSE`: replaced with the full CC BY-NC-SA 4.0 legal text (was a hand-written summary), so GitHub correctly detects the license instead of showing "Other".
+- `/blason/` page: fixed Sindarin place names — "Fontgrise (Hoarwell)" corrected to "la Mitheithel (la Fontgrise)", "Hauts des Galgals" corrected to "Tyrn Gorthad (les Hauts-des-Galgals)".
+- Home page: removed the obsolete "Optimisé pour une résolution minimale de 1024x768" mention.
 
 ## [2026.5] - 2026-07-02
 

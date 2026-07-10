@@ -43,8 +43,8 @@ writeLine('<p>Les <strong>étoiles</strong> qui l\'entourent évoquent celles '
 writeLine('<p>Les <strong>montagnes</strong> en arrière-plan et les deux '
     . '<strong>rivières</strong> qui serpentent à leurs pieds figurent le '
     . 'territoire de Cardolan en Eriador, borné par le Baranduin (le '
-    . 'Brandevin) et le Fontgrise (Hoarwell), et son relief, notamment les '
-    . 'Hauts des Galgals.</p>');
+    . 'Brandevin) et la Mitheithel (la Fontgrise), et son relief, notamment '
+    . 'les Tyrn Gorthad (les Hauts-des-Galgals).</p>');
 
 writeLine('<p>La <strong>couronne</strong> à la base de l\'écu rappelle enfin '
     . 'le statut de véritable royaume de Cardolan, héritier au même titre que '

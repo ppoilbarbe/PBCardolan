@@ -22,8 +22,7 @@ writeLine('<h1 class="HomeTitle">Philippe Poilbarbe</h1>');
 writeLine('<p class="HomeSubtitle">Cardolan</p>');
 writeLine('<hr class="HomeRule">');
 writeLine('<p align="center">' . imageLink('', 'Sindarin.jpg', '', 'Sindarin-img', 'Sindarin-img') . '<br>');
-writeLine('<br>Ce site a été testé avec Chromium et FireFox.<br>');
-writeLine('Optimisé pour une résolution minimale de 1024x768.<br><br><br><br>');
+writeLine('<br>Ce site a été testé avec Chromium et FireFox.<br><br><br><br>');
 
 writeLine('<div id="Sindarin-modal" class="Sindarin-modal" hidden>');
 writeLine('  <div class="Sindarin-modal-box">');
