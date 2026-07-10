@@ -8,10 +8,18 @@ number incremented for each release within that year.
 
 ## [Unreleased]
 
+### Added
+- `html/download/`: new `PBIcons` entry (raster images/icons and their SVG vectorization), with `pbicons.png` image.
+- `html/download/lib/file_download.txt`: `PBRegisterActivity` entry now links to its GitHub releases page.
+
 ### Changed
 - `LICENSE`: replaced with the full CC BY-NC-SA 4.0 legal text (was a hand-written summary), so GitHub correctly detects the license instead of showing "Other".
 - `/blason/` page: fixed Sindarin place names — "Fontgrise (Hoarwell)" corrected to "la Mitheithel (la Fontgrise)", "Hauts des Galgals" corrected to "Tyrn Gorthad (les Hauts-des-Galgals)".
 - Home page: removed the obsolete "Optimisé pour une résolution minimale de 1024x768" mention.
+- `html/download/lib/file_download.txt`: fixed incorrect releases links for `PBPicat` (was pointing to `PBRenamer`), `PBRecipe` (was pointing to `PBBoule`), and `PBPrompt` (wording).
+
+### Removed
+- `html/images/pbcardolan-full.png`: original-size image now lives in the `PBIcons` repository, it does not belong here.
 
 ## [2026.5] - 2026-07-02
 

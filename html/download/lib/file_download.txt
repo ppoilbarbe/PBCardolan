@@ -7,6 +7,7 @@ Telecharge>PBPrompt
 Telecharge>PBoule
 Telecharge>PBRecipe
 Telecharge>PBCardolan
+Telecharge>PBIcons
 
 
 PBRenamer.Fichier>https://github.com/ppoilbarbe/PBRenamer
@@ -38,7 +39,7 @@ PBPicat.Description>est représentée par un modèle (voir le fichier
 PBPicat.Description><a href="https://github.com/ppoilbarbe/PBPicat/blob/main/README.md">README</a>
 PBPicat.Description>pour plus de détails).
 PBPicat.Description>
-PBPicat.Description>Voir <a href="https://github.com/ppoilbarbe/PBRenamer/releases">les releases</a>
+PBPicat.Description>Voir <a href="https://github.com/ppoilbarbe/PBPicat/releases">les releases</a>
 PBPicat.Description>pour récupérer les exécutables.
 PBPicat.Description>
 PBPicat.Version>
@@ -54,6 +55,9 @@ PBRegisterActivity.Description>Créé pour pouvoir effectuer des comptes-rendu d
 PBRegisterActivity.Description>mon travail, ce programme permet de compatbiliser le temps
 PBRegisterActivity.Description>passé sur chaque activité (fait la somme de tous les segments
 PBRegisterActivity.Description>horaires d'une même activité).
+PBRegisterActivity.Description>
+PBRegisterActivity.Description>Voir <a href="https://github.com/ppoilbarbe/PBRegisterActivity/releases">les releases</a>
+PBRegisterActivity.Description>pour récupérer les exécutables.
 PBRegisterActivity.Description>
 PBRegisterActivity.Version>
 PBRegisterActivity.Compter>0
@@ -98,7 +102,7 @@ PBPrompt.Description>
 PBPrompt.Description>Par contre, l'interface du programme lui-même est disponible en un nombre de langues limité.
 PBPrompt.Description>
 PBPrompt.Description>Voir <a href="https://github.com/ppoilbarbe/PBPrompt/releases">les releases</a>
-PBPrompt.Description>pour récupérer les fichiers zip des deux modèles.
+PBPrompt.Description>pour récupérer les exécutables.
 PBPrompt.Description>
 PBPrompt.Version>
 PBPrompt.Compter>0
@@ -137,7 +141,7 @@ PBRecipe.Description>
 PBRecipe.Description>Un import/export (YAML) standardisé permet la sauvegarde ou l'échange entre
 PBRecipe.Description>des bases de données en s'affranchissant du SQL.
 PBRecipe.Description>
-PBRecipe.Description>Voir <a href="https://github.com/ppoilbarbe/PBBoule/releases">les releases</a>
+PBRecipe.Description>Voir <a href="https://github.com/ppoilbarbe/PBRecipe/releases">les releases</a>
 PBRecipe.Description>pour récupérer les exécutables.
 PBRecipe.Description>
 PBRecipe.Description>Ce programme sert à gérer les recettes de cuisine et les cocktails de ce site
@@ -154,4 +158,17 @@ PBCardolan.Titre>PBCardolan: Source du site https://www.cardolan.net
 PBCardolan.Description>Ce dépôt contient le source du site https://www.cardolan.net
 PBCardolan.Version>
 PBCardolan.Compter>0
+
+PBIcons.Fichier>https://github.com/ppoilbarbe/PBIcons
+PBIcons.Texte>PBIcons
+PBIcons.Langues>fr
+PBIcons.Systeme>L
+PBIcons.Image>pbicons.png
+PBIcons.Titre>PBIcons: Mes images
+PBIcons.Description>Ce dépôt contient les images et icônes originales sous forme « raster »
+PBIcons.Description>(pixels) ainsi que leur vectorisation (SVG).
+PBIcons.Description>Ces images sont ensuite réutilisées dans mes autres projets, soit la version
+PBIcons.Description>vectorisée, soit une version réduite (question de place) de l'image « raster ».
+PBIcons.Version>
+PBIcons.Compter>0
 
