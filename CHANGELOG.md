@@ -8,6 +8,8 @@ number incremented for each release within that year.
 
 ## [Unreleased]
 
+## [2026.7] - 2026-07-10
+
 ### Added
 - `Makefile`: `update-icons` target to refresh `html/images/*.png` from the PBIcons repository.
 - `tools/update_icons.sh`: downloads the source images from `ppoilbarbe/PBIcons` (via Git LFS), resizes any file larger than 128x128 down to that size, and skips files whose source content hasn't changed since the last run (SHA-256 hash cached in `html/images/<file>.sha256`, version-controlled).
