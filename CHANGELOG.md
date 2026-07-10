@@ -11,10 +11,14 @@ number incremented for each release within that year.
 ### Added
 - `Makefile`: `update-icons` target to refresh `html/images/*.png` from the PBIcons repository.
 - `tools/update_icons.sh`: downloads the source images from `ppoilbarbe/PBIcons` (via Git LFS), resizes any file larger than 128x128 down to that size, and skips files whose source content hasn't changed since the last run (SHA-256 hash cached in `html/images/<file>.sha256`, version-controlled).
+- `tools/update_icons.sh`: also downloads `html/images/pbcardolan-full.png` and `Sindarin.jpg` as-is (no resizing), from the PBIcons repository.
 - `html/images/pbpicat.png`, `pbprompt.png`, `pbrecipe.png`, `pbregisteractivity.png`, `pbrenamer.png`: new icons synced from PBIcons.
 
 ### Changed
 - `html/images/pbcardolan.png`, `pbicons.png`: resynced from PBIcons and resized to 128x128.
+
+### Fixed
+- `html/images/pbcardolan-full.png`: restored, wrongly removed in 2026.6 while still referenced by the `/blason/` page.
 
 ## [2026.6] - 2026-07-10
 

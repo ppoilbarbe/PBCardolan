@@ -28,6 +28,12 @@ declare -A ICONS=(
     ["programs/pbrenamer.png"]="pbrenamer.png"
 )
 
+# Downloaded as-is, without resizing.
+declare -A ICONS_FULL_SIZE=(
+    ["cardolan/cardolan.png"]="pbcardolan-full.png"
+    ["cardolan/Sindarin-21x9.jpg"]="Sindarin.jpg"
+)
+
 for cmd in curl convert sha256sum; do
     command -v "$cmd" >/dev/null 2>&1 || {
         echo "Error: '$cmd' is required but was not found in PATH." >&2
@@ -55,6 +61,27 @@ for src in "${!ICONS[@]}"; do
     fi
 
     convert "$tmp_file" -resize "$MAX_SIZE" "$dest_file"
+    echo "$new_hash" >"$hash_file"
+    echo "  -> $dest_file"
+done
+
+for src in "${!ICONS_FULL_SIZE[@]}"; do
+    dest="${ICONS_FULL_SIZE[$src]}"
+    url="$RAW_BASE/$src"
+    tmp_file="$tmp/$(basename "$src")"
+    dest_file="$DEST_DIR/$dest"
+    hash_file="$dest_file.sha256"
+
+    echo "Downloading $src…"
+    curl -fsSL "$url" -o "$tmp_file"
+    new_hash="$(sha256sum "$tmp_file" | cut -d' ' -f1)"
+
+    if [ -f "$hash_file" ] && [ "$(cat "$hash_file")" = "$new_hash" ]; then
+        echo "  = $dest_file (unchanged)"
+        continue
+    fi
+
+    cp "$tmp_file" "$dest_file"
     echo "$new_hash" >"$hash_file"
     echo "  -> $dest_file"
 done
