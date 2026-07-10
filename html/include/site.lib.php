@@ -34,26 +34,21 @@ require_once includePath('nav_buttons.lib.php');
  *   string       rss         URL of an RSS feed (emits <link rel="alternate">).
  *   string       favicon     Favicon image filename.
  *   string|array javascript  Extra JS files to load from jscript/.
- *   array        buttons     Nav buttons used for preloading; defaults to $navButtons.
  *   array        css         Extra CSS files to load from css/.
  * }
  */
 function do_header(string $htmlTitle, array $opts = [])
 {
-    global $navButtons;
-
     $keywords   = $opts['keywords']   ?? '';
     $rss        = $opts['rss']        ?? '';
     $favicon    = $opts['favicon']    ?? '';
     $javascript = (array) ($opts['javascript'] ?? []);
     $css        = (array) ($opts['css'] ?? []);
-    $buttons    = $opts['buttons']    ?? $navButtons;
 
     openHead($htmlTitle, $keywords);
     if ($favicon) setFavicon(findImage($favicon));
     if ($rss)     writeLine('<link rel="alternate" type="application/rss+xml" title="RSS" href="'
                         . htmlspecialchars($rss) . '">');
-    preloadNavImages($buttons);
     closeHead(['css' => $css]);
     foreach ($javascript as $js) linkScript($js);
 }

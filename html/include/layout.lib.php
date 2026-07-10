@@ -16,7 +16,7 @@ function setFavicon($iconFile)
 
 /**
  * Opens the HTML document: sets no-cache headers, outputs DOCTYPE through
- * the opening <HEAD> tags, and includes boutons.js.
+ * the opening <HEAD> tags.
  *
  * @param string       $title    Page title.
  * @param string|array $keywords Meta keywords (string or array of strings).
@@ -46,39 +46,6 @@ function openHead($title, $keywords = '')
     writeLine('<META NAME="COPYRIGHT" CONTENT="Ph. Poilbarbe 1999-2026">');
     writeLine('<META NAME="ROBOTS"    CONTENT="NOARCHIVE">');
     writeLine('<META NAME="ROBOTS"    CONTENT="ALL">');
-    linkScript('boutons.js');
-}
-
-/**
- * Emits a <SCRIPT> block that preloads the -over and -down variants of each
- * active navigation button using window.addEventListener (no body onload needed).
- *
- * @param array $buttons Navigation button array (see nav_buttons.lib.php).
- */
-function preloadNavImages($buttons)
-{
-    $preloads = [];
-    foreach ($buttons as $btn) {
-        if (!$btn[0] || !$btn[3]) continue;
-        foreach (['-over' => '_over', '-down' => '_down'] as $fileSuffix => $jsSuffix) {
-            $file = findImage($btn[0] . $fileSuffix . '.png');
-            if (file_exists(absolutePath($file)))
-                $preloads[] = [$btn[0] . $jsSuffix, $file];
-        }
-    }
-    if (empty($preloads)) return;
-
-    writeLine('<SCRIPT language="JavaScript">');
-    writeLine('<!--');
-    writeLine('window.addEventListener("load", function() {');
-    writeLine('if (document.images) {');
-    foreach ($preloads as [$jsName, $file]) {
-        writeLine("$jsName = newImage(\"$file\");");
-    }
-    writeLine('}');
-    writeLine('});');
-    writeLine('// -->');
-    writeLine('</SCRIPT>');
 }
 
 /**
@@ -173,14 +140,12 @@ function openPage($title, $activeBtn, $buttons, $logo = false)
         writeLine('<DIV class="Btn' . ($i + 1) . '">');
         if ($btn[3]) {
             if ($i === $activeBtn) {
-                writeLine(imageLink('', $btn[0] . '-down.png', '', 'Barre'));
+                writeLine(imageLink('', $btn[0] . '.png', '', 'Barre active'));
             } else {
-                writeLine(imageLink($btn[2], $btn[0] . '-up.png', $btn[1], 'Barre',
-                    'Btn' . ($i + 1), '', $btn[0] . '-up.png',
-                    $btn[0] . '-over.png', $btn[0] . '-down.png'));
+                writeLine(imageLink($btn[2], $btn[0] . '.png', $btn[1], 'Barre'));
             }
         } else {
-            writeLine(imageLink('', $btn[0] . '-up.png', '', 'Barre'));
+            writeLine(imageLink('', $btn[0] . '.png', '', 'Barre'));
         }
         writeLine('</DIV>');
     }

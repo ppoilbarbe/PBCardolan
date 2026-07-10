@@ -3,7 +3,7 @@ if (isset($_NAV_BUTTONS_LIB_INC)) return;
 $_NAV_BUTTONS_LIB_INC = 1;
 
 // Navigation buttons: [imageBaseName, tooltip, url, active, title]
-// imageBaseName resolves to images/name-up.png / name-over.png / name-down.png.
+// imageBaseName resolves to images/name.png (hover/active states are pure CSS, see barre.css).
 // title is the display label shown in the page banner.
 // Set active to 0 to display the button without a link (placeholder).
 $navButtons = [

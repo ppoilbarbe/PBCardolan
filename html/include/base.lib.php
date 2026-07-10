@@ -193,43 +193,19 @@ function imageSizeAttr($image)
 }
 
 /**
- * Builds an <img> tag, optionally wrapped in an <a> with rollover behaviour.
+ * Builds an <img> tag, optionally wrapped in an <a>.
  *
  * @param string $link        URL for the anchor; empty string for no link.
  * @param string $image       Image filename (resolved via findImage()).
- * @param string $text        Alt text and status-bar text on hover.
+ * @param string $text        Alt text.
  * @param string $class       CSS class for the <img>.
- * @param string $imgName     Name attribute for the <img> (needed for JS swaps).
- * @param string $imgTarget   Name of the image to swap (defaults to $imgName).
- * @param string $mouseOut    Image filename to swap to on mouseout.
- * @param string $mouseOver   Image filename to swap to on mouseover.
- * @param string $mouseDown   Image filename to swap to on mousedown.
+ * @param string $imgName     Name attribute for the <img> (e.g. for JS lookups by name).
  * @param string $linkTarget  Anchor target attribute (e.g. "_blank" to open in a new tab).
  */
 function imageLink($link, $image, $text = '', $class = '', $imgName = '',
-                   $imgTarget = '', $mouseOut = '', $mouseOver = '', $mouseDown = '',
                    $title = '', $linkTarget = '')
 {
-    $src    = findImage($image);
-    $target = $imgTarget ?: $imgName;
-    $events = '';
-
-    if ($mouseOver) {
-        $over    = findImage($mouseOver);
-        $status  = $text ? "window.status='$text'; " : '';
-        $events .= " onmouseover=\"{$status}changeImages('$target', '$over'); return true;\"";
-    }
-    if ($mouseOut) {
-        $out     = findImage($mouseOut);
-        $status  = $text ? "window.status=''; " : '';
-        $events .= " onmouseout=\"{$status}changeImages('$target', '$out'); return true;\"";
-    }
-    if ($mouseDown) {
-        $down    = findImage($mouseDown);
-        $up      = $mouseOver ? findImage($mouseOver) : $src;
-        $events .= " onmousedown=\"changeImages('$target', '$down'); return true;\"";
-        $events .= " onmouseup=\"changeImages('$target', '$up'); return true;\"";
-    }
+    $src = findImage($image);
 
     $nameAttr  = $imgName ? " name=\"$imgName\"" : '';
     $classAttr = $class   ? " class=\"$class\""  : '';
@@ -237,9 +213,8 @@ function imageLink($link, $image, $text = '', $class = '', $imgName = '',
     $titleAttr = $title   ? " title=\"$title\""  : '';
     $targetAttr = $linkTarget ? " target=\"$linkTarget\" rel=\"noopener\"" : '';
 
-    $html = $link ? "<a href=\"$link\" class=Image$targetAttr$events>\n" : '';
+    $html = $link ? "<a href=\"$link\" class=Image$targetAttr>\n" : '';
     $html .= "<img src=\"$src\"" . imageSizeAttr($src) . $classAttr . $altAttr . $titleAttr;
-    $html .= $link ? '' : $events;
     $html .= "$nameAttr>";
     $html .= $link ? '</a>' : '';
 

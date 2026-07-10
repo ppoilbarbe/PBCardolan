@@ -8,6 +8,16 @@ number incremented for each release within that year.
 
 ## [Unreleased]
 
+### Added
+- `html/css/barre.css`: sidebar nav buttons now use a single 64x64 image per button (`cocktails.png`, `liens.png`, `mahjong.png`, `programmes.png`, `recettes.png`); the normal/hover/active-section looks (drop shadow, "pressed" look, grayscale) are recreated purely in CSS instead of three baked-in image variants.
+
+### Changed
+- `imageLink()` (`base.lib.php`): dropped the `mouseOver`/`mouseOut`/`mouseDown`/`imgTarget` parameters, unused now that nav-button rollovers are CSS-only.
+
+### Removed
+- `html/jscript/boutons.js` and the `-up`/`-over`/`-down` nav button image variants (`cocktails`, `liens`, `mahjong`, `programmes`, `recettes`): replaced by CSS-driven states on a single image (see Added).
+- `preloadNavImages()` (`layout.lib.php`) and the `buttons` option of `do_header()`: no longer needed once there are no `-over`/`-down` images to preload.
+
 ## [2026.7] - 2026-07-10
 
 ### Added

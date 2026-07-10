@@ -10,7 +10,7 @@
  *   │   ├── h1.Titre              (titre de page, optionnel)
  *   │   └── div.header-translate  (widget Google Translate)
  *   └── div.body-layout
- *       ├── nav.sidebar           (boutons de navigation, images GIF)
+ *       ├── nav.sidebar           (boutons de navigation, une image par bouton)
  *       │   ├── div.Btn1 … div.Btn5
  *       └── div.ZoneCentre        (contenu + pied de page)
  *
@@ -28,6 +28,13 @@
   --barre-btn-h:  64px;
   --barre-hdr-h:  56px;   /* Hauteur de l'en-tête */
   --barre-nav-w: 100px;   /* Largeur de la sidebar desktop */
+
+  /* Boutons de navigation : une seule image par bouton (sans -up/-over/-down) ;
+     état normal, survolé ("enfoncé") et actif sont recréés en CSS. */
+  --barre-btn-shadow-x: 3px;
+  --barre-btn-shadow-y: 3px;
+  --barre-btn-shadow-blur: 3px;
+  --barre-btn-shadow-color: rgba(0, 0, 0, 0.55);
 }
 
 
@@ -148,12 +155,27 @@ div.GoogleTranslate {
   height: var(--barre-btn-h);
   border-radius: 4px;
   overflow: hidden;
-  transition: opacity 0.15s ease, transform 0.1s ease;
 }
 
-.Btn1:hover, .Btn2:hover, .Btn3:hover, .Btn4:hover, .Btn5:hover {
-  opacity: 0.82;
-  transform: scale(1.04);
+/* État normal : ombre portée à droite/en bas, comme les anciennes images -up */
+.Btn1 img, .Btn2 img, .Btn3 img, .Btn4 img, .Btn5 img {
+  filter: drop-shadow(var(--barre-btn-shadow-x) var(--barre-btn-shadow-y) var(--barre-btn-shadow-blur) var(--barre-btn-shadow-color));
+  transition: filter 0.15s ease, transform 0.15s ease;
+}
+
+/* Survol : bouton "enfoncé" — l'image glisse dans l'espace laissé par l'ombre,
+   qui disparaît (comme les anciennes images -over) */
+.Btn1:hover img:not(.active), .Btn2:hover img:not(.active), .Btn3:hover img:not(.active),
+.Btn4:hover img:not(.active), .Btn5:hover img:not(.active) {
+  filter: none;
+  transform: translate(var(--barre-btn-shadow-x), var(--barre-btn-shadow-y));
+}
+
+/* Section active : même position "enfoncée", en niveaux de gris (comme -down) */
+.Btn1 img.active, .Btn2 img.active, .Btn3 img.active,
+.Btn4 img.active, .Btn5 img.active {
+  filter: grayscale(100%);
+  transform: translate(var(--barre-btn-shadow-x), var(--barre-btn-shadow-y));
 }
 
 
