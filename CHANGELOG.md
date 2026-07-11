@@ -10,13 +10,26 @@ number incremented for each release within that year.
 
 ### Added
 - `html/css/barre.css`: sidebar nav buttons now use a single 64x64 image per button (`cocktails.png`, `liens.png`, `mahjong.png`, `programmes.png`, `recettes.png`); the normal/hover/active-section looks (drop shadow, "pressed" look, grayscale) are recreated purely in CSS instead of three baked-in image variants.
+- `tools/update_icons.py`, `Makefile`: `btn-cocktails`, `btn-links`, `btn-mahjong`, `btn-programs`, `btn-recipes` added to the list of icons synced from PBIcons (`cardolan/` directory) and resized to 128x128.
+- `Makefile`: `favicon` target, generates a multi-size `html/images/favicon.ico` (16 to 256px) from `html/images/pbcardolan-full.png`; depends on that file, itself fetched via `update-icons` if missing.
+- `tools/update_icons.py`: `home-hobbit.png` added to the icons synced from PBIcons, resized to a 128px width (not square) from `cardolan/hobbit-home-button-big.png`.
+- `environment.yml`: `python` and `imagemagick` added as conda dependencies, used by `tools/update_icons.py` and the `favicon` target.
+- `README.md`: new "Dépendances" section under "Développement", documenting the tools required for each `Makefile` target.
 
 ### Changed
-- `imageLink()` (`base.lib.php`): dropped the `mouseOver`/`mouseOut`/`mouseDown`/`imgTarget` parameters, unused now that nav-button rollovers are CSS-only.
+- `html/images/cocktails.png`, `liens.png`, `mahjong.png`, `programmes.png`, `recettes.png`: the antique 1999 button images — already reduced from three variants (`-up`/`-over`/`-down`) to one per button — are now replaced altogether by newer 128x128 icons synced from PBIcons, renamed with an English `btn-` prefix (`btn-cocktails.png`, `btn-links.png`, `btn-mahjong.png`, `btn-programs.png`, `btn-recipes.png`); `html/include/nav_buttons.lib.php` updated accordingly.
+- `html/css/barre.css`: sidebar nav button images are now sized to the button box with `object-fit: contain` to avoid distortion now that source icons (128x128) no longer match the button's non-square footprint (53x64); `overflow: hidden` dropped from `.Btn1`…`.Btn5` so the hover/active "pressed" translation no longer crops icons whose artwork reaches the edges; shadow offset/blur increased from 3px to 5px for visibility.
+- `html/images/PB-Soft.ico` renamed to `html/images/favicon.ico` (standard favicon name), regenerated in multiple sizes (16 to 256px) from `pbcardolan-full.png`; `html/index.php` updated accordingly.
+- `tools/update_icons.sh` rewritten as `tools/update_icons.py`: pure Python 3 (standard library only, no dependency), a single `ICONS` dict keyed by destination filename processed in one loop instead of three near-identical bash loops; prints the number of icons actually updated at the end.
+- `Makefile`: `update-icons` and `favicon` targets now run through `$(CONDA_RUN)` like the other targets, for consistency (Python and ImageMagick are now conda dependencies, see Added).
 
 ### Removed
 - `html/jscript/boutons.js` and the `-up`/`-over`/`-down` nav button image variants (`cocktails`, `liens`, `mahjong`, `programmes`, `recettes`): replaced by CSS-driven states on a single image (see Added).
 - `preloadNavImages()` (`layout.lib.php`) and the `buttons` option of `do_header()`: no longer needed once there are no `-over`/`-down` images to preload.
+- `html/images/cocktails.xcf`, `liens.xcf`, `mahjong.xcf`, `programmes.xcf`, `recettes.xcf`: antique 1999 GIMP sources for the retired `-up`/`-over`/`-down` button variants, no longer needed.
+- `html/images/PB-Soft.jpg`, `LogoPhP_150x100_Paypal.jpg`: unused, unreferenced anywhere in the project.
+- `html/images/home.png`: antique icon, superseded by `home-hobbit.png`, unreferenced anywhere in the project.
+- `tools/update_icons.sh`: replaced by `tools/update_icons.py` (see Changed).
 
 ## [2026.7] - 2026-07-10
 

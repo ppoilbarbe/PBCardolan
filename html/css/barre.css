@@ -31,9 +31,9 @@
 
   /* Boutons de navigation : une seule image par bouton (sans -up/-over/-down) ;
      état normal, survolé ("enfoncé") et actif sont recréés en CSS. */
-  --barre-btn-shadow-x: 3px;
-  --barre-btn-shadow-y: 3px;
-  --barre-btn-shadow-blur: 3px;
+  --barre-btn-shadow-x: 5px;
+  --barre-btn-shadow-y: 5px;
+  --barre-btn-shadow-blur: 5px;
   --barre-btn-shadow-color: rgba(0, 0, 0, 0.55);
 }
 
@@ -154,11 +154,14 @@ div.GoogleTranslate {
   width: var(--barre-btn-w);
   height: var(--barre-btn-h);
   border-radius: 4px;
-  overflow: hidden;
 }
 
-/* État normal : ombre portée à droite/en bas, comme les anciennes images -up */
+/* Cadrage proportionnel (les images sources, ex. 128x128, ne correspondent pas
+   forcément au format du bouton) + ombre portée, comme les anciennes images -up */
 .Btn1 img, .Btn2 img, .Btn3 img, .Btn4 img, .Btn5 img {
+  width: var(--barre-btn-w);
+  height: var(--barre-btn-h);
+  object-fit: contain;
   filter: drop-shadow(var(--barre-btn-shadow-x) var(--barre-btn-shadow-y) var(--barre-btn-shadow-blur) var(--barre-btn-shadow-color));
   transition: filter 0.15s ease, transform 0.15s ease;
 }

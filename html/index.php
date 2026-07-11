@@ -9,7 +9,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/include/site.lib.php';
 
 do_header('Page personnelle de Philippe Poilbarbe', [
     'keywords'   => 'Mah-Jong,Cocktails,Français',
-    'favicon'    => 'PB-Soft.ico',
+    'favicon'    => 'favicon.ico',
     'javascript' => ['pi.js'],
 ]);
 ?>

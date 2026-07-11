@@ -8,3 +8,7 @@ dependencies:
   - php
   # GitHub CLI
   - gh
+  # tools/update_icons.py
+  - python
+  # tools/update_icons.py, cible favicon (redimensionnement des icônes)
+  - imagemagick

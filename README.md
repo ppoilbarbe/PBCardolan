@@ -30,12 +30,24 @@ le pied de page et la charte graphique communs au reste du site.
 Le projet utilise un `Makefile` pour les tâches courantes :
 
 ```sh
-make help      # liste des cibles disponibles
-make venv      # crée l'environnement conda (PHP, gh)
-make livetest  # démarre le serveur PHP local et ouvre le navigateur
-make test      # vérifie la syntaxe PHP de tous les fichiers du site
-make deploy    # déploie le site sur le serveur
+make help          # liste des cibles disponibles
+make venv          # crée l'environnement conda (PHP, gh, Python, ImageMagick)
+make livetest      # démarre le serveur PHP local et ouvre le navigateur
+make test          # vérifie la syntaxe PHP de tous les fichiers du site
+make update-icons  # synchronise les icônes depuis PBIcons
+make favicon       # régénère favicon.ico depuis pbcardolan-full.png
+make deploy        # déploie le site sur le serveur
 ```
+
+### Dépendances
+
+- **PHP**, **gh** (GitHub CLI), **Python 3** (bibliothèque standard
+  uniquement, aucun paquet à installer) et **ImageMagick** (`convert`) :
+  installés via `make venv` (environnement conda `site_web`, voir
+  `environment.yml`). Python et ImageMagick sont utilisés par
+  `tools/update_icons.py` (cible `make update-icons`) et par la cible
+  `make favicon` (redimensionnement des icônes).
+- **sitecopy** : requis pour `make deploy`.
 
 ## Licence
 

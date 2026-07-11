@@ -9,6 +9,9 @@ WEBROOT    := html
 PORT       := 8080
 PID_FILE   := .php-server.pid
 
+FAVICON          := $(WEBROOT)/images/favicon.ico
+PBCARDOLAN_FULL  := $(WEBROOT)/images/pbcardolan-full.png
+
 R  := \033[0m
 B  := \033[1m
 G  := \033[32m
@@ -18,7 +21,7 @@ C  := \033[36m
 PHP_FILES  := $(shell find $(WEBROOT) -name "*.php")
 
 .DEFAULT_GOAL := help
-.PHONY: help venv venv-update livetest stop test deploy clean update-icons
+.PHONY: help venv venv-update livetest stop test deploy clean update-icons favicon
 
 help: ## Cette aide
 	@printf "$(B)$(C)site_web — Tâches de développement$(R)\n\n"
@@ -89,7 +92,17 @@ test: ## Vérifie la syntaxe PHP de tous les fichiers du site
 	fi
 
 update-icons: ## Met à jour html/images/*.png depuis le dépôt PBIcons
-	@tools/update_icons.sh
+	@$(CONDA_RUN) python3 tools/update_icons.py
+
+favicon: $(FAVICON) ## Génère favicon.ico (multi-tailles) depuis pbcardolan-full.png
+
+$(FAVICON): $(PBCARDOLAN_FULL)
+	@printf "$(C)Génération de $(FAVICON)…$(R)\n"
+	$(CONDA_RUN) convert $(PBCARDOLAN_FULL) -define icon:auto-resize=16,32,48,64,128,256 $(FAVICON)
+	@printf "$(G)Fait.$(R)\n"
+
+$(PBCARDOLAN_FULL):
+	$(MAKE) update-icons
 
 deploy: ## Déploie le site sur le serveur (sitecopy)
 	sitecopy -u cardolan
