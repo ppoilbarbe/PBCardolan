@@ -8,6 +8,8 @@ number incremented for each release within that year.
 
 ## [Unreleased]
 
+## [2026.8] - 2026-07-11
+
 ### Added
 - `html/css/barre.css`: sidebar nav buttons now use a single 64x64 image per button (`cocktails.png`, `liens.png`, `mahjong.png`, `programmes.png`, `recettes.png`); the normal/hover/active-section looks (drop shadow, "pressed" look, grayscale) are recreated purely in CSS instead of three baked-in image variants.
 - `tools/update_icons.py`, `Makefile`: `btn-cocktails`, `btn-links`, `btn-mahjong`, `btn-programs`, `btn-recipes` added to the list of icons synced from PBIcons (`cardolan/` directory) and resized to 128x128.
