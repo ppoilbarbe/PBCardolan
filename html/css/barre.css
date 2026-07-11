@@ -24,8 +24,7 @@
    VARIABLES — dimensions des boutons de navigation
    ══════════════════════════════════════════════════════════════════════════════ */
 :root {
-  --barre-btn-w:  53px;
-  --barre-btn-h:  64px;
+  --barre-btn-size: 64px; /* Boutons carrés : toutes les icônes de la barre le sont */
   --barre-hdr-h:  56px;   /* Hauteur de l'en-tête */
   --barre-nav-w: 100px;   /* Largeur de la sidebar desktop */
 
@@ -151,16 +150,16 @@ div.GoogleTranslate {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: var(--barre-btn-w);
-  height: var(--barre-btn-h);
+  width: var(--barre-btn-size);
+  height: var(--barre-btn-size);
   border-radius: 4px;
 }
 
-/* Cadrage proportionnel (les images sources, ex. 128x128, ne correspondent pas
-   forcément au format du bouton) + ombre portée, comme les anciennes images -up */
+/* Cadrage proportionnel (object-fit en sécurité pour une future icône non
+   carrée) + ombre portée, comme les anciennes images -up */
 .Btn1 img, .Btn2 img, .Btn3 img, .Btn4 img, .Btn5 img {
-  width: var(--barre-btn-w);
-  height: var(--barre-btn-h);
+  width: var(--barre-btn-size);
+  height: var(--barre-btn-size);
   object-fit: contain;
   filter: drop-shadow(var(--barre-btn-shadow-x) var(--barre-btn-shadow-y) var(--barre-btn-shadow-blur) var(--barre-btn-shadow-color));
   transition: filter 0.15s ease, transform 0.15s ease;
@@ -210,8 +209,8 @@ div.GoogleTranslate {
   }
 
   .Btn1, .Btn2, .Btn3, .Btn4, .Btn5 {
-    width: var(--barre-btn-w);
-    height: var(--barre-btn-h);
+    width: var(--barre-btn-size);
+    height: var(--barre-btn-size);
   }
 
   .ZoneCentre {
@@ -236,15 +235,15 @@ div.GoogleTranslate {
   }
 
   .Btn1, .Btn2, .Btn3, .Btn4, .Btn5 {
-    width: 44px;
-    height: 52px;
+    width: 32px;
+    height: 32px;
   }
 
   /* Forcer le redimensionnement des <img> générés avec width/height HTML */
   .Btn1 img, .Btn2 img, .Btn3 img,
   .Btn4 img, .Btn5 img {
-    width:  44px !important;
-    height: 52px !important;
+    width:  32px !important;
+    height: 32px !important;
     object-fit: contain;
   }
 }

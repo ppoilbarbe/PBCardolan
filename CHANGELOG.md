@@ -8,6 +8,9 @@ number incremented for each release within that year.
 
 ## [Unreleased]
 
+### Changed
+- `html/css/barre.css`: sidebar nav button boxes switched from a non-square footprint (`53x64`, `44x52` on ≤420px screens) to square (`64x64`, `32x32` on ≤420px screens), since all button icons are now square 128x128 images synced from PBIcons and any future one will be too; the two `--barre-btn-w`/`--barre-btn-h` variables are merged into a single `--barre-btn-size`. `object-fit: contain` is kept as a safety net in case a future icon isn't square.
+
 ## [2026.8] - 2026-07-11
 
 ### Added
