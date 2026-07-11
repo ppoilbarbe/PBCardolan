@@ -10,13 +10,27 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/include/site.lib.php';
 do_header('Page personnelle de Philippe Poilbarbe', [
     'keywords'   => 'Mah-Jong,Cocktails,Français',
     'favicon'    => 'favicon.ico',
-    'javascript' => ['pi.js'],
+    'css'        => ['pi-egg.css'],
 ]);
 ?>
 <body>
 <?php
 
 do_page_open('', -1, ['logo' => true]);
+
+writeLine(imageLink('/praetorians/', 'pi.png', '', 'PiEgg', 'PiEgg'));
+writeLine('<script>');
+writeLine('(function () {');
+writeLine('  var link = document.images["PiEgg"];');
+writeLine('  if (!link) return;');
+writeLine('  link = link.closest("a");');
+writeLine('  if (!link) return;');
+writeLine('  link.addEventListener("click", function (e) {');
+writeLine('    e.preventDefault();');
+writeLine('    if (e.ctrlKey || e.metaKey) window.location.href = link.href;');
+writeLine('  });');
+writeLine('})();');
+writeLine('</script>');
 
 writeLine('<h1 class="HomeTitle">Philippe Poilbarbe</h1>');
 writeLine('<p class="HomeSubtitle">Cardolan</p>');

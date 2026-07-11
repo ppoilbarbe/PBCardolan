@@ -1,0 +1,83 @@
+/*
+ * praetorians.css — Mise en forme "incunable" de la page /praetorians/.
+ *
+ * Lettrines sur les paragraphes du texte, crédo (poème) mis en valeur avec
+ * ses sauts de ligne d'origine, signature finale en grande capitale grasse.
+ */
+
+/* Fond "circuit imprimé" derrière le manuscrit, uniquement sur cette page
+   (ciblée via :has(), déjà utilisé ailleurs sur le site, ex. barre.css). */
+.ZoneCentre:has(.Incunable) {
+  background-image: url('../images/praetorians-background.jpg');
+  background-repeat: repeat;
+  background-size: 320px 320px;
+  background-attachment: fixed;
+}
+
+.Praetorians-title {
+  font-variant: small-caps;
+  font-size: 2.75rem;
+  letter-spacing: 0.04em;
+  color: var(--clr-primary);
+}
+
+.Incunable {
+  max-width: 640px;
+  margin: 2rem auto;
+  padding: 2.5rem 3rem;
+  background: var(--clr-surface);
+  border: 3px double var(--clr-primary);
+  color: var(--clr-text);
+  font-family: var(--font-heading);
+  line-height: 1.7;
+}
+
+.Incunable p {
+  margin: 0 0 1.4em;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.Incunable p:not(.Signature)::first-letter {
+  float: left;
+  padding: 0.05em 0.09em 0 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 3.6em;
+  font-weight: bold;
+  line-height: 0.8;
+  color: var(--clr-primary);
+}
+
+.Incunable .Credo {
+  margin: 2.2em 0;
+  padding: 1.2em 0;
+  border-top: 1px solid var(--clr-border);
+  border-bottom: 1px solid var(--clr-border);
+  text-align: center;
+  font-style: italic;
+  line-height: 1.9;
+}
+
+.Incunable .Watcher-row {
+  margin-top: 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5em;
+}
+
+.Incunable .Watcher-image {
+  width: 96px;
+  height: 96px;
+  flex-shrink: 0;
+}
+
+.Incunable .Signature {
+  margin: 0 0 0 auto;
+  text-align: right;
+  font-family: "Times New Roman", "Liberation Serif", "DejaVu Serif", serif;
+  font-size: 2.2rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  color: var(--clr-primary);
+}

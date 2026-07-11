@@ -25,6 +25,29 @@ YAML) développé dans un dépôt séparé. Elles sont intégrées à Cardolan v
 shim `html/include/recipe_integration.lib.php`, qui leur fournit l'en-tête,
 le pied de page et la charte graphique communs au reste du site.
 
+## Easter egg — π / Prétoriens
+
+Un clin d'œil à la version originale du site (1999) : l'ancien script
+`html/jscript/pi.js` affichait déjà un logo flottant sur la page d'accueil,
+mais son implémentation reposait sur des API de navigateur (`document.layers`,
+`document.all`) abandonnées depuis longtemps — il ne fonctionnait donc plus
+depuis des années. L'idée a été reprise et proprement réimplémentée : sur la
+page d'accueil, l'image `pi.png` apparaît discrètement en bas à droite à
+chaque chargement, puis disparaît au bout de 5 secondes (animation CSS pure,
+sans JavaScript pour le minutage). Un Ctrl/Cmd+clic dessus pendant ce court
+instant ouvre `/praetorians/`, une page cachée (absente du menu de
+navigation) mise en forme comme un manuscrit enluminé.
+
+Le thème de la page (surveillance, déduction, traque numérique) fait
+référence au film *Traque sur Internet* (*The Net*, 1995). Son crédo, dans la
+continuité de l'identité tolkienienne du reste du site (Cardolan, le blason,
+Sindarin…), est une paraphrase du poème de l'Anneau du *Seigneur des Anneaux*,
+transposée au vocabulaire de la surveillance informatique. La signature finale
+est accompagnée de `praetorians-watcher.png`, l'icône du programme
+[PBRegisterActivity](https://github.com/ppoilbarbe/PBRegisterActivity)
+réutilisée ici pour son œil rouge évoquant HAL 9000 (*2001, l'Odyssée de
+l'espace*) — un clin d'œil à l'auto-surveillance.
+
 ## Développement
 
 Le projet utilise un `Makefile` pour les tâches courantes :

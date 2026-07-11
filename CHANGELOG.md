@@ -8,8 +8,17 @@ number incremented for each release within that year.
 
 ## [Unreleased]
 
+### Added
+- `html/praetorians/index.php`, `html/css/praetorians.css`: new easter egg page, reachable only through the `pi.png` link on the home page, not part of the navigation menu. Browser tab title in Greek ("ὁ Κέρβερος τῶν Πραιτωριανῶν"). Illuminated-manuscript ("incunable") styling: page title ("Les Prétoriens") in large, small-caps, accent-colored type; drop cap on each prose paragraph; a credo (a tech/surveillance-flavored paraphrase of Tolkien's Ring-verse) displayed as a distinct block with its original line breaks preserved, in a Greek-capable serif font; closing signature ("οἱ Πραιτωριανοί") in large bold type, paired with `praetorians-watcher.png` (a nod to HAL 9000's red eye from *2001: A Space Odyssey*) placed to its left in a flex row, both vertically centered on each other; `praetorians-background.jpg` (a circuit-board pattern) tiled behind the manuscript via `.ZoneCentre:has(.Incunable)`, scoped to this page only.
+- `html/css/pi-egg.css`, `html/index.php`: easter egg on the home page — `pi.png` (9x9, white 3px drop shadow) is shown bottom-right on every page load, then fades out and becomes unclickable after 5 seconds (pure CSS `@keyframes` + `pointer-events`). While visible, only a Ctrl/Cmd+click opens `/praetorians/`; a plain click does nothing. The click is always intercepted and, on Ctrl/Cmd, navigation is done via `window.location.href` rather than letting the browser follow the link natively — otherwise Ctrl/Cmd+click always opens a new tab regardless of `target`. A nod to the old floating logo from `jscript/pi.js` (1999).
+- `tools/update_icons.py`: `pi.png` and `praetorians-background.jpg` added to the icons synced from PBIcons (`cardolan/pi-small.png`, `cardolan/praetorians-background.jpg`, both copied as-is).
+- `README.md`: new "Easter egg — π / Prétoriens" section documenting the feature, noting it revives an idea already present in the original 1999 site (`pi.js`'s floating logo) that had been broken for years, and its references to the film *Traque sur Internet* (*The Net*, 1995) and, in keeping with the site's Tolkien identity, to *The Lord of the Rings*' Ring-verse.
+
 ### Changed
 - `html/css/barre.css`: sidebar nav button boxes switched from a non-square footprint (`53x64`, `44x52` on ≤420px screens) to square (`64x64`, `32x32` on ≤420px screens), since all button icons are now square 128x128 images synced from PBIcons and any future one will be too; the two `--barre-btn-w`/`--barre-btn-h` variables are merged into a single `--barre-btn-size`. `object-fit: contain` is kept as a safety net in case a future icon isn't square.
+
+### Removed
+- `html/jscript/pi.js` and `html/images/pi.gif`, `pi2.gif`: antique 1999 floating-logo script and its images, replaced by the CSS-only easter egg (see Added); `pi.js` was already effectively dead code (relied on `document.layers`/`document.all`, long-gone browser APIs).
 
 ## [2026.8] - 2026-07-11
 

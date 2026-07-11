@@ -1,0 +1,32 @@
+/*
+ * pi-egg.css — Easter egg de la page d'accueil.
+ *
+ * Clin d'œil à l'ancien logo flottant de jscript/pi.js (1999) : à chaque
+ * chargement de la page, l'image pi.png (9x9) apparaît en bas à droite
+ * pendant 5 secondes puis disparaît (animation CSS pure : opacité +
+ * pointer-events). Un Ctrl/Cmd+clic dessus pendant ce laps de temps ouvre
+ * /praetorians/ (un clic simple ne fait rien, voir le script dans index.php).
+ */
+
+.PiEgg {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 1000;
+  display: block;
+  width: 9px;
+  height: 9px;
+  filter: drop-shadow(3px 3px 0 #fff);
+  animation: pi-egg-fade 5s forwards;
+}
+
+@keyframes pi-egg-fade {
+  0%, 90% {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
