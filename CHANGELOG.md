@@ -16,9 +16,13 @@ number incremented for each release within that year.
 
 ### Changed
 - `html/css/barre.css`: sidebar nav button boxes switched from a non-square footprint (`53x64`, `44x52` on ≤420px screens) to square (`64x64`, `32x32` on ≤420px screens), since all button icons are now square 128x128 images synced from PBIcons and any future one will be too; the two `--barre-btn-w`/`--barre-btn-h` variables are merged into a single `--barre-btn-size`. `object-fit: contain` is kept as a safety net in case a future icon isn't square.
+- `tools/update_icons.py`: `praetorians-watcher.png` entry moved to keep the `ICONS` dict alphabetically sorted by destination filename.
 
 ### Removed
 - `html/jscript/pi.js` and `html/images/pi.gif`, `pi2.gif`: antique 1999 floating-logo script and its images, replaced by the CSS-only easter egg (see Added); `pi.js` was already effectively dead code (relied on `document.layers`/`document.all`, long-gone browser APIs).
+
+### Fixed
+- `LICENSE`: removed the custom copyright/summary preamble that preceded the official CC BY-NC-SA 4.0 legal text, which was preventing GitHub's license detector (`licensee`) from recognizing the license; the copyright notice and contact address are now in `README.md` instead.
 
 ## [2026.8] - 2026-07-11
 

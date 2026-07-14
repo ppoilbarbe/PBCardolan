@@ -74,5 +74,10 @@ make deploy        # déploie le site sur le serveur
 
 ## Licence
 
-Le code source, les contenus textuels et les images de ce site sont sous
-licence [CC BY-NC-SA 4.0](LICENSE).
+Copyright (c) 1999-2026 Marcel Spock
+
+Le code source (HTML/site), les contenus textuels (recettes de cuisine, de
+cocktails et autres contenus éditoriaux) et les images/icônes de ce site sont
+sous licence [CC BY-NC-SA 4.0](LICENSE).
+
+Contact : webmaster@cardolan.net

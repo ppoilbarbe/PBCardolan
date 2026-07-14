@@ -43,10 +43,10 @@ ICONS = {
     "pbprompt.png":                {"src": "programs/pbprompt-full.png",          "resize": "128x128>"},
     "pbrecipe.png":                {"src": "programs/pbrecipe-128x128.png",       "resize": "128x128>"},
     "pbregisteractivity.png":      {"src": "programs/pbregisteractivity.png",     "resize": "128x128>"},
-    "praetorians-watcher.png":     {"src": "programs/pbregisteractivity.png",     "resize": "512x512>"},
     "pbrenamer.png":               {"src": "programs/pbrenamer.png",              "resize": "128x128>"},
     "pi.png":                      {"src": "cardolan/pi-small.png",               "resize": None},
     "praetorians-background.jpg":  {"src": "cardolan/praetorians-background.jpg", "resize": None},
+    "praetorians-watcher.png":     {"src": "programs/pbregisteractivity.png",     "resize": "512x512>"},
     "Sindarin.jpg":                {"src": "cardolan/Sindarin-21x9.jpg",          "resize": None},
 }
 
