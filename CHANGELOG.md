@@ -8,6 +8,10 @@ number incremented for each release within that year.
 
 ## [Unreleased]
 
+### Changed
+- `html/index.php`: the `pi.png` easter egg link now also opens `/praetorians/` on a long touch press (touchstart→touchend ≥800ms), in addition to Ctrl/Cmd+click, since touchscreens have no Ctrl/Cmd key to trigger the existing gesture.
+- `html/praetorians/index.php`: full rewrite of the prose preceding the credo, now voiced in the first person by the Praetorians themselves — boastful, addressing the reader directly — rather than as a detached third-person essay. The drop-cap first letters of the seven paragraphs spell CERBERE (French word for Cerberus).
+
 ## [2026.9] - 2026-07-14
 
 ### Added
