@@ -8,6 +8,8 @@ number incremented for each release within that year.
 
 ## [Unreleased]
 
+## [2026.9] - 2026-07-14
+
 ### Added
 - `html/praetorians/index.php`, `html/css/praetorians.css`: new easter egg page, reachable only through the `pi.png` link on the home page, not part of the navigation menu. Browser tab title in Greek ("ὁ Κέρβερος τῶν Πραιτωριανῶν"). Illuminated-manuscript ("incunable") styling: page title ("Les Prétoriens") in large, small-caps, accent-colored type; drop cap on each prose paragraph; a credo (a tech/surveillance-flavored paraphrase of Tolkien's Ring-verse) displayed as a distinct block with its original line breaks preserved, in a Greek-capable serif font; closing signature ("οἱ Πραιτωριανοί") in large bold type, paired with `praetorians-watcher.png` (a nod to HAL 9000's red eye from *2001: A Space Odyssey*) placed to its left in a flex row, both vertically centered on each other; `praetorians-background.jpg` (a circuit-board pattern) tiled behind the manuscript via `.ZoneCentre:has(.Incunable)`, scoped to this page only.
 - `html/css/pi-egg.css`, `html/index.php`: easter egg on the home page — `pi.png` (9x9, white 3px drop shadow) is shown bottom-right on every page load, then fades out and becomes unclickable after 5 seconds (pure CSS `@keyframes` + `pointer-events`). While visible, only a Ctrl/Cmd+click opens `/praetorians/`; a plain click does nothing. The click is always intercepted and, on Ctrl/Cmd, navigation is done via `window.location.href` rather than letting the browser follow the link natively — otherwise Ctrl/Cmd+click always opens a new tab regardless of `target`. A nod to the old floating logo from `jscript/pi.js` (1999).
