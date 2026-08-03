@@ -12,6 +12,9 @@ number incremented for each release within that year.
 - `html/index.php`: the `pi.png` easter egg link now also opens `/praetorians/` on a long touch press (touchstart→touchend ≥800ms), in addition to Ctrl/Cmd+click, since touchscreens have no Ctrl/Cmd key to trigger the existing gesture.
 - `html/praetorians/index.php`: full rewrite of the prose preceding the credo, now voiced in the first person by the Praetorians themselves — boastful, addressing the reader directly — rather than as a detached third-person essay. The drop-cap first letters of the seven paragraphs spell CERBERE (French word for Cerberus).
 
+### Fixed
+- `html/include/recipe_integration.lib.php`: `recipe_body()` matched `$navButtons` entries against the image-based `$b[0]` identifier (e.g. `'btn-recipes'`) instead of the type strings (`"recettes"`/`"cocktails"`) passed by PBRecipe, so the match always failed. As a result, the sidebar button for the Cocktails and Recettes sections was never marked active (always shown in its "outside section" state) and the top banner title was rendered as plain text instead of a link back to the section entry. Now matches against the button's URL slug (`$b[2]`) instead.
+
 ## [2026.9] - 2026-07-14
 
 ### Added

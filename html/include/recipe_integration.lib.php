@@ -58,7 +58,7 @@ function recipe_header(string $type): void
 function recipe_body(string $type): void
 {
     global $navButtons;
-    $btn = current(array_filter($navButtons, fn($b) => $b[0] === $type));
+    $btn = current(array_filter($navButtons, fn($b) => trim($b[2], '/') === $type));
     $title = $btn[4] ?? $type;
     $index = $btn ? array_search($btn, $navButtons) : -1;
     do_page_open($title, $index);
