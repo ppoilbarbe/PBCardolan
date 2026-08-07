@@ -34,10 +34,11 @@
 }
 
 /* Survol : affichage à l'échelle 1 (1024x1024, taille réelle du fichier
-   source), au-dessus du texte. */
+   source) sans dépasser la moitié de la largeur de l'écran, au-dessus du
+   texte. */
 .Praetorians-disk:hover {
-  width: 1024px;
-  height: 1024px;
+  width: min(1024px, 50vw);
+  height: min(1024px, 50vw);
   z-index: 5;
 }
 

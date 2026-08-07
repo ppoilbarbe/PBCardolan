@@ -8,6 +8,9 @@ number incremented for each release within that year.
 
 ## [Unreleased]
 
+### Changed
+- `html/css/praetorians.css`: `.Praetorians-disk:hover` now caps the enlarged size at `min(1024px, 50vw)` instead of a flat `1024px`, so it no longer overflows the viewport width on narrower screens.
+
 ## [2026.10] - 2026-08-07
 
 ### Added
