@@ -8,12 +8,20 @@ number incremented for each release within that year.
 
 ## [Unreleased]
 
+## [2026.10] - 2026-08-07
+
+### Added
+- `tools/update_icons.py`: `the-one-disk.png` added to the icons synced from PBIcons (`cardolan/the-one-disk.png`, copied as-is).
+- `html/praetorians/index.php`, `html/css/praetorians.css`: `the-one-disk.png` now displayed in the page's top-right corner. It scrolls with the page content rather than staying fixed to the viewport; its size scales with viewport width (`clamp(96px, 20vw, 320px)`) and it slides under the manuscript card on narrow windows (negative `z-index`, contained locally via `isolation: isolate` on `.ZoneCentre:has(.Incunable)` so it doesn't escape to the page's root stacking context and block pointer events on `.body-layout`). Hovering shows it at its native 1024x1024 scale, rising above the text.
+
 ### Changed
-- `html/index.php`: the `pi.png` easter egg link now also opens `/praetorians/` on a long touch press (touchstart→touchend ≥800ms), in addition to Ctrl/Cmd+click, since touchscreens have no Ctrl/Cmd key to trigger the existing gesture.
+- `html/index.php`, `html/css/pi-egg.css`: the `pi.png` easter egg link now opens `/praetorians/` on a plain click. The Ctrl/Cmd+click requirement (2026.9) and the long-touch-press addition on top of it (see previous entry, now superseded) are both removed — too unintuitive for some users.
 - `html/praetorians/index.php`: full rewrite of the prose preceding the credo, now voiced in the first person by the Praetorians themselves — boastful, addressing the reader directly — rather than as a detached third-person essay. The drop-cap first letters of the seven paragraphs spell CERBERE (French word for Cerberus).
+- `html/images/home-hobbit.png`: resynced from PBIcons (upstream image updated).
 
 ### Fixed
 - `html/include/recipe_integration.lib.php`: `recipe_body()` matched `$navButtons` entries against the image-based `$b[0]` identifier (e.g. `'btn-recipes'`) instead of the type strings (`"recettes"`/`"cocktails"`) passed by PBRecipe, so the match always failed. As a result, the sidebar button for the Cocktails and Recettes sections was never marked active (always shown in its "outside section" state) and the top banner title was rendered as plain text instead of a link back to the section entry. Now matches against the button's URL slug (`$b[2]`) instead.
+- `html/index.php`, `html/css/general.css`: the April.org support banner on the home page was left-aligned instead of centered, because `<div id="Sindarin-modal">` is nested inside the enclosing `<p align="center">` — invalid HTML (block content inside a `<p>`) that makes browsers auto-close the paragraph right before the `<div>`, silently dropping the banner (and everything after it) out of the centered container. Now centered directly via a dedicated CSS class (`img.HomeApril { display: block; margin: 0 auto; }`) instead of relying on the paragraph's alignment.
 
 ## [2026.9] - 2026-07-14
 

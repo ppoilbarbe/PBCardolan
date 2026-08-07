@@ -19,23 +19,6 @@ do_header('Page personnelle de Philippe Poilbarbe', [
 do_page_open('', -1, ['logo' => true]);
 
 writeLine(imageLink('/praetorians/', 'pi.png', '', 'PiEgg', 'PiEgg'));
-writeLine('<script>');
-writeLine('(function () {');
-writeLine('  var link = document.images["PiEgg"];');
-writeLine('  if (!link) return;');
-writeLine('  link = link.closest("a");');
-writeLine('  if (!link) return;');
-writeLine('  var touchStart = 0;');
-writeLine('  var LONG_PRESS_MS = 800;');
-writeLine('  link.addEventListener("touchstart", function () { touchStart = Date.now(); });');
-writeLine('  link.addEventListener("click", function (e) {');
-writeLine('    e.preventDefault();');
-writeLine('    var longPress = touchStart && (Date.now() - touchStart >= LONG_PRESS_MS);');
-writeLine('    touchStart = 0;');
-writeLine('    if (e.ctrlKey || e.metaKey || longPress) window.location.href = link.href;');
-writeLine('  });');
-writeLine('})();');
-writeLine('</script>');
 
 writeLine('<h1 class="HomeTitle">Philippe Poilbarbe</h1>');
 writeLine('<p class="HomeSubtitle">Cardolan</p>');
@@ -62,6 +45,7 @@ writeLine(imageLink(
     'https://www.april.org/adherer?referent=Philippe+POILBARBE+%28ppoilbarbe%29',
     'http://www.april.org/files/association/documents/bannieres/banniere_horizontale_soutien_adherent_fulltext_486_par_60.png',
     'Promouvoir et soutenir le logiciel libre',
+    class: 'HomeApril',
     linkTarget: '_blank'
 ));
 writeLine('</p>');

@@ -13,6 +13,8 @@ do_header('ὁ Κέρβερος τῶν Πραιτωριανῶν', ['css' => ['
 <?php
 do_page_open('', -1);
 
+writeLine(imageLink('', 'the-one-disk.png', '', 'Praetorians-disk', 'Praetorians-disk'));
+
 writeLine('<h1 class="Praetorians-title">Les Prétoriens</h1>');
 
 writeLine('<div class="Incunable">');

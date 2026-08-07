@@ -48,6 +48,7 @@ ICONS = {
     "praetorians-background.jpg":  {"src": "cardolan/praetorians-background.jpg", "resize": None},
     "praetorians-watcher.png":     {"src": "programs/pbregisteractivity.png",     "resize": "512x512>"},
     "Sindarin.jpg":                {"src": "cardolan/Sindarin-21x9.jpg",          "resize": None},
+    "the-one-disk.png":            {"src": "cardolan/the-one-disk.png",           "resize": None},
 }
 
 

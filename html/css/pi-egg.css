@@ -4,8 +4,8 @@
  * Clin d'œil à l'ancien logo flottant de jscript/pi.js (1999) : à chaque
  * chargement de la page, l'image pi.png (9x9) apparaît en bas à droite
  * pendant 5 secondes puis disparaît (animation CSS pure : opacité +
- * pointer-events). Un Ctrl/Cmd+clic dessus pendant ce laps de temps ouvre
- * /praetorians/ (un clic simple ne fait rien, voir le script dans index.php).
+ * pointer-events). Un clic dessus pendant ce laps de temps ouvre
+ * /praetorians/.
  */
 
 .PiEgg {

@@ -374,6 +374,11 @@ img.Sindarin-img {
   z-index: 1000;
 }
 
+img.HomeApril {
+  display: block;
+  margin: 0 auto;
+}
+
 .Sindarin-modal-box {
   max-width: 560px;
   background: var(--clr-surface);
