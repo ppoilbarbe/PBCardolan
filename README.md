@@ -54,7 +54,7 @@ Le projet utilise un `Makefile` pour les tâches courantes :
 
 ```sh
 make help          # liste des cibles disponibles
-make venv          # crée l'environnement conda (PHP, gh, Python, ImageMagick)
+make venv          # crée/synchronise l'environnement pixi (PHP, gh, Python, ImageMagick)
 make livetest      # démarre le serveur PHP local et ouvre le navigateur
 make test          # vérifie la syntaxe PHP de tous les fichiers du site
 make update-icons  # synchronise les icônes depuis PBIcons
@@ -66,10 +66,11 @@ make deploy        # déploie le site sur le serveur
 
 - **PHP**, **gh** (GitHub CLI), **Python 3** (bibliothèque standard
   uniquement, aucun paquet à installer) et **ImageMagick** (`convert`) :
-  installés via `make venv` (environnement conda `site_web`, voir
-  `environment.yml`). Python et ImageMagick sont utilisés par
-  `tools/update_icons.py` (cible `make update-icons`) et par la cible
-  `make favicon` (redimensionnement des icônes).
+  installés via `make venv` (environnement [pixi](https://pixi.sh) local au
+  projet, voir `pixi.toml`) — `make venv` installe aussi `pixi` lui-même si
+  absent. Python et ImageMagick sont utilisés par `tools/update_icons.py`
+  (cible `make update-icons`) et par la cible `make favicon`
+  (redimensionnement des icônes).
 - **sitecopy** : requis pour `make deploy`.
 
 ## Licence

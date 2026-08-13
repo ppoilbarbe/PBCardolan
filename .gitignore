@@ -1,5 +1,6 @@
 .claude/settings.local.json
 .php-server.pid
+.pixi/
 html/videos/
 html/recettes/
 html/cocktails/

@@ -1,8 +1,8 @@
-CONDA_ENV  := site_web
+PIXI := $(HOME)/.pixi/bin/pixi
 ifdef NOCONDA
 CONDA_RUN  :=
 else
-CONDA_RUN  := conda run -n $(CONDA_ENV) --no-capture-output
+CONDA_RUN  := $(PIXI) run
 endif
 
 WEBROOT    := html
@@ -31,20 +31,24 @@ help: ## Cette aide
 		awk 'BEGIN {FS=":.*?## "}; {printf "  $(G)%-12s$(R) %s\n", $$1, $$2}'
 	@printf "\n$(Y)Variables :$(R)\n"
 	@printf "  $(G)PORT$(R)         Port du serveur PHP local (défaut : $(Y)$(PORT)$(R))\n"
-	@printf "  $(G)NOCONDA$(R)      Contourne conda ; les outils doivent être dans le PATH\n"
+	@printf "  $(G)NOCONDA$(R)      Contourne pixi ; les outils doivent être dans le PATH\n"
 	@printf "                 ex. $(C)make test NOCONDA=1$(R)\n"
-	@printf "                 Requis pour livetest avec MariaDB : le PHP conda n'a pas\n"
+	@printf "                 Requis pour livetest avec MariaDB : le PHP pixi n'a pas\n"
 	@printf "                 pdo_mysql ni mbstring. Installer d'abord :\n"
 	@printf "                 $(C)sudo apt install php-mysql php-mbstring$(R)\n"
 
-venv: ## Crée l'environnement conda '$(CONDA_ENV)' depuis environment.yml
-	@printf "$(C)Création de l'environnement conda '$(CONDA_ENV)'…$(R)\n"
-	conda env create -f environment.yml
-	@printf "$(G)Fait ! Activer avec :$(R) conda activate $(CONDA_ENV)\n"
+$(PIXI):
+	@printf "$(C)pixi introuvable, installation…$(R)\n"
+	curl -fsSL https://pixi.sh/install.sh | sh
 
-venv-update: ## Met à jour l'environnement conda depuis environment.yml
-	@printf "$(C)Mise à jour de l'environnement conda '$(CONDA_ENV)'…$(R)\n"
-	conda env update -f environment.yml --prune
+venv: $(PIXI) ## Crée/synchronise l'environnement pixi depuis pixi.toml
+	@printf "$(C)Synchronisation de l'environnement pixi…$(R)\n"
+	$(PIXI) install
+	@printf "$(G)Fait !$(R)\n"
+
+venv-update: $(PIXI) ## Met à jour l'environnement pixi (relâche les versions)
+	@printf "$(C)Mise à jour de l'environnement pixi…$(R)\n"
+	$(PIXI) update
 	@printf "$(G)Fait.$(R)\n"
 
 livetest: ## Démarre le serveur PHP local et ouvre le navigateur (détaché)

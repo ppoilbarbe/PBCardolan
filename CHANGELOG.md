@@ -10,6 +10,7 @@ number incremented for each release within that year.
 
 ### Changed
 - `html/css/praetorians.css`: `.Praetorians-disk:hover` now caps the enlarged size at `min(1024px, 50vw)` instead of a flat `1024px`, so it no longer overflows the viewport width on narrower screens.
+- Dev environment migrated from Conda to [pixi](https://pixi.sh): `environment.yml` replaced by `pixi.toml`/`pixi.lock` (PHP, gh, Python, ImageMagick, `linux-64` only — no CI on this repo). `Makefile`'s `CONDA_RUN` now runs `pixi run` (auto-installs the `pixi` binary itself if absent), and `venv`/`venv-update` now call `pixi install`/`pixi update`.
 
 ## [2026.10] - 2026-08-07
 
